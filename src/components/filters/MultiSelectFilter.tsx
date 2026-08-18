@@ -39,7 +39,7 @@ export function MultiSelectFilter({
         type="button"
         onClick={() => setOpen((v) => !v)}
         aria-expanded={open}
-        className="flex w-full items-center justify-between px-3 py-2 text-left text-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-roman-red"
+        className="flex w-full items-center justify-between px-3 py-2.5 text-left text-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-roman-red"
       >
         <span className="font-medium text-roman-charcoal">{label}</span>
         <span className="flex items-center gap-1.5">
@@ -63,18 +63,18 @@ export function MultiSelectFilter({
               onChange={(e) => setQuery(e.target.value)}
               placeholder="Filter opties..."
               aria-label={`Filter opties voor ${label}`}
-              className="mb-1.5 w-full rounded border border-roman-stone/25 px-2 py-1 text-sm focus:border-roman-red focus:outline-none"
+              className="mb-1.5 w-full rounded border border-roman-stone/25 px-2.5 py-2 text-base focus:border-roman-red focus:outline-none lg:text-sm"
             />
           )}
           <ul className="max-h-44 space-y-0.5 overflow-y-auto" role="group" aria-label={label}>
             {visibleOptions.map((option) => (
               <li key={option}>
-                <label className="flex cursor-pointer items-center gap-2 rounded px-1.5 py-1 text-sm text-roman-charcoal hover:bg-roman-parchment">
+                <label className="flex cursor-pointer items-center gap-2 rounded px-1.5 py-2 text-sm text-roman-charcoal hover:bg-roman-parchment lg:py-1.5">
                   <input
                     type="checkbox"
                     checked={selected.includes(option)}
                     onChange={() => toggle(option)}
-                    className="h-3.5 w-3.5 accent-roman-red"
+                    className="h-4 w-4 accent-roman-red"
                   />
                   <span className="truncate">{option}</span>
                 </label>

@@ -18,7 +18,7 @@ export function AppHeader({
   recordCount,
 }: AppHeaderProps) {
   return (
-    <header className="flex h-14 shrink-0 items-center justify-between gap-3 border-b-2 border-roman-bronze/40 bg-roman-oxblood px-4">
+    <header className="flex h-14 shrink-0 items-center justify-between gap-2 border-b-2 border-roman-bronze/40 bg-roman-oxblood px-3 sm:gap-3 sm:px-4">
       <div className="flex min-w-0 items-baseline gap-3">
         <div className="min-w-0">
           <h1 className="font-display text-lg font-semibold leading-none tracking-wide text-roman-gold">
@@ -80,7 +80,7 @@ export function AppHeader({
           className="flex items-center gap-1.5 rounded-md px-2.5 py-1.5 text-sm text-roman-parchment hover:bg-roman-red/40 focus-visible:outline focus-visible:outline-2 focus-visible:outline-roman-gold"
         >
           <Info className="h-4 w-4" aria-hidden />
-          Over
+          <span className="hidden sm:inline">Over</span>
         </button>
       </nav>
     </header>

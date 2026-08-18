@@ -68,7 +68,7 @@ export function StatsPanel({ coins, open, onClose }: StatsPanelProps) {
     <div
       role="dialog"
       aria-label="Datasetstatistieken"
-      className="absolute right-3 top-14 z-20 w-72 rounded-md border border-roman-stone/25 bg-roman-paper shadow-lg"
+      className="absolute inset-x-3 top-14 z-20 rounded-md border border-roman-stone/25 bg-roman-paper shadow-lg sm:left-auto sm:w-72"
     >
       <div className="flex items-center justify-between border-b border-roman-stone/15 px-3 py-2">
         <h2 className="flex items-center gap-1.5 text-sm font-semibold text-roman-charcoal">

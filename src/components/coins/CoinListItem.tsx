@@ -13,7 +13,7 @@ export function CoinListItem({ coin, onSelect }: CoinListItemProps) {
       <button
         type="button"
         onClick={() => onSelect(coin.numisId)}
-        className="block w-full px-4 py-2.5 text-left transition-colors hover:bg-roman-parchment focus-visible:outline focus-visible:outline-2 focus-visible:outline-inset focus-visible:outline-roman-red"
+        className="block w-full px-4 py-3 text-left transition-colors hover:bg-roman-parchment focus-visible:outline focus-visible:outline-2 focus-visible:outline-inset focus-visible:outline-roman-red"
       >
         <span className="block truncate text-sm font-medium text-roman-charcoal">
           {coin.authorityNormalized[0] ?? coin.authorityRaw}

@@ -48,7 +48,7 @@ export function FilterPanel({
         </div>
       </div>
 
-      <div className="flex-1 space-y-4 overflow-y-auto p-4">
+      <div className="flex-1 space-y-4 overflow-y-auto overscroll-contain p-4 pb-[calc(1rem+env(safe-area-inset-bottom))]">
         <DateRangeFilter
           min={dateMin}
           max={dateMax}
@@ -140,7 +140,7 @@ export function FilterPanel({
               onChange={(e) =>
                 set({ massMin: e.target.value === "" ? undefined : Number(e.target.value) })
               }
-              className="w-full rounded border border-roman-stone/25 px-2 py-1 text-sm focus:border-roman-red focus:outline-none"
+              className="w-full rounded border border-roman-stone/25 px-2.5 py-2 text-base focus:border-roman-red focus:outline-none lg:text-sm"
             />
             <span className="text-roman-stone">–</span>
             <input
@@ -154,7 +154,7 @@ export function FilterPanel({
               onChange={(e) =>
                 set({ massMax: e.target.value === "" ? undefined : Number(e.target.value) })
               }
-              className="w-full rounded border border-roman-stone/25 px-2 py-1 text-sm focus:border-roman-red focus:outline-none"
+              className="w-full rounded border border-roman-stone/25 px-2.5 py-2 text-base focus:border-roman-red focus:outline-none lg:text-sm"
             />
           </div>
           <p className="mt-1 text-[11px] text-roman-stone">Records met onbekende massa (0 g) worden genegeerd.</p>
@@ -186,7 +186,7 @@ export function FilterPanel({
         onClick={onMobileClose}
         aria-hidden
       />
-      <div className="absolute inset-y-0 left-0 w-[85vw] max-w-sm bg-roman-paper shadow-2xl">
+      <div className="absolute inset-y-0 left-0 grid w-[85vw] max-w-sm grid-rows-[auto_minmax(0,1fr)] bg-roman-paper shadow-2xl motion-safe:animate-[limes-slide-in_180ms_ease-out]">
         <div className="flex items-center justify-between border-b border-roman-stone/15 px-4 py-3">
           <span className="flex items-center gap-2 text-sm font-semibold text-roman-charcoal">
             <Filter className="h-4 w-4" aria-hidden /> Filters
@@ -195,7 +195,7 @@ export function FilterPanel({
             type="button"
             onClick={onMobileClose}
             aria-label="Sluit filters"
-            className="rounded p-1 text-roman-stone hover:bg-roman-parchment focus-visible:outline focus-visible:outline-2 focus-visible:outline-roman-red"
+            className="rounded p-2 text-roman-stone hover:bg-roman-parchment focus-visible:outline focus-visible:outline-2 focus-visible:outline-roman-red"
           >
             <X className="h-4 w-4" aria-hidden />
           </button>

@@ -14,6 +14,25 @@ body,
   height: 100%;
 }
 
+/* Dynamic viewport height: mobile browser chrome (address bar/toolbars)
+   should not overlap or clip the app shell. */
+@supports (height: 100dvh) {
+  html,
+  body,
+  #root {
+    height: 100dvh;
+  }
+}
+
+@keyframes limes-slide-in {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
 body {
   @apply bg-roman-paper text-roman-charcoal font-sans antialiased;
 }

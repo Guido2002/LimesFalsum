@@ -23,30 +23,37 @@ export function MapControls() {
     }
   }, []);
 
+  // iOS Safari only supports fullscreen for video elements — hide the
+  // control there instead of showing a button that silently does nothing.
+  const fullscreenSupported = typeof document !== "undefined" && document.fullscreenEnabled;
+
   return (
-    <div className="absolute left-3 top-3 z-10 flex flex-col gap-2">
+    // Below the mobile Filters trigger (top-3 + min-h-11) on small screens.
+    <div className="absolute left-3 top-[4.25rem] z-10 flex flex-col gap-2 lg:top-3">
       <button
         type="button"
         onClick={fitData}
         aria-label="Zoom naar alle vindplaatsen"
         title="Zoom naar alle vindplaatsen"
-        className="flex h-9 w-9 items-center justify-center rounded-md border border-roman-stone/25 bg-roman-paper/95 text-roman-charcoal shadow-sm transition-colors hover:bg-roman-parchment focus-visible:outline focus-visible:outline-2 focus-visible:outline-roman-red"
+        className="flex h-10 w-10 items-center justify-center rounded-md border border-roman-stone/25 bg-roman-paper/95 text-roman-charcoal shadow-sm transition-colors hover:bg-roman-parchment focus-visible:outline focus-visible:outline-2 focus-visible:outline-roman-red lg:h-9 lg:w-9"
       >
         <Maximize2 className="h-4 w-4" aria-hidden />
       </button>
-      <button
-        type="button"
-        onClick={toggleFullscreen}
-        aria-label={isFullscreen ? "Volledig scherm verlaten" : "Volledig scherm"}
-        title={isFullscreen ? "Volledig scherm verlaten" : "Volledig scherm"}
-        className="flex h-9 w-9 items-center justify-center rounded-md border border-roman-stone/25 bg-roman-paper/95 text-roman-charcoal shadow-sm transition-colors hover:bg-roman-parchment focus-visible:outline focus-visible:outline-2 focus-visible:outline-roman-red"
-      >
-        {isFullscreen ? (
-          <Minimize2 className="h-4 w-4" aria-hidden />
-        ) : (
-          <Maximize className="h-4 w-4" aria-hidden />
-        )}
-      </button>
+      {fullscreenSupported && (
+        <button
+          type="button"
+          onClick={toggleFullscreen}
+          aria-label={isFullscreen ? "Volledig scherm verlaten" : "Volledig scherm"}
+          title={isFullscreen ? "Volledig scherm verlaten" : "Volledig scherm"}
+          className="flex h-10 w-10 items-center justify-center rounded-md border border-roman-stone/25 bg-roman-paper/95 text-roman-charcoal shadow-sm transition-colors hover:bg-roman-parchment focus-visible:outline focus-visible:outline-2 focus-visible:outline-roman-red lg:h-9 lg:w-9"
+        >
+          {isFullscreen ? (
+            <Minimize2 className="h-4 w-4" aria-hidden />
+          ) : (
+            <Maximize className="h-4 w-4" aria-hidden />
+          )}
+        </button>
+      )}
     </div>
   );
 }

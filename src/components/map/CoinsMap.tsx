@@ -44,15 +44,9 @@ export function CoinsMap({
         [2.5, 50.0],
         [8.5, 54.5],
       ],
-      attributionControl: { compact: true },
+      attributionControl: false,
     });
     map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "bottom-right");
-    map.addControl(
-      new maplibregl.AttributionControl({
-        customAttribution:
-          'Muntdata: <a href="https://www.nationaalnumismatischarchief.nl" target="_blank" rel="noreferrer">NUMIS</a>',
-      }),
-    );
 
     map.on("load", () => {
       addCoinLayers(map);

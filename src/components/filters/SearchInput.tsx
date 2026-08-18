@@ -19,7 +19,7 @@ export function SearchInput({ value, onChange, compact = false }: SearchInputPro
         onChange={(e) => onChange(e.target.value)}
         placeholder="Zoek op keizer, plaats, NUMIS-nummer..."
         aria-label="Zoek muntvondsten"
-        className={`w-full rounded-md border border-roman-stone/30 bg-roman-paper pl-8 pr-3 text-sm text-roman-charcoal placeholder:text-roman-stone/70 focus:border-roman-red focus:outline focus:outline-2 focus:outline-offset-0 focus:outline-roman-red/40 ${
+        className={`w-full rounded-md border border-roman-stone/30 bg-roman-paper pl-8 pr-3 text-base text-roman-charcoal placeholder:text-roman-stone/70 focus:border-roman-red focus:outline focus:outline-2 focus:outline-offset-0 focus:outline-roman-red/40 lg:text-sm ${
           compact ? "py-1.5" : "py-2"
         }`}
       />

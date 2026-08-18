@@ -94,7 +94,7 @@ export function App() {
           <button
             type="button"
             onClick={() => setMobileFiltersOpen(true)}
-            className="flex items-center gap-1.5 rounded-md border border-roman-stone/25 bg-roman-paper px-3 py-2 text-sm font-medium text-roman-charcoal shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-roman-red"
+            className="flex min-h-11 items-center gap-1.5 rounded-md border border-roman-stone/25 bg-roman-paper px-4 py-2.5 text-sm font-medium text-roman-charcoal shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-roman-red"
           >
             Filters
             {filtered.length !== DATASET_SUMMARY.recordCount && (

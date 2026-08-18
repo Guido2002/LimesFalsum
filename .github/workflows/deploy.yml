@@ -41,9 +41,15 @@ jobs:
   deploy:
     needs: build
     runs-on: ubuntu-latest
+    # Never let the status poller hang forever — cancel after 5 min.
+    timeout-minutes: 5
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - id: deployment
-        uses: actions/deploy-pages@v5
+        # v4 polls Pages status reliably; v5 can spin on a cancelled/queued
+        # deployment. upload-pages-artifact@v4 pairs with deploy-pages@v4.
+        uses: actions/deploy-pages@v4
+        with:
+          timeout: 240000

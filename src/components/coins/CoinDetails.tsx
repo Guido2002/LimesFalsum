@@ -46,20 +46,6 @@ function CoinEmblem() {
   );
 }
 
-/** One warm line of story for the record — only claims the data supports. */
-function coinStory(coin: CoinRecord): string {
-  const yearsAgo = coin.dateEnd ?? coin.dateStart;
-  const yearsText = yearsAgo
-    ? `zo'n ${(Math.round((2025 - yearsAgo) / 50) * 50).toLocaleString("nl-NL")} jaar geleden`
-    : "in de Romeinse tijd";
-  const findText = coin.detectorUsed === true
-    ? "kwam pas onlangs weer boven met een metaaldetector"
-    : coin.detectorUsed === false
-      ? "werd zonder detector gevonden"
-      : "werd opnieuw ontdekt";
-  return `Deze munt raakte ${yearsText} zoek in de bodem bij ${coin.municipality} — en ${findText}.`;
-}
-
 interface CoinDetailsProps {
   coin: CoinRecord;
   /** When opened from a multi-coin location, offer a way back */
@@ -94,9 +80,6 @@ export function CoinDetails({ coin, onBack }: CoinDetailsProps) {
           </p>
         </div>
       </header>
-      <p className="mx-4 mb-3 rounded-md border border-roman-gold/30 bg-roman-parchment/60 px-3 py-2 font-display text-[13px] italic leading-relaxed text-roman-charcoal">
-        {coinStory(coin)}
-      </p>
       <CoinMetadata coin={coin} />
     </div>
   );

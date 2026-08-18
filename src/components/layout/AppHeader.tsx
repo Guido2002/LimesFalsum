@@ -29,7 +29,7 @@ export function AppHeader({
           <div className="meander mt-1 w-24" aria-hidden />
         </div>
         <p className="hidden truncate text-xs text-roman-parchment/70 sm:block">
-          {recordCount} valse denarii, gevonden in Nederlandse bodem
+          {recordCount} munten, gevonden in Nederlandse bodem
         </p>
       </div>
 

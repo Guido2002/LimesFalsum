@@ -2,7 +2,7 @@ import { useEffect, useRef } from "react";
 import maplibregl from "maplibre-gl";
 import type { CoinRecord, LocationGroup } from "../../domain/coin";
 import { addCoinLayers, COIN_SOURCE_ID, onMapClick, SELECTED_LAYER_ID } from "./CoinLayers";
-import { addRomanRoadLayers, setRomanRoadsVisible } from "./RomanRoadLayers";
+import { addRomanRoadLayers, onSiteClick, setRomanRoadsVisible } from "./RomanRoadLayers";
 
 interface CoinsMapProps {
   /** One GeoJSON feature per exact location (already grouped) */
@@ -45,24 +45,31 @@ export function CoinsMap({
         [2.5, 50.0],
         [8.5, 54.5],
       ],
-      attributionControl: false,
+      // Compact attribution keeps the required tile/data credits on screen
+      // without a permanent bar; expands on tap.
+      attributionControl: { compact: true, customAttribution: "Muntdata: NUMIS" },
     });
     map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "bottom-right");
 
     map.on("load", () => {
       // Roads first: the coin markers must render on top of the overlay.
-      addRomanRoadLayers(map);
-      addCoinLayers(map);
-      loadedRef.current = true;
-      // Flush any data that arrived before the style finished loading.
-      if (pendingDataRef.current) {
-        const source = map.getSource(COIN_SOURCE_ID) as maplibregl.GeoJSONSource | undefined;
-        source?.setData(pendingDataRef.current);
-        pendingDataRef.current = null;
-      }
-      onMapClick(map, (locationKey, numisId) => {
-        if (numisId !== undefined) handlersRef.current.onSelectCoin(numisId);
-        else if (locationKey) handlersRef.current.onSelectLocation(locationKey);
+      // The fort icon PNG loads asynchronously, so wait for it before adding
+      // the coin layers — otherwise the draw order becomes nondeterministic.
+      void addRomanRoadLayers(map).then(() => {
+        if (!mapRef.current) return; // Map torn down while the icon loaded.
+        addCoinLayers(map);
+        onSiteClick(map); // Fort icons open a popup with site background info.
+        loadedRef.current = true;
+        // Flush any data that arrived before the style finished loading.
+        if (pendingDataRef.current) {
+          const source = map.getSource(COIN_SOURCE_ID) as maplibregl.GeoJSONSource | undefined;
+          source?.setData(pendingDataRef.current);
+          pendingDataRef.current = null;
+        }
+        onMapClick(map, (locationKey, numisId) => {
+          if (numisId !== undefined) handlersRef.current.onSelectCoin(numisId);
+          else if (locationKey) handlersRef.current.onSelectLocation(locationKey);
+        });
       });
     });
 
@@ -120,7 +127,10 @@ export function CoinsMap({
       if (groups.length === 0) return;
       const bounds = new maplibregl.LngLatBounds();
       for (const g of groups) bounds.extend([g.longitude, g.latitude]);
-      map.fitBounds(bounds, { padding: 80, maxZoom: 11, duration: 600 });
+      // Extra bottom padding on small screens keeps markers clear of the
+      // floating action bar.
+      const bottomPad = window.innerWidth < 1024 ? 96 : 80;
+      map.fitBounds(bounds, { padding: { top: 80, right: 80, bottom: bottomPad, left: 80 }, maxZoom: 11, duration: 600 });
     };
     window.addEventListener("limes:fit-data", handler);
     return () => window.removeEventListener("limes:fit-data", handler);

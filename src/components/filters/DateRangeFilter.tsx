@@ -45,7 +45,9 @@ export function DateRangeFilter({ min, max, from, to, onChange }: DateRangeFilte
   };
 
   return (
-    <fieldset>
+    // min-w-0 keeps the dual slider from forcing the fieldset wider than the
+    // mobile filter panel.
+    <fieldset className="min-w-0">
       <legend className="mb-1.5 text-xs font-semibold uppercase tracking-wide text-roman-stone">
         Datering
       </legend>
@@ -54,6 +56,8 @@ export function DateRangeFilter({ min, max, from, to, onChange }: DateRangeFilte
         <span>{hi}</span>
       </div>
       <div className="space-y-2">
+        {/* block + min-w-0 keep the range track inside the panel on narrow
+            screens (iOS/Firefox would otherwise overflow the overlay edge) */}
         <input
           type="range"
           min={min}
@@ -67,7 +71,7 @@ export function DateRangeFilter({ min, max, from, to, onChange }: DateRangeFilte
           onPointerUp={endDrag}
           onPointerCancel={endDrag}
           onChange={(e) => changeLo(Number(e.target.value), e as unknown as React.PointerEvent<HTMLInputElement>)}
-          className="h-7 w-full cursor-pointer touch-none accent-roman-red"
+          className="block h-7 w-full min-w-0 cursor-pointer touch-none accent-roman-red"
         />
         <input
           type="range"
@@ -82,10 +86,10 @@ export function DateRangeFilter({ min, max, from, to, onChange }: DateRangeFilte
           onPointerUp={endDrag}
           onPointerCancel={endDrag}
           onChange={(e) => changeHi(Number(e.target.value), e as unknown as React.PointerEvent<HTMLInputElement>)}
-          className="h-7 w-full cursor-pointer touch-none accent-roman-red"
+          className="block h-7 w-full min-w-0 cursor-pointer touch-none accent-roman-red"
         />
       </div>
-      <p className="mt-1 text-[11px] text-roman-stone">
+      <p className="mt-1 text-xs text-roman-stone">
         {min}–{max} n.Chr.
       </p>
     </fieldset>

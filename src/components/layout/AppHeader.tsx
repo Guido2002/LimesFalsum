@@ -1,5 +1,6 @@
 import { BarChart3, Info, List, Map as MapIcon } from "lucide-react";
 import type { ViewMode } from "../../hooks/useUrlFilterState";
+import { IconButton } from "../ui/IconButton";
 
 interface AppHeaderProps {
   view: ViewMode;
@@ -50,7 +51,7 @@ export function AppHeader({
             }`}
           >
             <MapIcon className="h-4 w-4" aria-hidden />
-            <span className="hidden sm:inline">Kaart</span>
+            <span className="hidden min-[480px]:inline">Kaart</span>
           </button>
           <button
             type="button"
@@ -63,24 +64,21 @@ export function AppHeader({
             }`}
           >
             <List className="h-4 w-4" aria-hidden />
-            <span className="hidden sm:inline">Lijst</span>
+            <span className="hidden min-[480px]:inline">Lijst</span>
           </button>
         </div>
 
-        <button
-          type="button"
-          onClick={onShowStats}
-          aria-pressed={statsOpen}
-          aria-label="Statistieken"
+        <IconButton
+          variant="header"
+          size="nav"
+          active={statsOpen}
+          label="Statistieken"
           title="Statistieken"
-          className={`flex min-h-11 min-w-11 items-center justify-center rounded-md p-2 transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-roman-gold motion-safe:active:scale-90 sm:min-h-9 sm:min-w-9 ${
-            statsOpen
-              ? "bg-roman-red text-roman-paper"
-              : "text-roman-parchment hover:bg-roman-red/40"
-          }`}
+          aria-pressed={statsOpen}
+          onClick={onShowStats}
         >
           <BarChart3 className="h-4 w-4" aria-hidden />
-        </button>
+        </IconButton>
         <button
           type="button"
           onClick={onShowAbout}
@@ -89,7 +87,7 @@ export function AppHeader({
           className="flex min-h-11 items-center justify-center gap-1.5 rounded-md px-2.5 py-1.5 text-sm text-roman-parchment transition hover:bg-roman-red/40 focus-visible:outline focus-visible:outline-2 focus-visible:outline-roman-gold motion-safe:active:scale-95 sm:min-h-9"
         >
           <Info className="h-4 w-4" aria-hidden />
-          <span className="hidden sm:inline">Over</span>
+          <span className="hidden min-[480px]:inline">Over</span>
         </button>
       </nav>
     </header>

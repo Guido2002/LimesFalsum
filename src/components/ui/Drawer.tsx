@@ -1,5 +1,6 @@
 import { X } from "lucide-react";
 import { useEffect, useRef, useState, type ReactNode } from "react";
+import { IconButton } from "./IconButton";
 
 interface DrawerProps {
   open: boolean;
@@ -62,7 +63,7 @@ export function Drawer({ open, onClose, title, children }: DrawerProps) {
       aria-modal="false"
       aria-label={title}
       tabIndex={-1}
-      className={`flex h-full w-[380px] shrink-0 flex-col border-l border-roman-stone/20 bg-roman-paper shadow-lg focus:outline-none ${
+      className={`flex h-full w-full shrink-0 flex-col border-l border-roman-stone/20 bg-roman-paper shadow-lg focus:outline-none lg:w-[380px] ${
         closing
           ? "motion-safe:animate-[limes-slide-out-right_180ms_ease-in]"
           : "motion-safe:animate-[limes-slide-in-right_200ms_ease-out]"
@@ -70,14 +71,9 @@ export function Drawer({ open, onClose, title, children }: DrawerProps) {
     >
       <div className="flex items-center justify-between border-b border-roman-stone/15 px-4 py-3">
         <h2 className="truncate text-sm font-semibold text-roman-charcoal">{title}</h2>
-        <button
-          type="button"
-          onClick={onClose}
-          aria-label="Sluit detailpaneel"
-          className="flex h-9 w-9 items-center justify-center rounded text-roman-stone transition-colors hover:bg-roman-parchment hover:text-roman-charcoal focus-visible:outline focus-visible:outline-2 focus-visible:outline-roman-red"
-        >
+        <IconButton variant="subtle" size="md" label="Sluit detailpaneel" onClick={onClose}>
           <X className="h-4 w-4" aria-hidden />
-        </button>
+        </IconButton>
       </div>
       <div className="flex-1 overflow-y-auto">{children}</div>
     </div>

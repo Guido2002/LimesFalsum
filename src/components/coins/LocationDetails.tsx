@@ -22,7 +22,9 @@ export function LocationDetails({ group, onSelectCoin }: LocationDetailsProps) {
           {group.municipality}, {group.province}
         </h2>
         <p className="mt-0.5 text-sm text-roman-stone">
-          {group.coins.length} munten kwamen hier uit de grond
+          {group.coins.length === 1
+            ? "1 munt kwam hier uit de grond"
+            : `${group.coins.length} munten kwamen hier uit de grond`}
         </p>
       </header>
       <ul className="divide-y divide-roman-stone/10">

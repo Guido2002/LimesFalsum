@@ -6,7 +6,8 @@ export function MapLegend() {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="absolute bottom-8 left-3 z-10 max-w-[220px] rounded-md border border-roman-stone/25 bg-roman-paper/95 text-xs shadow-sm">
+    // Mobile: sit above the bottom action bar; desktop: bottom-left corner.
+    <div className="absolute bottom-20 left-3 z-20 max-w-[220px] rounded-md border border-roman-stone/25 bg-roman-paper/95 text-xs shadow-sm lg:bottom-8">
       <button
         type="button"
         onClick={() => setOpen((v) => !v)}
@@ -20,7 +21,7 @@ export function MapLegend() {
         />
       </button>
       {open && (
-        <ul className="space-y-2 border-t border-roman-stone/15 px-3 py-2 text-roman-stone">
+        <ul className="space-y-2 border-t border-roman-stone/15 px-3 py-2 text-roman-charcoal">
           <li
             className="flex items-center gap-2 motion-safe:animate-[limes-item-in_180ms_ease-out_both]"
             style={{ animationDelay: "0ms" }}
@@ -49,6 +50,18 @@ export function MapLegend() {
               12
             </span>
             meerdere vondsten / cluster
+          </li>
+          <li
+            className="flex items-center gap-2 motion-safe:animate-[limes-item-in_180ms_ease-out_both]"
+            style={{ animationDelay: "180ms" }}
+          >
+            <img
+              src={`${import.meta.env.BASE_URL}fort.png`}
+              alt=""
+              className="h-4 w-auto"
+              aria-hidden
+            />
+            Romeins fort of nederzetting (klik voor info)
           </li>
         </ul>
       )}

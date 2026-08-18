@@ -1,5 +1,8 @@
 import { X } from "lucide-react";
+import { useEffect } from "react";
 import { DATASET_SUMMARY } from "../hooks/useCoinFilters";
+import { useFocusTrap } from "../hooks/useFocusTrap";
+import { IconButton } from "../components/ui/IconButton";
 
 interface AboutPageProps {
   onClose: () => void;
@@ -10,6 +13,18 @@ interface AboutPageProps {
  * be interpreted. Deliberately avoids unsupported historical claims.
  */
 export default function AboutPage({ onClose }: AboutPageProps) {
+  // Modal: contain Tab inside the dialog and restore focus on close.
+  const trapRef = useFocusTrap(true);
+
+  // Escape closes the dialog, matching the drawer/sheet/filter overlays.
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") onClose();
+    };
+    document.addEventListener("keydown", onKey);
+    return () => document.removeEventListener("keydown", onKey);
+  }, [onClose]);
+
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
       <div
@@ -18,6 +33,7 @@ export default function AboutPage({ onClose }: AboutPageProps) {
         aria-hidden
       />
       <div
+        ref={trapRef}
         role="dialog"
         aria-modal="true"
         aria-label="Over LimesFalsum"
@@ -25,14 +41,14 @@ export default function AboutPage({ onClose }: AboutPageProps) {
       >
         <div className="flex items-center justify-between border-b border-roman-stone/15 px-5 py-3">
           <h2 className="font-display text-lg font-semibold text-roman-red">Over LimesFalsum</h2>
-          <button
-            type="button"
+          <IconButton
+            variant="subtle"
+            size="md"
+            label="Sluit over-pagina"
             onClick={onClose}
-            aria-label="Sluit over-pagina"
-            className="rounded p-1 text-roman-stone hover:bg-roman-parchment focus-visible:outline focus-visible:outline-2 focus-visible:outline-roman-red"
           >
             <X className="h-4 w-4" aria-hidden />
-          </button>
+          </IconButton>
         </div>
         <div className="space-y-4 px-5 py-4 text-sm leading-relaxed text-roman-charcoal">
           <p>
@@ -76,6 +92,18 @@ export default function AboutPage({ onClose }: AboutPageProps) {
               archeologische coördinaat — zo&apos;n vindplaats wordt als één punt met een aantal
               getoond. Records waarvan de coördinaat opvallend afwijkt worden gemarkeerd, nooit
               stilzwijgend aangepast.
+            </p>
+          </section>
+          <section>
+            <h3 className="mb-1 text-xs font-semibold uppercase tracking-wide text-roman-stone">
+              Toetsenbord en schermlezers
+            </h3>
+            <p>
+              De kaart is een canvas en biedt geen toetsenbordselectie van afzonderlijke
+              munten. Alle inhoud is volledig bereikbaar via de lijstweergave: schakel
+              rechtsboven naar &ldquo;Lijst&rdquo; en navigeer met Tab en Enter. Overlays
+              sluiten met Escape; de eerste Tab-toets toont een snelkoppeling naar de
+              hoofdinhoud.
             </p>
           </section>
           <section>

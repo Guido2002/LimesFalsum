@@ -4,8 +4,32 @@
 
 /* LimesFalsum — restrained Roman identity on a modern, light GIS surface. */
 
+/* Self-hosted variable fonts (latin subsets): no render-blocking third-party
+   request, and Vite rewrites the urls to respect the deployment base path. */
+@font-face {
+  font-family: "Cinzel";
+  font-style: normal;
+  font-weight: 400 900;
+  font-display: swap;
+  src: url("../assets/fonts/cinzel-latin.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("../assets/fonts/inter-latin.woff2") format("woff2");
+}
+
 :root {
   color-scheme: light;
+}
+
+/* Default fullscreen backdrop is transparent; give the map shell the paper
+   tone so nothing behind it can bleed through. */
+#limes-map-shell::backdrop {
+  background-color: #FAF7F0;
 }
 
 html,
@@ -158,6 +182,42 @@ body {
 
 .maplibregl-ctrl-attrib {
   @apply text-[10px] text-roman-stone;
+}
+
+/* Mobile ergonomics: the default ~29px zoom buttons are far below the
+   44px touch-target guideline. On touch-sized screens the +/- control is
+   redundant — pinch-to-zoom covers it — so hide it entirely and free the
+   corner. Desktop keeps it (no pinch there). */
+@media (max-width: 1023px) {
+  .maplibregl-ctrl-group:has(.maplibregl-ctrl-zoom-in) {
+    display: none;
+  }
+}
+
+/* Fort-info popup: parchment card so it matches the hand-drawn overlay. */
+.limes-site-popup .maplibregl-popup-content {
+  @apply rounded-md border border-roman-stone/25 bg-roman-paper px-3 py-2 text-roman-charcoal shadow-md;
+}
+
+/* Range inputs have an intrinsic minimum width in WebKit/Firefox that can
+   exceed the narrow mobile filter panel. Force them to shrink to their
+   container so the dual date slider never overflows the overlay edge. */
+input[type="range"] {
+  min-width: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.limes-site-popup .maplibregl-popup-tip {
+  @apply border-t-roman-paper;
+}
+
+.limes-site-popup__name {
+  @apply font-serif text-sm text-roman-red;
+}
+
+.limes-site-popup__text {
+  @apply mt-1 text-xs leading-snug text-roman-charcoal;
 }
 
 /* Subtle meander/key motif used under the wordmark only. */

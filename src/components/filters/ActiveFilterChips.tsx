@@ -1,5 +1,6 @@
 import { X } from "lucide-react";
 import type { FilterState } from "../../domain/filters";
+import { IconButton } from "../ui/IconButton";
 
 interface Chip {
   key: string;
@@ -79,14 +80,14 @@ export function ActiveFilterChips({ filters, onChange }: ActiveFilterChipsProps)
           className="inline-flex items-center gap-1 rounded-full border border-roman-bronze/40 bg-roman-parchment py-0.5 pl-2.5 pr-1 text-xs text-roman-charcoal motion-safe:animate-[limes-pop-in_160ms_ease-out]"
         >
           {chip.label}
-          <button
-            type="button"
+          <IconButton
+            variant="chip"
+            size="xs"
+            label={`Verwijder filter ${chip.label}`}
             onClick={() => onChange(chip.remove(filters))}
-            aria-label={`Verwijder filter ${chip.label}`}
-            className="flex h-6 w-6 items-center justify-center rounded-full text-roman-stone hover:bg-roman-red/10 hover:text-roman-red focus-visible:outline focus-visible:outline-2 focus-visible:outline-roman-red"
           >
             <X className="h-3 w-3" aria-hidden />
-          </button>
+          </IconButton>
         </span>
       ))}
     </div>

@@ -63,7 +63,7 @@ export function MultiSelectFilter({
               onChange={(e) => setQuery(e.target.value)}
               placeholder="Filter opties..."
               aria-label={`Filter opties voor ${label}`}
-              className="mb-1.5 w-full rounded border border-roman-stone/25 px-2.5 py-2 text-base focus:border-roman-red focus:outline-none lg:text-sm"
+              className="mb-1.5 w-full rounded border border-roman-stone/25 px-2.5 py-2 text-base focus:border-roman-red focus:outline focus:outline-2 focus:outline-roman-red/40 lg:text-sm"
             />
           )}
           <ul className="max-h-44 space-y-0.5 overflow-y-auto" role="group" aria-label={label}>

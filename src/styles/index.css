@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Limes Coins — restrained Roman identity on a modern, light GIS surface. */
+
+:root {
+  color-scheme: light;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  @apply bg-roman-paper text-roman-charcoal font-sans antialiased;
+}
+
+/* MapLibre canvas should not show the default focus outline on click;
+   keyboard focus stays visible via focus-visible. */
+.maplibregl-canvas:focus:not(:focus-visible) {
+  outline: none;
+}
+
+.maplibregl-ctrl-attrib {
+  @apply text-[10px] text-roman-stone;
+}
+
+/* Subtle meander/key motif used under the wordmark only. */
+.meander {
+  background-image: repeating-linear-gradient(
+    90deg,
+    #C39A56 0 6px,
+    transparent 6px 9px
+  );
+  height: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

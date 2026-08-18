@@ -22,7 +22,7 @@ export function AppHeader({
       <div className="flex min-w-0 items-baseline gap-3">
         <div className="min-w-0">
           <h1 className="font-display text-lg font-semibold leading-none tracking-wide text-roman-gold">
-            Limes Coins
+            LimesFalsum
           </h1>
           <div className="meander mt-1 w-24" aria-hidden />
         </div>

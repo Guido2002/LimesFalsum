@@ -6,7 +6,7 @@ interface AboutPageProps {
 }
 
 /**
- * Concise explanation of what Limes Coins is and how the source data should
+ * Concise explanation of what LimesFalsum is and how the source data should
  * be interpreted. Deliberately avoids unsupported historical claims.
  */
 export default function AboutPage({ onClose }: AboutPageProps) {
@@ -16,11 +16,11 @@ export default function AboutPage({ onClose }: AboutPageProps) {
       <div
         role="dialog"
         aria-modal="true"
-        aria-label="Over Limes Coins"
+        aria-label="Over LimesFalsum"
         className="relative max-h-[85vh] w-full max-w-lg overflow-y-auto rounded-lg border border-roman-stone/25 bg-roman-paper shadow-2xl"
       >
         <div className="flex items-center justify-between border-b border-roman-stone/15 px-5 py-3">
-          <h2 className="font-display text-lg font-semibold text-roman-red">Over Limes Coins</h2>
+          <h2 className="font-display text-lg font-semibold text-roman-red">Over LimesFalsum</h2>
           <button
             type="button"
             onClick={onClose}
@@ -32,7 +32,7 @@ export default function AboutPage({ onClose }: AboutPageProps) {
         </div>
         <div className="space-y-4 px-5 py-4 text-sm leading-relaxed text-roman-charcoal">
           <p>
-            Limes Coins is een interactieve verkenner van geplateerde Romeinse denarii die in
+            LimesFalsum is een interactieve verkenner van geplateerde Romeinse denarii die in
             Nederland zijn gevonden. De applicatie visualiseert{" "}
             {DATASET_SUMMARY.recordCount} historische muntvondsten op {DATASET_SUMMARY.uniqueLocationCount}{" "}
             vindplaatsen, afkomstig uit het NUMIS-bestand (Nationaal Numismatisch Archief).

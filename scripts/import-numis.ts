@@ -1,5 +1,5 @@
 /**
- * Limes Coins — NUMIS data import pipeline.
+ * LimesFalsum — NUMIS data import pipeline.
  *
  * Reads the Excel workbook once at build time and writes application-ready
  * JSON + GeoJSON into src/data/generated/. The browser never parses XLSX.
@@ -272,7 +272,7 @@ function main(): void {
   fs.writeFileSync(path.join(OUT_DIR, "coins.geojson"), JSON.stringify(geojson));
   fs.writeFileSync(path.join(OUT_DIR, "dataset-summary.json"), JSON.stringify(summary, null, 2));
 
-  console.log("\nLimes Coins dataset imported\n");
+  console.log("\nLimesFalsum dataset imported\n");
   console.log(`Records:                 ${summary.recordCount}`);
   console.log(`Unique locations:        ${summary.uniqueLocationCount}`);
   console.log(`Provinces:               ${summary.provinceCount}`);

@@ -1,4 +1,4 @@
-# Limes Coins
+# LimesFalsum
 
 Interactive archaeological explorer for plated Roman denarii found in the
 Netherlands, based on the NUMIS dataset (Nationaal Numismatisch Archief).

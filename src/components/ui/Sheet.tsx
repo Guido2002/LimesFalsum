@@ -16,6 +16,29 @@ export function Sheet({ open, onClose, title, children }: SheetProps) {
   const [dragY, setDragY] = useState(0);
   const startY = useRef<number | null>(null);
   const panelRef = useRef<HTMLDivElement>(null);
+  const [rendered, setRendered] = useState(open);
+  const [closing, setClosing] = useState(false);
+
+  // Exit animation before unmounting — the sheet drops back down instead of
+  // disappearing. Reduced-motion users get an instant close.
+  useEffect(() => {
+    if (open) {
+      setRendered(true);
+      setClosing(false);
+      return;
+    }
+    if (!rendered) return;
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      setRendered(false);
+      return;
+    }
+    setClosing(true);
+    const t = setTimeout(() => {
+      setRendered(false);
+      setClosing(false);
+    }, 180);
+    return () => clearTimeout(t);
+  }, [open, rendered]);
 
   useEffect(() => {
     if (!open) return;
@@ -42,7 +65,7 @@ export function Sheet({ open, onClose, title, children }: SheetProps) {
     startY.current = null;
   }, [dragY, onClose]);
 
-  if (!open) return null;
+  if (!rendered) return null;
 
   return (
     <div
@@ -51,7 +74,11 @@ export function Sheet({ open, onClose, title, children }: SheetProps) {
       aria-modal="false"
       aria-label={title}
       className={`fixed inset-x-0 bottom-0 z-30 flex max-h-[75dvh] flex-col rounded-t-xl border-t border-roman-stone/25 bg-roman-paper pb-[env(safe-area-inset-bottom)] shadow-2xl ${
-        dragY === 0 ? "motion-safe:animate-[limes-slide-up_200ms_ease-out]" : ""
+        closing
+          ? "motion-safe:animate-[limes-slide-down_180ms_ease-in]"
+          : dragY === 0
+            ? "motion-safe:animate-[limes-slide-up_200ms_ease-out]"
+            : ""
       }`}
       style={{ transform: `translateY(${dragY}px)` }}
     >

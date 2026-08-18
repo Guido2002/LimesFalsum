@@ -12,12 +12,16 @@ interface AboutPageProps {
 export default function AboutPage({ onClose }: AboutPageProps) {
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
-      <div className="absolute inset-0 bg-roman-charcoal/50" onClick={onClose} aria-hidden />
+      <div
+        className="absolute inset-0 bg-roman-charcoal/50 motion-safe:animate-[limes-fade-in_150ms_ease-out]"
+        onClick={onClose}
+        aria-hidden
+      />
       <div
         role="dialog"
         aria-modal="true"
         aria-label="Over LimesFalsum"
-        className="relative max-h-[85vh] w-full max-w-lg overflow-y-auto rounded-lg border border-roman-stone/25 bg-roman-paper shadow-2xl"
+        className="relative max-h-[85vh] w-full max-w-lg overflow-y-auto rounded-lg border border-roman-stone/25 bg-roman-paper shadow-2xl motion-safe:animate-[limes-dialog-in_220ms_cubic-bezier(0.2,0.8,0.3,1)]"
       >
         <div className="flex items-center justify-between border-b border-roman-stone/15 px-5 py-3">
           <h2 className="font-display text-lg font-semibold text-roman-red">Over LimesFalsum</h2>

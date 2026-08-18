@@ -31,9 +31,20 @@ function Bar({ label, value, max }: { label: string; value: number; max: number 
 }
 
 /** Headline metric tile with the Roman display face. */
-function StatTile({ label, value }: { label: string; value: string | number }) {
+function StatTile({
+  label,
+  value,
+  index = 0,
+}: {
+  label: string;
+  value: string | number;
+  index?: number;
+}) {
   return (
-    <div className="rounded-md border border-roman-stone/15 bg-roman-parchment/60 px-3 py-2.5">
+    <div
+      className="rounded-md border border-roman-stone/15 bg-roman-parchment/60 px-3 py-2.5 motion-safe:animate-[limes-pop-in_220ms_ease-out_both]"
+      style={{ animationDelay: `${index * 70}ms` }}
+    >
       <dd className="font-display text-lg font-semibold leading-tight text-roman-charcoal">
         {value}
       </dd>
@@ -90,11 +101,12 @@ export function StatsPanel({ coins }: StatsPanelProps) {
       </p>
 
       <dl className="grid grid-cols-3 gap-2">
-        <StatTile label="Munten" value={coins.length} />
-        <StatTile label="Plekken" value={stats.locations} />
+        <StatTile label="Munten" value={coins.length} index={0} />
+        <StatTile label="Plekken" value={stats.locations} index={1} />
         <StatTile
           label="Periode"
           value={stats.dateMin !== undefined ? `${stats.dateMin}–${stats.dateMax}` : "—"}
+          index={2}
         />
       </dl>
 

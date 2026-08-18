@@ -9,7 +9,7 @@ interface EmptyStateProps {
 
 export function EmptyState({ onReset, variant = "list" }: EmptyStateProps) {
   return (
-    <div className="flex h-full flex-col items-center justify-center gap-3 p-8 text-center">
+    <div className="flex h-full flex-col items-center justify-center gap-3 p-8 text-center motion-safe:animate-[limes-dialog-in_220ms_cubic-bezier(0.2,0.8,0.3,1)]">
       <SearchX className="h-8 w-8 text-roman-stone" aria-hidden />
       <div>
         <p className="font-display text-base font-semibold text-roman-charcoal">

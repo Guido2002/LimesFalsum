@@ -75,7 +75,8 @@ export function addCoinLayers(map: maplibre.Map): void {
     },
   });
 
-  // Bronze outer ring of the denarius marker.
+  // Bronze outer ring of the denarius marker. Radius transitions make the
+  // selection grow feel physical instead of snapping.
   map.addLayer({
     id: LOCATION_LAYER_ID,
     type: "circle",
@@ -102,6 +103,12 @@ export function addCoinLayers(map: maplibre.Map): void {
       "circle-opacity": 0.9,
     },
   });
+
+  // Radius transitions are valid in the style spec but absent from the TS
+  // paint types — set them imperatively instead.
+  for (const layerId of [LOCATION_LAYER_ID, "coin-locations-inner"]) {
+    map.setPaintProperty(layerId, "circle-radius-transition", { duration: 250, delay: 0 });
+  }
 
   // Exact-location badge — only when several records share one RD coordinate.
   map.addLayer({

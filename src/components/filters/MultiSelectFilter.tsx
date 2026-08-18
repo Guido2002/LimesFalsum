@@ -44,7 +44,7 @@ export function MultiSelectFilter({
         <span className="font-medium text-roman-charcoal">{label}</span>
         <span className="flex items-center gap-1.5">
           {selected.length > 0 && (
-            <span className="rounded-full bg-roman-red px-1.5 py-0.5 text-[11px] font-semibold text-roman-paper">
+            <span className="rounded-full bg-roman-red px-1.5 py-0.5 text-[11px] font-semibold text-roman-paper motion-safe:animate-[limes-pop-in_140ms_ease-out]">
               {selected.length}
             </span>
           )}
@@ -55,7 +55,7 @@ export function MultiSelectFilter({
         </span>
       </button>
       {open && (
-        <div className="border-t border-roman-stone/15 p-2">
+        <div className="border-t border-roman-stone/15 p-2 motion-safe:animate-[limes-reveal_160ms_ease-out]">
           {searchable && (
             <input
               type="search"

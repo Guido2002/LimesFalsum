@@ -21,21 +21,30 @@ export function MapLegend() {
       </button>
       {open && (
         <ul className="space-y-2 border-t border-roman-stone/15 px-3 py-2 text-roman-stone">
-          <li className="flex items-center gap-2">
+          <li
+            className="flex items-center gap-2 motion-safe:animate-[limes-item-in_180ms_ease-out_both]"
+            style={{ animationDelay: "0ms" }}
+          >
             <span
               className="inline-block h-3.5 w-3.5 rounded-full border-2 border-roman-bronze bg-roman-red"
               aria-hidden
             />
             muntvindplaats
           </li>
-          <li className="flex items-center gap-2">
+          <li
+            className="flex items-center gap-2 motion-safe:animate-[limes-item-in_180ms_ease-out_both]"
+            style={{ animationDelay: "60ms" }}
+          >
             <span
               className="inline-block h-3.5 w-3.5 rounded-full border-2 border-roman-gold bg-transparent"
               aria-hidden
             />
             geselecteerde vindplaats
           </li>
-          <li className="flex items-center gap-2">
+          <li
+            className="flex items-center gap-2 motion-safe:animate-[limes-item-in_180ms_ease-out_both]"
+            style={{ animationDelay: "120ms" }}
+          >
             <span className="inline-flex h-4 min-w-4 items-center justify-center rounded-sm bg-roman-parchment px-0.5 text-[10px] font-semibold text-roman-charcoal" aria-hidden>
               12
             </span>

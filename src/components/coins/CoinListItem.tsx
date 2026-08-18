@@ -16,7 +16,7 @@ export function CoinListItem({ coin, onSelect, index }: CoinListItemProps) {
         type="button"
         onClick={() => onSelect(coin.numisId)}
         style={index !== undefined ? { animationDelay: `${Math.min(index, 12) * 30}ms` } : undefined}
-        className="block w-full px-4 py-3 text-left transition-colors hover:bg-roman-parchment focus-visible:outline focus-visible:outline-2 focus-visible:outline-inset focus-visible:outline-roman-red motion-safe:animate-[limes-item-in_240ms_ease-out_both]"
+        className="block w-full px-4 py-3 text-left transition hover:bg-roman-parchment hover:shadow-[inset_3px_0_0_0_#8A2E25] focus-visible:outline focus-visible:outline-2 focus-visible:outline-inset focus-visible:outline-roman-red motion-safe:animate-[limes-item-in_240ms_ease-out_both]"
       >
         <span className="block truncate text-sm font-medium text-roman-charcoal">
           {coin.authorityNormalized[0] ?? coin.authorityRaw}

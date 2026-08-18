@@ -169,6 +169,23 @@ export function CoinsMap({
     // Only when the selection itself changes.
   }, [selectedCoinId]); // eslint-disable-line react-hooks/exhaustive-deps
 
+  // Fly to a location when it becomes selected — confirms the click with a
+  // macro camera move that keeps the user's geographic orientation.
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map || selectedLocationKey === undefined) return;
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    const group = groups.find((g) => g.locationKey === selectedLocationKey);
+    if (group) {
+      map.easeTo({
+        center: [group.longitude, group.latitude],
+        zoom: Math.max(map.getZoom(), 9),
+        duration: 500,
+      });
+    }
+    // Only when the selection itself changes.
+  }, [selectedLocationKey]); // eslint-disable-line react-hooks/exhaustive-deps
+
   return <div ref={containerRef} className="absolute inset-0" aria-label="Kaart van muntvondsten" />;
 }
 

@@ -73,7 +73,7 @@ export function AppHeader({
           aria-pressed={statsOpen}
           aria-label="Statistieken"
           title="Statistieken"
-          className={`flex min-h-11 min-w-11 items-center justify-center rounded-md p-2 transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-roman-gold sm:min-h-9 sm:min-w-9 ${
+          className={`flex min-h-11 min-w-11 items-center justify-center rounded-md p-2 transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-roman-gold motion-safe:active:scale-90 sm:min-h-9 sm:min-w-9 ${
             statsOpen
               ? "bg-roman-red text-roman-paper"
               : "text-roman-parchment hover:bg-roman-red/40"
@@ -86,7 +86,7 @@ export function AppHeader({
           onClick={onShowAbout}
           aria-label="Over LimesFalsum"
           title="Over LimesFalsum"
-          className="flex min-h-11 items-center justify-center gap-1.5 rounded-md px-2.5 py-1.5 text-sm text-roman-parchment hover:bg-roman-red/40 focus-visible:outline focus-visible:outline-2 focus-visible:outline-roman-gold sm:min-h-9"
+          className="flex min-h-11 items-center justify-center gap-1.5 rounded-md px-2.5 py-1.5 text-sm text-roman-parchment transition hover:bg-roman-red/40 focus-visible:outline focus-visible:outline-2 focus-visible:outline-roman-gold motion-safe:active:scale-95 sm:min-h-9"
         >
           <Info className="h-4 w-4" aria-hidden />
           <span className="hidden sm:inline">Over</span>

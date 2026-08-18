@@ -1,5 +1,5 @@
 import { X } from "lucide-react";
-import { useEffect, useRef, type ReactNode } from "react";
+import { useEffect, useRef, useState, type ReactNode } from "react";
 
 interface DrawerProps {
   open: boolean;
@@ -15,6 +15,29 @@ interface DrawerProps {
 export function Drawer({ open, onClose, title, children }: DrawerProps) {
   const panelRef = useRef<HTMLDivElement>(null);
   const previousFocus = useRef<Element | null>(null);
+  const [rendered, setRendered] = useState(open);
+  const [closing, setClosing] = useState(false);
+
+  // Play the exit animation before unmounting so the panel slides out
+  // instead of vanishing. Reduced-motion users get an instant close.
+  useEffect(() => {
+    if (open) {
+      setRendered(true);
+      setClosing(false);
+      return;
+    }
+    if (!rendered) return;
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      setRendered(false);
+      return;
+    }
+    setClosing(true);
+    const t = setTimeout(() => {
+      setRendered(false);
+      setClosing(false);
+    }, 180);
+    return () => clearTimeout(t);
+  }, [open, rendered]);
 
   useEffect(() => {
     if (!open) return;
@@ -30,7 +53,7 @@ export function Drawer({ open, onClose, title, children }: DrawerProps) {
     };
   }, [open, onClose]);
 
-  if (!open) return null;
+  if (!rendered) return null;
 
   return (
     <div
@@ -39,7 +62,11 @@ export function Drawer({ open, onClose, title, children }: DrawerProps) {
       aria-modal="false"
       aria-label={title}
       tabIndex={-1}
-      className="flex h-full w-[380px] shrink-0 flex-col border-l border-roman-stone/20 bg-roman-paper shadow-lg focus:outline-none motion-safe:animate-[limes-slide-in-right_200ms_ease-out]"
+      className={`flex h-full w-[380px] shrink-0 flex-col border-l border-roman-stone/20 bg-roman-paper shadow-lg focus:outline-none ${
+        closing
+          ? "motion-safe:animate-[limes-slide-out-right_180ms_ease-in]"
+          : "motion-safe:animate-[limes-slide-in-right_200ms_ease-out]"
+      }`}
     >
       <div className="flex items-center justify-between border-b border-roman-stone/15 px-4 py-3">
         <h2 className="truncate text-sm font-semibold text-roman-charcoal">{title}</h2>

@@ -20,7 +20,7 @@ export function Button({ variant = "ghost", className = "", children, ...rest }:
   return (
     <button
       type="button"
-      className={`inline-flex items-center justify-center gap-1.5 rounded-md px-3 py-1.5 text-sm font-medium transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-roman-red disabled:opacity-50 ${styles[variant]} ${className}`}
+      className={`inline-flex items-center justify-center gap-1.5 rounded-md px-3 py-1.5 text-sm font-medium transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-roman-red disabled:opacity-50 motion-safe:active:scale-[0.96] ${styles[variant]} ${className}`}
       {...rest}
     >
       {children}

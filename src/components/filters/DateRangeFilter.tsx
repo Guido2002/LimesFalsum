@@ -1,3 +1,5 @@
+import { useRef } from "react";
+
 interface DateRangeFilterProps {
   min: number;
   max: number;
@@ -9,10 +11,38 @@ interface DateRangeFilterProps {
 /**
  * Dual-range timeline over the parsed dataset extent (derived, never
  * hardcoded). A record matches when its dating range intersects the filter.
+ *
+ * Pointer events (not just onChange) decide when a drag starts/ends, so a
+ * thumb that is released off-screen — or when the pointer leaves the input
+ * mid-drag — still finishes cleanly instead of getting stuck.
  */
 export function DateRangeFilter({ min, max, from, to, onChange }: DateRangeFilterProps) {
   const lo = from ?? min;
   const hi = to ?? max;
+  // Which thumb is being dragged right now ("lo" | "hi" | null). Pointer
+  // capture on the input means pointerup fires even if the cursor is far
+  // outside the element by the time the user lets go.
+  const dragging = useRef<"lo" | "hi" | null>(null);
+
+  const endDrag = () => {
+    dragging.current = null;
+  };
+
+  const changeLo = (raw: number, e: React.PointerEvent<HTMLInputElement>) => {
+    // Ignore stray move/change events once the drag has ended elsewhere.
+    if (dragging.current === null) return;
+    const v = Math.min(raw, hi);
+    onChange(v === min && hi === max ? undefined : v, to);
+    // Keep the pointer captured until release so the drag tracks smoothly.
+    e.currentTarget.setPointerCapture(e.pointerId);
+  };
+
+  const changeHi = (raw: number, e: React.PointerEvent<HTMLInputElement>) => {
+    if (dragging.current === null) return;
+    const v = Math.max(raw, lo);
+    onChange(from, v === max && (from ?? min) === min ? undefined : v);
+    e.currentTarget.setPointerCapture(e.pointerId);
+  };
 
   return (
     <fieldset>
@@ -30,11 +60,14 @@ export function DateRangeFilter({ min, max, from, to, onChange }: DateRangeFilte
           max={max}
           value={lo}
           aria-label={`Datering vanaf (${lo})`}
-          onChange={(e) => {
-            const v = Math.min(Number(e.target.value), hi);
-            onChange(v === min && hi === max ? undefined : v, to);
+          onPointerDown={(e) => {
+            dragging.current = "lo";
+            e.currentTarget.setPointerCapture(e.pointerId);
           }}
-          className="h-7 w-full cursor-pointer accent-roman-red"
+          onPointerUp={endDrag}
+          onPointerCancel={endDrag}
+          onChange={(e) => changeLo(Number(e.target.value), e as unknown as React.PointerEvent<HTMLInputElement>)}
+          className="h-7 w-full cursor-pointer touch-none accent-roman-red"
         />
         <input
           type="range"
@@ -42,11 +75,14 @@ export function DateRangeFilter({ min, max, from, to, onChange }: DateRangeFilte
           max={max}
           value={hi}
           aria-label={`Datering tot en met (${hi})`}
-          onChange={(e) => {
-            const v = Math.max(Number(e.target.value), lo);
-            onChange(from, v === max && (from ?? min) === min ? undefined : v);
+          onPointerDown={(e) => {
+            dragging.current = "hi";
+            e.currentTarget.setPointerCapture(e.pointerId);
           }}
-          className="h-7 w-full cursor-pointer accent-roman-red"
+          onPointerUp={endDrag}
+          onPointerCancel={endDrag}
+          onChange={(e) => changeHi(Number(e.target.value), e as unknown as React.PointerEvent<HTMLInputElement>)}
+          className="h-7 w-full cursor-pointer touch-none accent-roman-red"
         />
       </div>
       <p className="mt-1 text-[11px] text-roman-stone">

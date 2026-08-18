@@ -119,7 +119,7 @@ export function StatsPanel({ coins }: StatsPanelProps) {
 
       <div>
         <h3 className="mb-1.5 text-xs font-semibold uppercase tracking-wide text-roman-stone">
-          Wie staat er op de munten?
+          Onder welke autoriteit geslagen?
         </h3>
         <div className="space-y-1.5">
           {stats.authorities.map(([label, value]) => (

@@ -1,9 +1,10 @@
-import { Maximize, Maximize2, Minimize2 } from "lucide-react";
+import { Maximize, Maximize2, Minimize2, Route } from "lucide-react";
 import { useCallback, useEffect, useState } from "react";
 
 /** "Fit to data" + fullscreen controls rendered as HTML over the map. */
 export function MapControls() {
   const [isFullscreen, setIsFullscreen] = useState(false);
+  const [roadsVisible, setRoadsVisible] = useState(true);
 
   useEffect(() => {
     const onChange = () => setIsFullscreen(Boolean(document.fullscreenElement));
@@ -13,6 +14,13 @@ export function MapControls() {
 
   const fitData = useCallback(() => {
     window.dispatchEvent(new Event("limes:fit-data"));
+  }, []);
+
+  const toggleRoads = useCallback(() => {
+    setRoadsVisible((v) => {
+      window.dispatchEvent(new CustomEvent("limes:toggle-roads", { detail: !v }));
+      return !v;
+    });
   }, []);
 
   const toggleFullscreen = useCallback(() => {
@@ -38,6 +46,20 @@ export function MapControls() {
         className="flex h-11 w-11 items-center justify-center rounded-md border border-roman-stone/25 bg-roman-paper/95 text-roman-charcoal shadow-sm transition hover:bg-roman-parchment focus-visible:outline focus-visible:outline-2 focus-visible:outline-roman-red active:scale-90 lg:h-9 lg:w-9"
       >
         <Maximize2 className="h-4 w-4" aria-hidden />
+      </button>
+      <button
+        type="button"
+        onClick={toggleRoads}
+        aria-pressed={roadsVisible}
+        aria-label={roadsVisible ? "Verberg Romeinse wegen" : "Toon Romeinse wegen"}
+        title={roadsVisible ? "Verberg Romeinse wegen" : "Toon Romeinse wegen"}
+        className={`flex h-11 w-11 items-center justify-center rounded-md border shadow-sm transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-roman-red active:scale-90 lg:h-9 lg:w-9 ${
+          roadsVisible
+            ? "border-roman-bronze/50 bg-roman-parchment text-roman-red"
+            : "border-roman-stone/25 bg-roman-paper/95 text-roman-charcoal hover:bg-roman-parchment"
+        }`}
+      >
+        <Route className="h-4 w-4" aria-hidden />
       </button>
       {fullscreenSupported && (
         <button

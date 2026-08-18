@@ -2,6 +2,7 @@ import { useEffect, useRef } from "react";
 import maplibregl from "maplibre-gl";
 import type { CoinRecord, LocationGroup } from "../../domain/coin";
 import { addCoinLayers, COIN_SOURCE_ID, onMapClick, SELECTED_LAYER_ID } from "./CoinLayers";
+import { addRomanRoadLayers, setRomanRoadsVisible } from "./RomanRoadLayers";
 
 interface CoinsMapProps {
   /** One GeoJSON feature per exact location (already grouped) */
@@ -49,6 +50,8 @@ export function CoinsMap({
     map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "bottom-right");
 
     map.on("load", () => {
+      // Roads first: the coin markers must render on top of the overlay.
+      addRomanRoadLayers(map);
       addCoinLayers(map);
       loadedRef.current = true;
       // Flush any data that arrived before the style finished loading.
@@ -122,6 +125,18 @@ export function CoinsMap({
     window.addEventListener("limes:fit-data", handler);
     return () => window.removeEventListener("limes:fit-data", handler);
   }, [groups]);
+
+  // Roman-roads overlay toggle, dispatched by MapControls. Default: visible.
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map) return;
+    const handler = (e: Event) => {
+      const visible = (e as CustomEvent<boolean>).detail;
+      setRomanRoadsVisible(map, visible);
+    };
+    window.addEventListener("limes:toggle-roads", handler);
+    return () => window.removeEventListener("limes:toggle-roads", handler);
+  }, []);
 
   // Gentle ripple on the selected-location halo. Driven by rAF against paint
   // properties (no DOM markers); skipped entirely under reduced motion.

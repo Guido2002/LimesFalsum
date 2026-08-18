@@ -56,6 +56,18 @@ export default function AboutPage({ onClose }: AboutPageProps) {
           </section>
           <section>
             <h3 className="mb-1 text-xs font-semibold uppercase tracking-wide text-roman-stone">
+              Romeinse wegen-overlay
+            </h3>
+            <p>
+              Het wegennet op de kaart is een schematische reconstructie: rechte verbindingen
+              tussen bekende Romeinse plaatsen, gebaseerd op een gestileerde historische kaart.
+              Het echte wegverloop is slechts deels bekend, en een deel van de kleinere stations
+              heeft geen zeker gelokaliseerde moderne plek — die zijn benaderd en lichter
+              weergegeven.
+            </p>
+          </section>
+          <section>
+            <h3 className="mb-1 text-xs font-semibold uppercase tracking-wide text-roman-stone">
               Hoe zeker zijn de plekken?
             </h3>
             <p>

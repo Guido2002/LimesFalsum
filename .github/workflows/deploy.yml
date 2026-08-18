@@ -12,7 +12,10 @@ permissions:
 
 concurrency:
   group: pages
-  cancel-in-progress: true
+  # Queue successive pushes instead of cancelling the in-flight Pages
+  # deploy. Cancelling mid-deploy is exactly what produced the repeated
+  # "Error: Deployment cancelled" / endless "deployment_queued" failures.
+  cancel-in-progress: false
 
 jobs:
   build:

@@ -29,13 +29,13 @@ export function MapControls() {
 
   return (
     // Below the mobile Filters trigger (top-3 + min-h-11) on small screens.
-    <div className="absolute left-3 top-[4.25rem] z-10 flex flex-col gap-2 lg:top-3">
+    <div className="absolute left-3 top-[4.75rem] z-10 flex flex-col gap-2 lg:top-3">
       <button
         type="button"
         onClick={fitData}
         aria-label="Zoom naar alle vindplaatsen"
         title="Zoom naar alle vindplaatsen"
-        className="flex h-10 w-10 items-center justify-center rounded-md border border-roman-stone/25 bg-roman-paper/95 text-roman-charcoal shadow-sm transition-colors hover:bg-roman-parchment focus-visible:outline focus-visible:outline-2 focus-visible:outline-roman-red lg:h-9 lg:w-9"
+        className="flex h-11 w-11 items-center justify-center rounded-md border border-roman-stone/25 bg-roman-paper/95 text-roman-charcoal shadow-sm transition hover:bg-roman-parchment focus-visible:outline focus-visible:outline-2 focus-visible:outline-roman-red active:scale-90 lg:h-9 lg:w-9"
       >
         <Maximize2 className="h-4 w-4" aria-hidden />
       </button>
@@ -45,7 +45,7 @@ export function MapControls() {
           onClick={toggleFullscreen}
           aria-label={isFullscreen ? "Volledig scherm verlaten" : "Volledig scherm"}
           title={isFullscreen ? "Volledig scherm verlaten" : "Volledig scherm"}
-          className="flex h-10 w-10 items-center justify-center rounded-md border border-roman-stone/25 bg-roman-paper/95 text-roman-charcoal shadow-sm transition-colors hover:bg-roman-parchment focus-visible:outline focus-visible:outline-2 focus-visible:outline-roman-red lg:h-9 lg:w-9"
+          className="flex h-11 w-11 items-center justify-center rounded-md border border-roman-stone/25 bg-roman-paper/95 text-roman-charcoal shadow-sm transition hover:bg-roman-parchment focus-visible:outline focus-visible:outline-2 focus-visible:outline-roman-red active:scale-90 lg:h-9 lg:w-9"
         >
           {isFullscreen ? (
             <Minimize2 className="h-4 w-4" aria-hidden />

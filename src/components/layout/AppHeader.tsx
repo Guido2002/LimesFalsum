@@ -4,6 +4,7 @@ import type { ViewMode } from "../../hooks/useUrlFilterState";
 interface AppHeaderProps {
   view: ViewMode;
   onViewChange: (view: ViewMode) => void;
+  statsOpen: boolean;
   onShowStats: () => void;
   onShowAbout: () => void;
   recordCount: number;
@@ -13,6 +14,7 @@ interface AppHeaderProps {
 export function AppHeader({
   view,
   onViewChange,
+  statsOpen,
   onShowStats,
   onShowAbout,
   recordCount,
@@ -27,7 +29,7 @@ export function AppHeader({
           <div className="meander mt-1 w-24" aria-hidden />
         </div>
         <p className="hidden truncate text-xs text-roman-parchment/70 sm:block">
-          Romeinse muntvondsten in Nederland · {recordCount} records
+          {recordCount} valse denarii, gevonden in Nederlandse bodem
         </p>
       </div>
 
@@ -41,7 +43,7 @@ export function AppHeader({
             type="button"
             onClick={() => onViewChange("map")}
             aria-pressed={view === "map"}
-            className={`flex items-center gap-1.5 rounded-l-md px-2.5 py-1.5 text-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-roman-gold ${
+            className={`flex min-h-11 items-center gap-1.5 rounded-l-md px-3 py-1.5 text-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-roman-gold sm:min-h-9 ${
               view === "map"
                 ? "bg-roman-red text-roman-paper"
                 : "bg-transparent text-roman-parchment hover:bg-roman-red/40"
@@ -54,7 +56,7 @@ export function AppHeader({
             type="button"
             onClick={() => onViewChange("list")}
             aria-pressed={view === "list"}
-            className={`flex items-center gap-1.5 rounded-r-md px-2.5 py-1.5 text-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-roman-gold ${
+            className={`flex min-h-11 items-center gap-1.5 rounded-r-md px-3 py-1.5 text-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-roman-gold sm:min-h-9 ${
               view === "list"
                 ? "bg-roman-red text-roman-paper"
                 : "bg-transparent text-roman-parchment hover:bg-roman-red/40"
@@ -68,16 +70,23 @@ export function AppHeader({
         <button
           type="button"
           onClick={onShowStats}
-          aria-label="Toon statistieken"
+          aria-pressed={statsOpen}
+          aria-label="Statistieken"
           title="Statistieken"
-          className="rounded-md p-2 text-roman-parchment hover:bg-roman-red/40 focus-visible:outline focus-visible:outline-2 focus-visible:outline-roman-gold"
+          className={`flex min-h-11 min-w-11 items-center justify-center rounded-md p-2 transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-roman-gold sm:min-h-9 sm:min-w-9 ${
+            statsOpen
+              ? "bg-roman-red text-roman-paper"
+              : "text-roman-parchment hover:bg-roman-red/40"
+          }`}
         >
           <BarChart3 className="h-4 w-4" aria-hidden />
         </button>
         <button
           type="button"
           onClick={onShowAbout}
-          className="flex items-center gap-1.5 rounded-md px-2.5 py-1.5 text-sm text-roman-parchment hover:bg-roman-red/40 focus-visible:outline focus-visible:outline-2 focus-visible:outline-roman-gold"
+          aria-label="Over LimesFalsum"
+          title="Over LimesFalsum"
+          className="flex min-h-11 items-center justify-center gap-1.5 rounded-md px-2.5 py-1.5 text-sm text-roman-parchment hover:bg-roman-red/40 focus-visible:outline focus-visible:outline-2 focus-visible:outline-roman-gold sm:min-h-9"
         >
           <Info className="h-4 w-4" aria-hidden />
           <span className="hidden sm:inline">Over</span>

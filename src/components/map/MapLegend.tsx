@@ -11,7 +11,7 @@ export function MapLegend() {
         type="button"
         onClick={() => setOpen((v) => !v)}
         aria-expanded={open}
-        className="flex w-full items-center justify-between gap-2 px-3 py-2 font-medium text-roman-charcoal focus-visible:outline focus-visible:outline-2 focus-visible:outline-roman-red"
+        className="flex min-h-11 w-full items-center justify-between gap-2 px-3 py-2 font-medium text-roman-charcoal focus-visible:outline focus-visible:outline-2 focus-visible:outline-roman-red lg:min-h-0"
       >
         Legenda
         <ChevronDown

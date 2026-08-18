@@ -53,8 +53,8 @@ export function CoinMetadata({ coin }: { coin: CoinRecord }) {
           </Tooltip>
           <span>
             {coin.dataQualityFlags.includes("coordinate-outlier")
-              ? "Mogelijke afwijking in broncoördinaat."
-              : "Brongegevens bevatten onzekerheid."}
+              ? "De plek in de brondata wijkt mogelijk af — deze munt ligt misschien net ergens anders."
+              : "De brondata van deze munt bevat onzekerheid."}
           </span>
         </div>
       )}

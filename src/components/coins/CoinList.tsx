@@ -63,7 +63,7 @@ export function CoinList({ coins, onSelect, onResetFilters }: CoinListProps) {
   return (
     <div className="flex h-full flex-col">
       <div className="flex items-center justify-between border-b border-roman-stone/15 bg-roman-paper px-4 py-2">
-        <p className="text-sm text-roman-stone">{coins.length} vondsten</p>
+        <p className="text-sm text-roman-stone">{coins.length} munten</p>
         <label className="flex items-center gap-2 text-sm text-roman-charcoal">
           <ArrowDownUp className="h-3.5 w-3.5 text-roman-stone" aria-hidden />
           <span className="sr-only">Sorteerlijst</span>
@@ -121,7 +121,7 @@ export function CoinList({ coins, onSelect, onResetFilters }: CoinListProps) {
                 <td className="max-w-40 truncate px-4 py-2 text-roman-stone">
                   {coin.statusNormalized ?? coin.statusRaw}
                 </td>
-                <td className="px-4 py-2 text-roman-bronze">{coin.numisId}</td>
+                <td className="px-4 py-2 text-roman-bronze-dark">{coin.numisId}</td>
                 <td className="px-4 py-2 text-roman-stone">{coin.panId ?? ""}</td>
               </tr>
             ))}
@@ -131,12 +131,13 @@ export function CoinList({ coins, onSelect, onResetFilters }: CoinListProps) {
 
       {/* Mobile: cards */}
       <ul className="flex-1 divide-y divide-roman-stone/10 overflow-y-auto md:hidden">
-        {sorted.map((coin) => (
+        {sorted.map((coin, index) => (
           <li key={coin.numisId}>
             <button
               type="button"
               onClick={() => onSelect(coin.numisId)}
-              className="block w-full px-4 py-3 text-left hover:bg-roman-parchment focus-visible:outline focus-visible:outline-2 focus-visible:outline-inset focus-visible:outline-roman-red"
+              style={{ animationDelay: `${Math.min(index, 12) * 30}ms` }}
+              className="block w-full px-4 py-3 text-left hover:bg-roman-parchment focus-visible:outline focus-visible:outline-2 focus-visible:outline-inset focus-visible:outline-roman-red motion-safe:animate-[limes-item-in_240ms_ease-out_both]"
             >
               <span className="block text-sm font-medium text-roman-charcoal">
                 {coin.authorityNormalized[0] ?? coin.authorityRaw}
@@ -145,7 +146,7 @@ export function CoinList({ coins, onSelect, onResetFilters }: CoinListProps) {
                 {formatDating(coin.dateStart, coin.dateEnd)} · {coin.municipality},{" "}
                 {coin.province}
               </span>
-              <span className="mt-0.5 block text-xs text-roman-bronze">
+              <span className="mt-0.5 block text-xs text-roman-bronze-dark">
                 NUMIS {coin.numisId}
                 {coin.panId ? ` · PAN ${coin.panId}` : ""}
               </span>

@@ -50,7 +50,9 @@ export function Sheet({ open, onClose, title, children }: SheetProps) {
       role="dialog"
       aria-modal="false"
       aria-label={title}
-      className="fixed inset-x-0 bottom-0 z-30 flex max-h-[75dvh] flex-col rounded-t-xl border-t border-roman-stone/25 bg-roman-paper pb-[env(safe-area-inset-bottom)] shadow-2xl"
+      className={`fixed inset-x-0 bottom-0 z-30 flex max-h-[75dvh] flex-col rounded-t-xl border-t border-roman-stone/25 bg-roman-paper pb-[env(safe-area-inset-bottom)] shadow-2xl ${
+        dragY === 0 ? "motion-safe:animate-[limes-slide-up_200ms_ease-out]" : ""
+      }`}
       style={{ transform: `translateY(${dragY}px)` }}
     >
       <div
@@ -67,7 +69,7 @@ export function Sheet({ open, onClose, title, children }: SheetProps) {
           type="button"
           onClick={onClose}
           aria-label="Sluit paneel"
-          className="rounded p-2 text-roman-stone hover:bg-roman-parchment focus-visible:outline focus-visible:outline-2 focus-visible:outline-roman-red"
+          className="flex h-11 w-11 items-center justify-center rounded text-roman-stone hover:bg-roman-parchment focus-visible:outline focus-visible:outline-2 focus-visible:outline-roman-red"
         >
           <X className="h-4 w-4" aria-hidden />
         </button>

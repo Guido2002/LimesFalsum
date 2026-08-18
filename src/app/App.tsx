@@ -52,12 +52,20 @@ export function App() {
   const closePanel = () =>
     update({ selectedCoinId: undefined, selectedLocationKey: undefined });
 
-  const drawerOpen = selectedCoin !== undefined || selectedGroup !== undefined;
-  const drawerTitle = selectedCoin
+  const detailOpen = selectedCoin !== undefined || selectedGroup !== undefined;
+  // Stats and coin/location details share the same side panel. Details take
+  // precedence while open; closing them returns to the stats, whose toggle
+  // state is preserved — nothing is destroyed.
+  const panelOpen = detailOpen || statsOpen;
+  const panelTitle = selectedCoin
     ? `NUMIS ${selectedCoin.numisId}`
     : selectedGroup
       ? `Vindplaats ${selectedGroup.municipality}`
-      : "";
+      : "Statistieken";
+  const closeTopPanel = () => {
+    if (detailOpen) closePanel();
+    else setStatsOpen(false);
+  };
 
   const panelContent = selectedCoin ? (
     <CoinDetails
@@ -66,6 +74,8 @@ export function App() {
     />
   ) : selectedGroup ? (
     <LocationDetails group={selectedGroup} onSelectCoin={openCoin} />
+  ) : statsOpen ? (
+    <StatsPanel coins={filtered} />
   ) : null;
 
   return (
@@ -73,6 +83,7 @@ export function App() {
       <AppHeader
         view={state.view}
         onViewChange={(view) => update({ view })}
+        statsOpen={statsOpen}
         onShowStats={() => setStatsOpen((v) => !v)}
         onShowAbout={() => setAboutOpen(true)}
         recordCount={DATASET_SUMMARY.recordCount}
@@ -94,7 +105,7 @@ export function App() {
           <button
             type="button"
             onClick={() => setMobileFiltersOpen(true)}
-            className="flex min-h-11 items-center gap-1.5 rounded-md border border-roman-stone/25 bg-roman-paper px-4 py-2.5 text-sm font-medium text-roman-charcoal shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-roman-red"
+            className="flex min-h-11 items-center gap-1.5 rounded-md border border-roman-stone/25 bg-roman-paper px-4 py-2.5 text-sm font-medium text-roman-charcoal shadow-sm transition-transform active:scale-95 focus-visible:outline focus-visible:outline-2 focus-visible:outline-roman-red"
           >
             Filters
             {filtered.length !== DATASET_SUMMARY.recordCount && (
@@ -106,41 +117,46 @@ export function App() {
         </div>
 
         <main className="relative min-w-0 flex-1">
-          {state.view === "map" ? (
-            <div id="limes-map-shell" className="relative h-full">
-              {filtered.length === 0 ? (
-                <EmptyState onReset={resetFilters} />
-              ) : (
-                <>
-                  <CoinsMap
-                    groups={groups}
-                    selectedCoinId={state.selectedCoinId}
-                    selectedLocationKey={state.selectedLocationKey}
-                    onSelectLocation={openLocation}
-                    onSelectCoin={openCoin}
-                  />
-                  <MapControls />
-                  <MapLegend />
-                </>
-              )}
-            </div>
-          ) : (
-            <CoinList coins={filtered} onSelect={openCoin} onResetFilters={resetFilters} />
-          )}
-
-          <StatsPanel coins={filtered} open={statsOpen} onClose={() => setStatsOpen(false)} />
+          {/* Keying by view crossfades map ↔ list on switch. */}
+          <div key={state.view} className="h-full motion-safe:animate-[limes-fade-in_180ms_ease-out]">
+            {state.view === "map" ? (
+              <div id="limes-map-shell" className="relative h-full">
+                {/* Keep the map mounted even with zero results so the user
+                    retains geographic context; show the empty state as an
+                    overlay card instead of replacing the map. */}
+                <CoinsMap
+                  groups={groups}
+                  selectedCoinId={state.selectedCoinId}
+                  selectedLocationKey={state.selectedLocationKey}
+                  onSelectLocation={openLocation}
+                  onSelectCoin={openCoin}
+                />
+                <MapControls />
+                <MapLegend />
+                {filtered.length === 0 && (
+                  <div className="absolute inset-0 z-10 grid place-items-center bg-roman-charcoal/20 p-4 motion-safe:animate-[limes-fade-in_160ms_ease-out]">
+                    <div className="rounded-lg border border-roman-stone/25 bg-roman-paper shadow-xl">
+                      <EmptyState variant="map" onReset={resetFilters} />
+                    </div>
+                  </div>
+                )}
+              </div>
+            ) : (
+              <CoinList coins={filtered} onSelect={openCoin} onResetFilters={resetFilters} />
+            )}
+          </div>
         </main>
 
-        {/* Desktop drawer */}
+        {/* Desktop drawer — coin/location details and stats share this panel */}
         <div className="hidden lg:block">
-          <Drawer open={drawerOpen} onClose={closePanel} title={drawerTitle}>
+          <Drawer open={panelOpen} onClose={closeTopPanel} title={panelTitle}>
             {panelContent}
           </Drawer>
         </div>
 
         {/* Mobile bottom sheet */}
         <div className="lg:hidden">
-          <Sheet open={drawerOpen} onClose={closePanel} title={drawerTitle}>
+          <Sheet open={panelOpen} onClose={closeTopPanel} title={panelTitle}>
             {panelContent}
           </Sheet>
         </div>

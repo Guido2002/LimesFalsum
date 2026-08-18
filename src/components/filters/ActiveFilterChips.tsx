@@ -76,14 +76,14 @@ export function ActiveFilterChips({ filters, onChange }: ActiveFilterChipsProps)
       {chips.map((chip) => (
         <span
           key={chip.key}
-          className="inline-flex items-center gap-1 rounded-full border border-roman-bronze/40 bg-roman-parchment px-2 py-0.5 text-xs text-roman-charcoal"
+          className="inline-flex items-center gap-1 rounded-full border border-roman-bronze/40 bg-roman-parchment py-0.5 pl-2.5 pr-1 text-xs text-roman-charcoal motion-safe:animate-[limes-pop-in_160ms_ease-out]"
         >
           {chip.label}
           <button
             type="button"
             onClick={() => onChange(chip.remove(filters))}
             aria-label={`Verwijder filter ${chip.label}`}
-            className="rounded-full p-0.5 text-roman-stone hover:text-roman-red focus-visible:outline focus-visible:outline-2 focus-visible:outline-roman-red"
+            className="flex h-6 w-6 items-center justify-center rounded-full text-roman-stone hover:bg-roman-red/10 hover:text-roman-red focus-visible:outline focus-visible:outline-2 focus-visible:outline-roman-red"
           >
             <X className="h-3 w-3" aria-hidden />
           </button>

@@ -1,5 +1,7 @@
 import { Filter, X } from "lucide-react";
+import { useEffect } from "react";
 import type { DatasetSummary } from "../../domain/coin";
+import { useCountUp } from "../../hooks/useCountUp";
 import type { FilterState } from "../../domain/filters";
 import { EMPTY_FILTERS } from "../../domain/filters";
 import { ActiveFilterChips } from "./ActiveFilterChips";
@@ -30,17 +32,32 @@ export function FilterPanel({
   const set = (patch: Partial<FilterState>, mode: "push" | "replace" = "push") =>
     onChange({ ...filters, ...patch }, mode);
 
+  // Escape closes the mobile overlay, matching the desktop drawers.
+  useEffect(() => {
+    if (!mobileOpen) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") onMobileClose?.();
+    };
+    document.addEventListener("keydown", onKey);
+    return () => document.removeEventListener("keydown", onKey);
+  }, [mobileOpen, onMobileClose]);
+
   const dateMin = summary.dateMin ?? 0;
   const dateMax = summary.dateMax ?? 0;
+  // Animated result count. Screen readers get the final value once via the
+  // sr-only span; the tweening number is aria-hidden so aria-live stays calm.
+  const animatedCount = useCountUp(resultCount);
 
   const body = (
     <div className="flex h-full flex-col">
       <div className="border-b border-roman-stone/15 p-4">
         <div className="mb-3 flex items-baseline gap-3" aria-live="polite">
           <p className="text-xl font-semibold text-roman-charcoal">
-            {resultCount} <span className="text-sm font-normal text-roman-stone">vondsten</span>
+            <span aria-hidden>{animatedCount}</span>
+            <span className="sr-only">{resultCount}</span>{" "}
+            <span className="text-sm font-normal text-roman-stone">munten</span>
           </p>
-          <p className="text-sm text-roman-stone">{locationCount} locaties</p>
+          <p className="text-sm text-roman-stone">uit {locationCount} plekken</p>
         </div>
         <SearchInput value={filters.search} onChange={(v) => set({ search: v }, "replace")} />
         <div className="mt-3">
@@ -128,36 +145,44 @@ export function FilterPanel({
           <legend className="mb-1.5 text-xs font-semibold uppercase tracking-wide text-roman-stone">
             Massa (gram)
           </legend>
-          <div className="flex items-center gap-2">
-            <input
-              type="number"
-              inputMode="decimal"
-              min={0}
-              step={0.1}
-              value={filters.massMin ?? ""}
-              placeholder="min"
-              aria-label="Minimale massa in gram"
-              onChange={(e) =>
-                set({ massMin: e.target.value === "" ? undefined : Number(e.target.value) })
-              }
-              className="w-full rounded border border-roman-stone/25 px-2.5 py-2 text-base focus:border-roman-red focus:outline-none lg:text-sm"
-            />
-            <span className="text-roman-stone">–</span>
-            <input
-              type="number"
-              inputMode="decimal"
-              min={0}
-              step={0.1}
-              value={filters.massMax ?? ""}
-              placeholder="max"
-              aria-label="Maximale massa in gram"
-              onChange={(e) =>
-                set({ massMax: e.target.value === "" ? undefined : Number(e.target.value) })
-              }
-              className="w-full rounded border border-roman-stone/25 px-2.5 py-2 text-base focus:border-roman-red focus:outline-none lg:text-sm"
-            />
+          <div className="flex items-end gap-2">
+            <label className="w-full">
+              <span className="mb-1 block text-xs text-roman-stone">Min</span>
+              <input
+                type="number"
+                inputMode="decimal"
+                min={0}
+                step={0.1}
+                value={filters.massMin ?? ""}
+                placeholder="0"
+                onChange={(e) =>
+                  set({ massMin: e.target.value === "" ? undefined : Number(e.target.value) })
+                }
+                className="w-full rounded border border-roman-stone/25 px-2.5 py-2 text-base focus:border-roman-red focus:outline-none lg:text-sm"
+              />
+            </label>
+            <span className="pb-2.5 text-roman-stone" aria-hidden>
+              –
+            </span>
+            <label className="w-full">
+              <span className="mb-1 block text-xs text-roman-stone">Max</span>
+              <input
+                type="number"
+                inputMode="decimal"
+                min={0}
+                step={0.1}
+                value={filters.massMax ?? ""}
+                placeholder="∞"
+                onChange={(e) =>
+                  set({ massMax: e.target.value === "" ? undefined : Number(e.target.value) })
+                }
+                className="w-full rounded border border-roman-stone/25 px-2.5 py-2 text-base focus:border-roman-red focus:outline-none lg:text-sm"
+              />
+            </label>
           </div>
-          <p className="mt-1 text-[11px] text-roman-stone">Records met onbekende massa (0 g) worden genegeerd.</p>
+          <p className="mt-1 text-[11px] text-roman-stone">
+            Munten waarvan het gewicht niet is vastgelegd worden overgeslagen.
+          </p>
         </fieldset>
 
         <button
@@ -182,7 +207,7 @@ export function FilterPanel({
   const mobile = mobileOpen ? (
     <div className="fixed inset-0 z-40 lg:hidden">
       <div
-        className="absolute inset-0 bg-roman-charcoal/40"
+        className="absolute inset-0 bg-roman-charcoal/40 motion-safe:animate-[limes-fade-in_180ms_ease-out]"
         onClick={onMobileClose}
         aria-hidden
       />

@@ -32,24 +32,27 @@ export default function AboutPage({ onClose }: AboutPageProps) {
         </div>
         <div className="space-y-4 px-5 py-4 text-sm leading-relaxed text-roman-charcoal">
           <p>
-            LimesFalsum is een interactieve verkenner van geplateerde Romeinse denarii die in
-            Nederland zijn gevonden. De applicatie visualiseert{" "}
-            {DATASET_SUMMARY.recordCount} historische muntvondsten op {DATASET_SUMMARY.uniqueLocationCount}{" "}
-            vindplaatsen, afkomstig uit het NUMIS-bestand (Nationaal Numismatisch Archief).
+            Ergens langs de Rijn, bijna tweeduizend jaar geleden, liet iemand een munt vallen —
+            een soldaat bij het Limes-fort, een boer op weg naar de markt, misschien een
+            smokkelaar met een handvol vervalsingen. LimesFalsum brengt{" "}
+            {DATASET_SUMMARY.recordCount} van die verloren munten terug op de kaart: geplateerde
+            denarii, gevonden op {DATASET_SUMMARY.uniqueLocationCount} plekken in Nederland en
+            vastgelegd in het NUMIS-bestand (Nationaal Numismatisch Archief).
           </p>
           <section>
             <h3 className="mb-1 text-xs font-semibold uppercase tracking-wide text-roman-stone">
               Wat is een geplateerde denarius?
             </h3>
             <p>
-              Een geplateerde denarius is een munt met een kern van een onedel metaal (meestal
-              koper) en een dunne zilveren buitenlaag. Zulke munten ontstonden onder andere als
-              contemporaine vervalsing of als noodmunt in perioden van zilver­schaarste.
+              Een munt met een hart van koper en een jasje van zilver. Officieel noodgeld in
+              tijden van schaarste, of stiekem nagemaakt toen niemand keek. Pas als de zilverlaag
+              wegslijt — of de munt breekt — verraadt hij zijn geheim. Vandaar de naam:
+              LimesFalsum, de valse grens.
             </p>
           </section>
           <section>
             <h3 className="mb-1 text-xs font-semibold uppercase tracking-wide text-roman-stone">
-              Over de coördinaten
+              Hoe zeker zijn de plekken?
             </h3>
             <p>
               De getoonde locaties komen rechtstreeks uit de brondata (RD-coördinaten, EPSG:28992)

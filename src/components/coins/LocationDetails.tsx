@@ -22,12 +22,12 @@ export function LocationDetails({ group, onSelectCoin }: LocationDetailsProps) {
           {group.municipality}, {group.province}
         </h2>
         <p className="mt-0.5 text-sm text-roman-stone">
-          {group.coins.length} muntvondsten op deze locatie
+          {group.coins.length} munten kwamen hier uit de grond
         </p>
       </header>
       <ul className="divide-y divide-roman-stone/10">
-        {group.coins.map((coin) => (
-          <CoinListItem key={coin.numisId} coin={coin} onSelect={onSelectCoin} />
+        {group.coins.map((coin, index) => (
+          <CoinListItem key={coin.numisId} coin={coin} onSelect={onSelectCoin} index={index} />
         ))}
       </ul>
     </div>

@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import maplibregl from "maplibre-gl";
 import type { CoinRecord, LocationGroup } from "../../domain/coin";
-import { addCoinLayers, COIN_SOURCE_ID, onMapClick } from "./CoinLayers";
+import { addCoinLayers, COIN_SOURCE_ID, onMapClick, SELECTED_LAYER_ID } from "./CoinLayers";
 
 interface CoinsMapProps {
   /** One GeoJSON feature per exact location (already grouped) */
@@ -122,6 +122,41 @@ export function CoinsMap({
     window.addEventListener("limes:fit-data", handler);
     return () => window.removeEventListener("limes:fit-data", handler);
   }, [groups]);
+
+  // Gentle ripple on the selected-location halo. Driven by rAF against paint
+  // properties (no DOM markers); skipped entirely under reduced motion.
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map || selectedLocationKey === undefined) return;
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+
+    let raf = 0;
+    const start = performance.now();
+    const tick = (now: number) => {
+      const t = ((now - start) % 1600) / 1600;
+      const wave = 0.5 - 0.5 * Math.cos(t * Math.PI * 2); // 0 → 1 → 0
+      try {
+        map.setPaintProperty(SELECTED_LAYER_ID, "circle-radius", 22 + wave * 8);
+        map.setPaintProperty(SELECTED_LAYER_ID, "circle-opacity", 1 - wave * 0.55);
+        map.setPaintProperty(SELECTED_LAYER_ID, "circle-stroke-opacity", 1 - wave * 0.5);
+      } catch {
+        // Style/layer not ready yet — keep the loop alive until it is.
+      }
+      raf = requestAnimationFrame(tick);
+    };
+    raf = requestAnimationFrame(tick);
+
+    return () => {
+      cancelAnimationFrame(raf);
+      try {
+        map.setPaintProperty(SELECTED_LAYER_ID, "circle-radius", 24);
+        map.setPaintProperty(SELECTED_LAYER_ID, "circle-opacity", 1);
+        map.setPaintProperty(SELECTED_LAYER_ID, "circle-stroke-opacity", 1);
+      } catch {
+        // Map already torn down.
+      }
+    };
+  }, [selectedLocationKey]);
 
   // Centre on a coin opened via a shared ?coin= link.
   useEffect(() => {

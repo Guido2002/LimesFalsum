@@ -39,7 +39,7 @@ export function Drawer({ open, onClose, title, children }: DrawerProps) {
       aria-modal="false"
       aria-label={title}
       tabIndex={-1}
-      className="flex h-full w-[380px] shrink-0 flex-col border-l border-roman-stone/20 bg-roman-paper shadow-lg focus:outline-none"
+      className="flex h-full w-[380px] shrink-0 flex-col border-l border-roman-stone/20 bg-roman-paper shadow-lg focus:outline-none motion-safe:animate-[limes-slide-in-right_200ms_ease-out]"
     >
       <div className="flex items-center justify-between border-b border-roman-stone/15 px-4 py-3">
         <h2 className="truncate text-sm font-semibold text-roman-charcoal">{title}</h2>
@@ -47,7 +47,7 @@ export function Drawer({ open, onClose, title, children }: DrawerProps) {
           type="button"
           onClick={onClose}
           aria-label="Sluit detailpaneel"
-          className="rounded p-1 text-roman-stone transition-colors hover:bg-roman-parchment hover:text-roman-charcoal focus-visible:outline focus-visible:outline-2 focus-visible:outline-roman-red"
+          className="flex h-9 w-9 items-center justify-center rounded text-roman-stone transition-colors hover:bg-roman-parchment hover:text-roman-charcoal focus-visible:outline focus-visible:outline-2 focus-visible:outline-roman-red"
         >
           <X className="h-4 w-4" aria-hidden />
         </button>

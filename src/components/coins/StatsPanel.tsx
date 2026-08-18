@@ -1,12 +1,9 @@
-import { BarChart3, X } from "lucide-react";
 import { useMemo } from "react";
 import type { CoinRecord } from "../../domain/coin";
 import { groupByLocation } from "../../lib/grouping";
 
 interface StatsPanelProps {
   coins: CoinRecord[];
-  open: boolean;
-  onClose: () => void;
 }
 
 function countBy<T extends string>(values: (T | undefined)[]): [string, number][] {
@@ -25,7 +22,7 @@ function Bar({ label, value, max }: { label: string; value: number; max: number 
       <span className="text-roman-stone">{value}</span>
       <div className="col-span-2 h-1.5 rounded bg-roman-parchment">
         <div
-          className="h-full rounded bg-roman-terracotta"
+          className="h-full origin-left rounded bg-roman-terracotta motion-safe:animate-[limes-bar-grow_450ms_ease-out]"
           style={{ width: `${max > 0 ? (value / max) * 100 : 0}%` }}
         />
       </div>
@@ -33,11 +30,35 @@ function Bar({ label, value, max }: { label: string; value: number; max: number 
   );
 }
 
+/** Headline metric tile with the Roman display face. */
+function StatTile({ label, value }: { label: string; value: string | number }) {
+  return (
+    <div className="rounded-md border border-roman-stone/15 bg-roman-parchment/60 px-3 py-2.5">
+      <dd className="font-display text-lg font-semibold leading-tight text-roman-charcoal">
+        {value}
+      </dd>
+      <dt className="mt-0.5 text-[11px] uppercase tracking-wide text-roman-stone">{label}</dt>
+    </div>
+  );
+}
+
+/** Definition-list row for the breakdown section. */
+function StatRow({ label, value }: { label: string; value: string | number }) {
+  return (
+    <div className="flex items-center justify-between py-1.5">
+      <dt className="text-roman-stone">{label}</dt>
+      <dd className="font-medium text-roman-charcoal">{value}</dd>
+    </div>
+  );
+}
+
 /**
- * Compact statistics drawer — always computed from the *filtered* collection
- * so numbers match the map, list and counter exactly.
+ * Statistics content for the shared side panel (Drawer on desktop, Sheet on
+ * mobile). Always computed from the *filtered* collection so numbers match
+ * the map, list and counter exactly. The surrounding panel provides the
+ * chrome: title, close button, Escape handling and focus management.
  */
-export function StatsPanel({ coins, open, onClose }: StatsPanelProps) {
+export function StatsPanel({ coins }: StatsPanelProps) {
   const stats = useMemo(() => {
     const locations = groupByLocation(coins);
     const dates = coins.flatMap((c) =>
@@ -62,73 +83,47 @@ export function StatsPanel({ coins, open, onClose }: StatsPanelProps) {
     };
   }, [coins]);
 
-  if (!open) return null;
-
   return (
-    <div
-      role="dialog"
-      aria-label="Datasetstatistieken"
-      className="absolute inset-x-3 top-14 z-20 rounded-md border border-roman-stone/25 bg-roman-paper shadow-lg sm:left-auto sm:w-72"
-    >
-      <div className="flex items-center justify-between border-b border-roman-stone/15 px-3 py-2">
-        <h2 className="flex items-center gap-1.5 text-sm font-semibold text-roman-charcoal">
-          <BarChart3 className="h-4 w-4 text-roman-red" aria-hidden />
-          Statistieken (huidige selectie)
-        </h2>
-        <button
-          type="button"
-          onClick={onClose}
-          aria-label="Sluit statistieken"
-          className="rounded p-1 text-roman-stone hover:bg-roman-parchment focus-visible:outline focus-visible:outline-2 focus-visible:outline-roman-red"
-        >
-          <X className="h-3.5 w-3.5" aria-hidden />
-        </button>
-      </div>
-      <div className="space-y-3 px-3 py-3 text-sm">
-        <dl className="grid grid-cols-2 gap-x-4 gap-y-1 text-xs">
-          <dt className="text-roman-stone">Zichtbare munten</dt>
-          <dd className="text-right font-semibold text-roman-charcoal">{coins.length}</dd>
-          <dt className="text-roman-stone">Unieke locaties</dt>
-          <dd className="text-right font-semibold text-roman-charcoal">{stats.locations}</dd>
-          <dt className="text-roman-stone">Datingsbereik</dt>
-          <dd className="text-right font-semibold text-roman-charcoal">
-            {stats.dateMin !== undefined ? `${stats.dateMin}–${stats.dateMax}` : "—"}
-          </dd>
-          <dt className="text-roman-stone">Losse vondsten</dt>
-          <dd className="text-right text-roman-charcoal">{stats.loose}</dd>
-          <dt className="text-roman-stone">Schatvondsten</dt>
-          <dd className="text-right text-roman-charcoal">{stats.hoard}</dd>
-          <dt className="text-roman-stone">Met detector</dt>
-          <dd className="text-right text-roman-charcoal">{stats.withDetector}</dd>
-          <dt className="text-roman-stone">Zonder detector</dt>
-          <dd className="text-right text-roman-charcoal">{stats.withoutDetector}</dd>
-        </dl>
+    <div className="space-y-5 px-4 py-4">
+      <p className="text-xs text-roman-stone">
+        Het verhaal van de {coins.length} munten in je huidige selectie.
+      </p>
 
-        <div>
-          <h3 className="mb-1.5 text-xs font-semibold uppercase tracking-wide text-roman-stone">
-            Meest voorkomende autoriteiten
-          </h3>
-          <div className="space-y-1.5">
-            {stats.authorities.map(([label, value]) => (
-              <Bar
-                key={label}
-                label={label}
-                value={value}
-                max={stats.authorities[0]?.[1] ?? 1}
-              />
-            ))}
-          </div>
+      <dl className="grid grid-cols-3 gap-2">
+        <StatTile label="Munten" value={coins.length} />
+        <StatTile label="Plekken" value={stats.locations} />
+        <StatTile
+          label="Periode"
+          value={stats.dateMin !== undefined ? `${stats.dateMin}–${stats.dateMax}` : "—"}
+        />
+      </dl>
+
+      <dl className="divide-y divide-roman-stone/10 text-sm">
+        <StatRow label="Losse vondsten" value={stats.loose} />
+        <StatRow label="Verborgen schatten" value={stats.hoard} />
+        <StatRow label="Gevonden met detector" value={stats.withDetector} />
+        <StatRow label="Zonder detector" value={stats.withoutDetector} />
+      </dl>
+
+      <div>
+        <h3 className="mb-1.5 text-xs font-semibold uppercase tracking-wide text-roman-stone">
+          Wie staat er op de munten?
+        </h3>
+        <div className="space-y-1.5">
+          {stats.authorities.map(([label, value]) => (
+            <Bar key={label} label={label} value={value} max={stats.authorities[0]?.[1] ?? 1} />
+          ))}
         </div>
+      </div>
 
-        <div>
-          <h3 className="mb-1.5 text-xs font-semibold uppercase tracking-wide text-roman-stone">
-            Per provincie
-          </h3>
-          <div className="space-y-1.5">
-            {stats.provinces.map(([label, value]) => (
-              <Bar key={label} label={label} value={value} max={stats.provinces[0]?.[1] ?? 1} />
-            ))}
-          </div>
+      <div>
+        <h3 className="mb-1.5 text-xs font-semibold uppercase tracking-wide text-roman-stone">
+          Waar kwamen ze uit de grond?
+        </h3>
+        <div className="space-y-1.5">
+          {stats.provinces.map(([label, value]) => (
+            <Bar key={label} label={label} value={value} max={stats.provinces[0]?.[1] ?? 1} />
+          ))}
         </div>
       </div>
     </div>

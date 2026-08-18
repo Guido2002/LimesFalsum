@@ -8,7 +8,9 @@ export default {
           red: "#8A2E25",
           oxblood: "#5D211C",
           terracotta: "#B45D47",
-          bronze: "#A27A44",
+          // Bronze is decorative (borders, swatches); bronze-dark meets
+          // WCAG 4.5:1 for small text on paper/parchment surfaces.
+          bronze: { DEFAULT: "#A27A44", dark: "#7A5A2E" },
           gold: "#C39A56",
           parchment: "#F3EBDD",
           paper: "#FAF7F0",

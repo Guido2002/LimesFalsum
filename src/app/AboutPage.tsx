@@ -83,7 +83,7 @@ export default function AboutPage({ onClose }: AboutPageProps) {
               >
                 Digital Atlas of the Roman Empire
               </a>{" "}
-              (DARE). De posities en dateringen van de Nederlandse limesforten en de vici /
+              (DARE). De datering van de Nederlandse limesforten en de posities van de vici /
               boerderijen komen uit eigen onderzoek en gaan vóór op DARE. Benaderde routes
               en twijfelachtige plekken zijn lichter weergegeven.
             </p>

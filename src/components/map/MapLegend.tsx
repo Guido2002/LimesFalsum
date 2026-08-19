@@ -68,7 +68,7 @@ export function MapLegend() {
             style={{ animationDelay: "210ms" }}
           >
             <img
-              src={`${import.meta.env.BASE_URL}farm-icon.png`}
+              src={`${import.meta.env.BASE_URL}vicus.png`}
               alt=""
               className="h-4 w-auto"
               aria-hidden

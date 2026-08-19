@@ -122,7 +122,7 @@ function overrideMatches(o: FortOverride, f: DareFort): boolean {
 }
 
 function overrideDescription(o: FortOverride): string {
-  const parts = ["Fort — positie en datering uit eigen onderzoek (limes-lijst)."];
+  const parts = ["Fort — datering uit eigen onderzoek (limes-lijst), ligging volgens DARE."];
   const dates = formatDareDates(o.startYear, o.endYear);
   if (dates) parts.push(`In gebruik: ${dates}.`);
   if (o.note) parts.push(`${o.note.charAt(0).toUpperCase()}${o.note.slice(1)}.`);
@@ -131,7 +131,12 @@ function overrideDescription(o: FortOverride): string {
 
 const FORT_OVERRIDES = FORT_OVERRIDES_JSON as FortOverride[];
 
-/** DARE forts, with the user's own fort positions swapped in by name/proximity. */
+/**
+ * DARE forts with the user's own USE PERIODS and notes swapped in (matched by
+ * name/proximity). Coordinates stay DARE's — the spreadsheet RD points are
+ * only used for matching, not as map positions. Overrides without a DARE
+ * counterpart are not added (their coordinates were dropped on purpose).
+ */
 function mergeForts(): RichSite[] {
   const matched = new Set<FortOverride>();
   const sites: RichSite[] = (DARE_FORTS_JSON as DareFort[]).map((f) => {
@@ -150,29 +155,21 @@ function mergeForts(): RichSite[] {
     }
     matched.add(o);
     return {
-      key: f.key, // keep the DARE key so links keep working
-      name: o.name,
+      key: f.key,
+      name: f.name,
       modern: f.modern,
-      coord: o.coord,
+      coord: f.coord, // DARE position kept
       secure: o.secure,
       description: overrideDescription(o),
       startYear: o.startYear,
       endYear: o.endYear,
     };
   });
-  // Overrides without a DARE counterpart are added as new sites.
-  for (const o of FORT_OVERRIDES) {
-    if (matched.has(o)) continue;
-    sites.push({
-      key: o.key,
-      name: o.name,
-      modern: "",
-      coord: o.coord,
-      secure: o.secure,
-      description: overrideDescription(o),
-      startYear: o.startYear,
-      endYear: o.endYear,
-    });
+  const dropped = FORT_OVERRIDES.filter((o) => !matched.has(o));
+  if (dropped.length) {
+    console.warn(
+      `[roman-roads] overrides without DARE match dropped: ${dropped.map((o) => o.name).join(", ")}`,
+    );
   }
   return sites;
 }

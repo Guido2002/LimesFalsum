@@ -88,7 +88,7 @@ export async function addRomanRoadLayers(map: maplibregl.Map): Promise<void> {
 
   // Farmsteads (user's own vici/stad list) get the hand-drawn farm icon.
   // Few points, so they may be visible from overview zoom — like the forts.
-  const farmIconReady = await loadSprite(map, FARM_ICON_ID, "farm-icon.png");
+  const farmIconReady = await loadSprite(map, FARM_ICON_ID, "vicus.png");
   if (farmIconReady) {
     map.addLayer({
       id: ROMAN_FARM_LAYER_ID,
@@ -96,11 +96,12 @@ export async function addRomanRoadLayers(map: maplibregl.Map): Promise<void> {
       source: ROMAN_FARMS_SOURCE_ID,
       layout: {
         "icon-image": FARM_ICON_ID,
-        "icon-size": ["interpolate", ["linear"], ["zoom"], 6, 0.06, 12, 0.13, 16, 0.2],
+        // Same scale as the fort icon so both read as equal-weight markers.
+        "icon-size": ["interpolate", ["linear"], ["zoom"], 6, 0.062, 12, 0.14, 16, 0.22],
         "icon-allow-overlap": true,
       },
       paint: {
-        "icon-opacity": ["interpolate", ["linear"], ["zoom"], 7, 0.4, 9, 0.9],
+        "icon-opacity": [ "interpolate", ["linear"], ["zoom"], 7, 0.4, 9, 0.9 ],
       },
     });
   } else {

@@ -52,21 +52,19 @@ export default function AboutPage({ onClose }: AboutPageProps) {
         </div>
         <div className="space-y-4 px-5 py-4 text-sm leading-relaxed text-roman-charcoal">
           <p>
-            Ergens langs de Rijn, bijna tweeduizend jaar geleden, liet iemand een munt vallen —
-            een soldaat bij het Limes-fort, een boer op weg naar de markt, misschien een
-            smokkelaar met een handvol vervalsingen. LimesFalsum brengt{" "}
-            {DATASET_SUMMARY.recordCount} van die verloren munten terug op de kaart: geplateerde
-            denarii, gevonden op {DATASET_SUMMARY.uniqueLocationCount} plekken in Nederland en
-            vastgelegd in het NUMIS-bestand (Nationaal Numismatisch Archief).
+            Ergens langs de Rijn liet iemand een munt vallen — een soldaat bij zijn fort, een
+            boer op weg naar de markt, misschien een smokkelaar met vervalsingen. LimesFalsum
+            brengt {DATASET_SUMMARY.recordCount} van die munten terug op de kaart: geplateerde
+            denarii uit het NUMIS-bestand (Nationaal Numismatisch Archief), gevonden op{" "}
+            {DATASET_SUMMARY.uniqueLocationCount} plekken in Nederland.
           </p>
           <section>
             <h3 className="mb-1 text-xs font-semibold uppercase tracking-wide text-roman-stone">
               Wat is een geplateerde denarius?
             </h3>
             <p>
-              Een munt met een hart van koper en een jasje van zilver. Officieel noodgeld in
-              tijden van schaarste, of stiekem nagemaakt toen niemand keek. Pas als de zilverlaag
-              wegslijt — of de munt breekt — verraadt hij zijn geheim. Vandaar de naam:
+              Een munt met een hart van koper en een jasje van zilver: noodgeld, of stiekem
+              nagemaakt. Pas als het zilver wegslijt verraadt hij zijn geheim. Vandaar de naam:
               LimesFalsum, de valse grens.
             </p>
           </section>
@@ -75,10 +73,17 @@ export default function AboutPage({ onClose }: AboutPageProps) {
               Romeinse wegen-overlay
             </h3>
             <p>
-              De wegen en forten komen uit de Digital Atlas of the Roman Empire (DARE,
-              imperium.ahlfeldt.se — J. Åhlfeldt, Universiteit Göteborg). Alleen de nauwkeurig
-              ingemeten, benoemde tracés worden getoond (roads_high); benaderde routes en
-              onzeker gelokaliseerde plekken zijn lichter weergegeven.
+              Wegen en forten komen uit de{" "}
+              <a
+                href="https://imperium.ahlfeldt.se"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-roman-red underline decoration-roman-stone/40 underline-offset-2 hover:decoration-roman-red"
+              >
+                Digital Atlas of the Roman Empire
+              </a>{" "}
+              (DARE). Alleen nauwkeurig ingemeten tracés worden getoond; benaderde routes en
+              twijfelachtige plekken zijn lichter weergegeven.
             </p>
           </section>
           <section>
@@ -86,11 +91,9 @@ export default function AboutPage({ onClose }: AboutPageProps) {
               Hoe zeker zijn de plekken?
             </h3>
             <p>
-              De getoonde locaties komen rechtstreeks uit de brondata (RD-coördinaten, EPSG:28992)
-              en kunnen onzekerheid bevatten. Meerdere munten delen vaak één gegeneraliseerde
-              archeologische coördinaat — zo&apos;n vindplaats wordt als één punt met een aantal
-              getoond. Records waarvan de coördinaat opvallend afwijkt worden gemarkeerd, nooit
-              stilzwijgend aangepast.
+              Vindplaatsen komen rechtstreeks uit de brondata en delen vaak één gegeneraliseerde
+              coördinaat. Opvallend afwijkende coördinaten worden gemarkeerd, nooit stiekem
+              aangepast.
             </p>
           </section>
           <section>
@@ -98,11 +101,8 @@ export default function AboutPage({ onClose }: AboutPageProps) {
               Toetsenbord en schermlezers
             </h3>
             <p>
-              De kaart is een canvas en biedt geen toetsenbordselectie van afzonderlijke
-              munten. Alle inhoud is volledig bereikbaar via de lijstweergave: schakel
-              rechtsboven naar &ldquo;Lijst&rdquo; en navigeer met Tab en Enter. Overlays
-              sluiten met Escape; de eerste Tab-toets toont een snelkoppeling naar de
-              hoofdinhoud.
+              De kaart is een canvas zonder toetsenbordselectie; alle inhoud is bereikbaar via de
+              lijstweergave. Overlays sluiten met Escape.
             </p>
           </section>
           <section>
@@ -110,9 +110,9 @@ export default function AboutPage({ onClose }: AboutPageProps) {
               Brondata en bewerking
             </h3>
             <p>
-              Elke munt toont naast genormaliseerde filterwaarden ook de ongewijzigde originele
-              NUMIS-velden via &ldquo;Bekijk originele NUMIS-gegevens&rdquo;. De datering loopt in
-              deze dataset van {DATASET_SUMMARY.dateMin} tot {DATASET_SUMMARY.dateMax} n.Chr.
+              Naast de filterwaarden toont elke munt de ongewijzigde NUMIS-velden via
+              &ldquo;Bekijk originele NUMIS-gegevens&rdquo;. Datering: {DATASET_SUMMARY.dateMin}–
+              {DATASET_SUMMARY.dateMax} n.Chr.
             </p>
           </section>
           <section>
@@ -120,11 +120,10 @@ export default function AboutPage({ onClose }: AboutPageProps) {
               Gemaakt door
             </h3>
             <p>
-              LimesFalsum is gemaakt door David van Duijvenvoorde — masterstudent en docent
-              geschiedenis aan het Visser &apos;t Hooft Lyceum in Leiden. De website is
-              ontwikkeld in samenwerking met{" "}
+              Gemaakt door David van Duijvenvoorde, masterstudent en docent geschiedenis aan het
+              Visser &apos;t Hooft Lyceum in Leiden, samen met{" "}
               <a
-                href="https://digitaleduif.nl"
+                href="https://digitale-duif.nl"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-roman-red underline decoration-roman-stone/40 underline-offset-2 hover:decoration-roman-red"

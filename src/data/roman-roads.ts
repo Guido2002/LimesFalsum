@@ -1,15 +1,19 @@
 /**
- * Roman forts of the Netherlands, imported from the user's spreadsheet
- * (romeinse_forten_nederland.xlsx) via scripts/import-forts.ts into
- * generated/roman-sites.json. This is the single source of truth — the old
- * hand-maintained SITES table is gone.
+ * Roman forts and roads of the lower-Rhine region, all from DARE — the
+ * Digital Atlas of the Roman Empire (https://imperium.ahlfeldt.se,
+ * J. Åhlfeldt, Univ. of Gothenburg), via the GeoJSON published at
+ * github.com/klokantech/roman-empire.
  *
- * The road network below is a schematic reconstruction connecting the known
- * Dutch limes forts along the Rhine/Waal and the coastal/Meuse positions.
- * Segments follow the general limes route, not surveyed archaeology.
+ * Forts — generated/dare-forts.json (scripts/import-dare.ts): the DARE
+ * places of type camp / coastal station / legionary fortress / fort /
+ * fortlet in the lower-Rhine region (lon 3.0–8.7, lat 50.5–53.8).
+ *
+ * Roads — generated/dare-roads.json: the precisely surveyed named routes
+ * (roads_high, Mercator-e a.o.).
  */
 
-import SITES_JSON from "./generated/roman-sites.json";
+import DARE_FORTS_JSON from "./generated/dare-forts.json";
+import DARE_ROADS_GEOJSON from "./generated/dare-roads.json";
 
 type LngLat = [number, number];
 
@@ -22,94 +26,73 @@ interface Site {
   description: string;
 }
 
-const SITES: Record<string, Site> = Object.fromEntries(
-  (SITES_JSON as Site[]).map((s) => [s.key, s]),
+interface DareLink {
+  label: string;
+  url: string;
+}
+
+interface DareFort extends Site {
+  /** Dutch label for the DARE place type (fort, legioensvesting, …). */
+  type: string;
+  dareId: string;
+  /** DARE date range (mindate/maxdate); 0/0 = unknown. */
+  startYear: number;
+  endYear: number;
+  links: DareLink[];
+}
+
+/** "-30..300" → "ca. 30 v.Chr. – 300 n.Chr."; 0/0 (unknown) → "". */
+function formatDareDates(start: number, end: number): string {
+  if (!start && !end) return "";
+  const fmt = (y: number) => (y < 0 ? `${Math.abs(y)} v.Chr.` : `${y} n.Chr.`);
+  if (start === end || !end) return fmt(start);
+  if (!start) return fmt(end);
+  return `ca. ${fmt(start)} – ${fmt(end)}`;
+}
+
+function dareDescription(f: DareFort): string {
+  const parts = [
+    `${f.type.charAt(0).toUpperCase()}${f.type.slice(1)} volgens de Digital Atlas ` +
+      `of the Roman Empire (DARE).`,
+  ];
+  const dates = formatDareDates(f.startYear, f.endYear);
+  if (dates) parts.push(`Datering: ${dates}.`);
+  if (!f.secure) parts.push("De ligging is een benadering.");
+  return parts.join(" ");
+}
+
+const SITES: Site[] = (DARE_FORTS_JSON as DareFort[]).map((f) => ({
+  key: f.key,
+  name: f.name,
+  modern: f.modern,
+  coord: f.coord,
+  secure: f.secure,
+  description: dareDescription(f),
+}));
+
+/** External references per fort key, for the site popup. */
+const LINKS_BY_KEY = new Map<string, DareLink[]>(
+  (DARE_FORTS_JSON as DareFort[]).map((f) => [f.key, f.links]),
 );
 
 /**
- * Schematic road topology over the imported forts. Each entry is one route as
- * an ordered chain of site keys. Routes only reference keys present in the
- * generated data; unknown keys are dropped with a console warning at build
- * time so a renamed fort never silently breaks a road.
+ * DARE road geometries. Properties per feature: `name` (string | null),
+ * `major` (1 = main/named route), `approximate` (1 = course not certainly
+ * known — rendered fainter).
  */
-const ROADS: string[][] = [
-  // Main limes road along the Rhine, west → east:
-  // Katwijk → Valkenburg → Leiden → Alphen → Zwammerdam → Woerden → De Meern →
-  // Utrecht → Vechten → Wijk bij Duurstede → Maurik → Kesteren → Randwijk →
-  // Driel → Arnhem-Meinerswijk → Duiven → Herwen
-  [
-    "lugdunum",
-    "praetorium-agrippinae",
-    "valkenburg-de-woerd-legioenskamp",
-    "matilo",
-    "albaniana",
-    "nigrum-pullum",
-    "laurium-laurum",
-    "fletio",
-    "traiectum",
-    "fectio",
-    "levefanum",
-    "mannaricium",
-    "carvo",
-    "randwijk",
-    "driel",
-    "levefanum-castra-herculis",
-    "duiven-loowaard",
-    "carvium",
-  ],
-  // Coastal / western positions
-  ["den-haag-ockenburgh", "naaldwijk"],
-  ["h-elinio", "naaldwijk"],
-  // Flevum (Velsen) — northern coastal fort, links toward the limes mouth
-  ["flevum", "lugdunum"],
-  // Waal corridor and Nijmegen hub
-  ["levefanum", "grinnes", "oppidum-batavorum-military-occupation"],
-  ["oppidum-batavorum-military-occupation", "noviomagus-military-camps-legio-x-castra", "nijmegen-kops-plateau"],
-  ["oppidum-batavorum-military-occupation", "ceuclum"],
-  // Maas / southern positions
-  ["ceuclum", "aardenburg"],
-  ["westenschouwen-roompot", "aardenburg"],
-  // Inland
-  ["levefanum-castra-herculis", "ermelo-ermelosche-heide"],
-];
-
-function resolveRoutes(): { route: Site[]; approximate: boolean }[] {
-  const out: { route: Site[]; approximate: boolean }[] = [];
-  for (const keys of ROADS) {
-    const route = keys
-      .map((k) => {
-        const s = SITES[k];
-        if (!s) console.warn(`[roman-roads] unknown site key dropped from a road: "${k}"`);
-        return s;
-      })
-      .filter((s): s is Site => Boolean(s));
-    if (route.length < 2) continue;
-    out.push({ route, approximate: route.some((s) => !s.secure) });
-  }
-  return out;
-}
-
-export const ROMAN_ROADS_GEOJSON: GeoJSON.FeatureCollection = {
-  type: "FeatureCollection",
-  features: resolveRoutes().map(({ route, approximate }) => ({
-    type: "Feature" as const,
-    properties: { approximate },
-    geometry: {
-      type: "LineString" as const,
-      coordinates: route.map((s) => s.coord),
-    },
-  })),
-};
+export const ROMAN_ROADS_GEOJSON: GeoJSON.FeatureCollection =
+  DARE_ROADS_GEOJSON as GeoJSON.FeatureCollection;
 
 export const ROMAN_SITES_GEOJSON: GeoJSON.FeatureCollection = {
   type: "FeatureCollection",
-  features: (SITES_JSON as Site[]).map((s) => ({
+  features: SITES.map((s) => ({
     type: "Feature" as const,
     properties: {
       name: s.name,
       modern: s.modern,
       secure: s.secure ? 1 : 0,
       description: s.description ?? "",
+      links: JSON.stringify(LINKS_BY_KEY.get(s.key) ?? []),
     },
     geometry: { type: "Point" as const, coordinates: s.coord },
   })),

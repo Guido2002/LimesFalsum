@@ -13,9 +13,10 @@ const ROMAN_LAYER_IDS = [ROMAN_ROAD_LAYER_ID, ROMAN_SITE_LAYER_ID, ROMAN_SITE_LA
 const FORT_ICON_ID = "fort-icon";
 
 /**
- * Schematic Roman road overlay. Add BEFORE the coin layers so the coin
- * markers always sit on top. Styled deliberately hand-drawn (dashed, muted)
- * to signal that this is a reconstruction, not measured geography.
+ * Roman roads and forts overlay (DARE data, see src/data/roman-roads.ts).
+ * Add BEFORE the coin layers so the coin markers always sit on top. Roads
+ * with `approximate` = 1 (course not certainly known) render fainter; main
+ * and named routes (`major` = 1) get a slightly heavier stroke.
  *
  * Async because the fort icon PNG has to be fetched before the site layer
  * can reference it — callers must await this to keep the draw order stable.
@@ -43,9 +44,18 @@ export async function addRomanRoadLayers(map: maplibregl.Map): Promise<void> {
     source: ROMAN_ROADS_SOURCE_ID,
     paint: {
       "line-color": "#8A2E25",
-      // Routes containing interpolated stations render fainter.
-      "line-opacity": ["case", ["get", "approximate"], 0.22, 0.42],
-      "line-width": ["interpolate", ["linear"], ["zoom"], 6, 0.8, 12, 1.8],
+      // Roads whose course is not certainly known render fainter.
+      "line-opacity": ["case", ["==", ["get", "approximate"], 1], 0.22, 0.42],
+      // Main and named routes get a slightly heavier stroke.
+      "line-width": [
+        "interpolate",
+        ["linear"],
+        ["zoom"],
+        6,
+        ["case", ["==", ["get", "major"], 1], 1.1, 0.7],
+        12,
+        ["case", ["==", ["get", "major"], 1], 2.2, 1.5],
+      ],
       "line-dasharray": [1.6, 1.8],
     },
   });
@@ -148,10 +158,21 @@ export function setRomanRoadsVisible(map: maplibregl.Map, visible: boolean): voi
 const UNCERTAIN_NOTE =
   "De exacte ligging van deze plek is onzeker of alleen vermoed; de markering is een benadering.";
 
+interface DareLink {
+  label: string;
+  url: string;
+}
+
+/** Escape user-injected data before it lands in popup HTML. */
+function escapeHtml(s: string): string {
+  return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+}
+
 /**
  * Clicking/tapping a fort icon opens a small popup with the site name, the
- * modern location and the dataset note. Call AFTER addRomanRoadLayers
- * has resolved so the site layer exists.
+ * modern location, the dataset note and the external references DARE lists
+ * for the place. Call AFTER addRomanRoadLayers has resolved so the site
+ * layer exists.
  */
 export function onSiteClick(map: maplibregl.Map): void {
   const popup = new maplibregl.Popup({
@@ -170,19 +191,35 @@ export function onSiteClick(map: maplibregl.Map): void {
       modern?: string;
       secure?: number;
       description?: string;
+      links?: string;
     };
     if (!props.name) return;
     const modernLine =
       props.modern && props.modern !== props.name
-        ? `<p class="limes-site-popup__modern">${props.modern}</p>`
+        ? `<p class="limes-site-popup__modern">${escapeHtml(props.modern)}</p>`
         : "";
     const body = props.description || (props.secure ? "" : UNCERTAIN_NOTE);
+    let links: DareLink[] = [];
+    try {
+      links = JSON.parse(props.links ?? "[]") as DareLink[];
+    } catch {
+      links = [];
+    }
+    const linksLine = links.length
+      ? `<p class="limes-site-popup__links">${links
+          .map(
+            (l) =>
+              `<a href="${escapeHtml(l.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(l.label)}</a>`,
+          )
+          .join(" · ")}</p>`
+      : "";
     popup
       .setLngLat(e.lngLat)
       .setHTML(
-        `<strong class="limes-site-popup__name">${props.name}</strong>` +
+        `<strong class="limes-site-popup__name">${escapeHtml(props.name)}</strong>` +
           modernLine +
-          (body ? `<p class="limes-site-popup__text">${body}</p>` : ""),
+          (body ? `<p class="limes-site-popup__text">${escapeHtml(body)}</p>` : "") +
+          linksLine,
       )
       .addTo(map);
   });

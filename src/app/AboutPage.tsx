@@ -75,11 +75,10 @@ export default function AboutPage({ onClose }: AboutPageProps) {
               Romeinse wegen-overlay
             </h3>
             <p>
-              Het wegennet op de kaart is een schematische reconstructie: rechte verbindingen
-              tussen bekende Romeinse plaatsen, gebaseerd op een gestileerde historische kaart.
-              Het echte wegverloop is slechts deels bekend, en een deel van de kleinere stations
-              heeft geen zeker gelokaliseerde moderne plek — die zijn benaderd en lichter
-              weergegeven.
+              De wegen en forten komen uit de Digital Atlas of the Roman Empire (DARE,
+              imperium.ahlfeldt.se — J. Åhlfeldt, Universiteit Göteborg). Alleen de nauwkeurig
+              ingemeten, benoemde tracés worden getoond (roads_high); benaderde routes en
+              onzeker gelokaliseerde plekken zijn lichter weergegeven.
             </p>
           </section>
           <section>

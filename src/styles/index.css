@@ -224,6 +224,14 @@ input[type="range"] {
   @apply mt-1 text-xs leading-snug text-roman-charcoal;
 }
 
+.limes-site-popup__links {
+  @apply mt-1.5 border-t border-roman-stone/15 pt-1.5 text-[11px] leading-relaxed text-roman-stone;
+}
+
+.limes-site-popup__links a {
+  @apply text-roman-red underline decoration-roman-stone/40 underline-offset-2 hover:decoration-roman-red;
+}
+
 /* Subtle meander/key motif used under the wordmark only. */
 .meander {
   background-image: repeating-linear-gradient(

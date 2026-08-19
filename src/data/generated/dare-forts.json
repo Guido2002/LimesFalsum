@@ -1,0 +1,2670 @@
+[
+  {
+    "key": "ad-duodecimum",
+    "name": "Ad Duodecimum",
+    "modern": "Wamel",
+    "coord": [
+      5.46715,
+      51.88111
+    ],
+    "secure": false,
+    "type": "kustversterking",
+    "dareId": "19966",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19966.html"
+      },
+      {
+        "label": "Wikipedia (nl)",
+        "url": "https://nl.wikipedia.org/wiki/Ad_Duodecimum"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q2683052"
+      }
+    ]
+  },
+  {
+    "key": "albaniana",
+    "name": "Albaniana",
+    "modern": "Alphen aan den Rijn",
+    "coord": [
+      4.6607,
+      52.12929
+    ],
+    "secure": true,
+    "type": "fort",
+    "dareId": "4458",
+    "startYear": -30,
+    "endYear": 300,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/4458.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/61"
+      },
+      {
+        "label": "Livius.org",
+        "url": "https://www.livius.org/articles/place/albaniana-alphen-aan-den-rijn/"
+      },
+      {
+        "label": "Wikipedia (nl)",
+        "url": "https://nl.wikipedia.org/wiki/Albaniana"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q2663417"
+      }
+    ]
+  },
+  {
+    "key": "anreppen",
+    "name": "Anreppen",
+    "modern": "Anreppen",
+    "coord": [
+      8.59306,
+      51.73778
+    ],
+    "secure": true,
+    "type": "fort",
+    "dareId": "18178",
+    "startYear": 4,
+    "endYear": 9,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/18178.html"
+      },
+      {
+        "label": "Livius.org",
+        "url": "https://www.livius.org/articles/place/anreppen/"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/R%C3%83%C2%B6merlager_Anreppen"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q2179584"
+      }
+    ]
+  },
+  {
+    "key": "asciburgium",
+    "name": "Asciburgium",
+    "modern": "Asberg",
+    "coord": [
+      6.67,
+      51.43167
+    ],
+    "secure": true,
+    "type": "fort",
+    "dareId": "2073",
+    "startYear": -30,
+    "endYear": 640,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/2073.html"
+      },
+      {
+        "label": "Livius.org",
+        "url": "https://www.livius.org/articles/place/asciburgium-moers-asberg/"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/Asciburgium"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q723019"
+      }
+    ]
+  },
+  {
+    "key": "asperden",
+    "name": "Asperden",
+    "modern": "Asperden",
+    "coord": [
+      6.09306,
+      51.71306
+    ],
+    "secure": true,
+    "type": "klein fort / wachttoren",
+    "dareId": "2082",
+    "startYear": 300,
+    "endYear": 640,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/2082.html"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q1016105"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/Burgus_Asperden"
+      }
+    ]
+  },
+  {
+    "key": "baarskamp",
+    "name": "Baarskamp",
+    "modern": "Baarskamp",
+    "coord": [
+      5.82083,
+      51.95944
+    ],
+    "secure": true,
+    "type": "fort",
+    "dareId": "2109",
+    "startYear": -30,
+    "endYear": 300,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/2109.html"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q1425716"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/Kastell_Overbetuwe-Driel"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/50"
+      },
+      {
+        "label": "Livius.org",
+        "url": "https://www.livius.org/articles/place/driel/"
+      }
+    ]
+  },
+  {
+    "key": "beckinghausen",
+    "name": "Beckinghausen",
+    "modern": "Beckinghausen",
+    "coord": [
+      7.5665,
+      51.61544
+    ],
+    "secure": true,
+    "type": "fort",
+    "dareId": "18020",
+    "startYear": -30,
+    "endYear": 300,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/18020.html"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/R%C3%83%C2%B6merlager_Beckinghausen"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q961886"
+      }
+    ]
+  },
+  {
+    "key": "bentumersiel",
+    "name": "Bentumersiel",
+    "modern": "Bentumersiel",
+    "coord": [
+      7.39123,
+      53.24632
+    ],
+    "secure": true,
+    "type": "fort",
+    "dareId": "18185",
+    "startYear": -30,
+    "endYear": 300,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/18185.html"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/Fundplatz_Bentumersiel"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q1610815"
+      }
+    ]
+  },
+  {
+    "key": "bergilers",
+    "name": "Bergilers",
+    "modern": "Bergilers",
+    "coord": [
+      5.32847,
+      50.71612
+    ],
+    "secure": false,
+    "type": "kustversterking",
+    "dareId": "2059",
+    "startYear": -30,
+    "endYear": 640,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/2059.html"
+      }
+    ]
+  },
+  {
+    "key": "bodegraven",
+    "name": "Bodegraven",
+    "modern": "Bodegraven",
+    "coord": [
+      4.74569,
+      52.08374
+    ],
+    "secure": true,
+    "type": "klein fort / wachttoren",
+    "dareId": "44114",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/44114.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/336"
+      }
+    ]
+  },
+  {
+    "key": "bonna",
+    "name": "Bonna",
+    "modern": "Bonn",
+    "coord": [
+      7.09938,
+      50.7448
+    ],
+    "secure": true,
+    "type": "legioensvesting",
+    "dareId": "527",
+    "startYear": -30,
+    "endYear": 640,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/527.html"
+      },
+      {
+        "label": "Livius.org",
+        "url": "https://www.livius.org/articles/place/bonna-bonn/"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/Vicus_bonnensis"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q1146198"
+      }
+    ]
+  },
+  {
+    "key": "buderich",
+    "name": "Büderich",
+    "modern": "Büderich",
+    "coord": [
+      6.58056,
+      51.63833
+    ],
+    "secure": true,
+    "type": "fort",
+    "dareId": "17816",
+    "startYear": -30,
+    "endYear": 300,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/17816.html"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/Kastell_Wesel-B%C3%83%C2%BCderich"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q1328492"
+      }
+    ]
+  },
+  {
+    "key": "burginatium",
+    "name": "Burginatium",
+    "modern": "Altkalkar",
+    "coord": [
+      6.31889,
+      51.71389
+    ],
+    "secure": true,
+    "type": "fort",
+    "dareId": "11070",
+    "startYear": -30,
+    "endYear": 640,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/11070.html"
+      },
+      {
+        "label": "Livius.org",
+        "url": "https://www.livius.org/articles/place/burginatium-alt-kalkar/"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/Burginatium"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q1015090"
+      }
+    ]
+  },
+  {
+    "key": "burungum",
+    "name": "Burungum?",
+    "modern": "Worringen",
+    "coord": [
+      6.86783,
+      51.06526
+    ],
+    "secure": false,
+    "type": "fort",
+    "dareId": "1948",
+    "startYear": -30,
+    "endYear": 300,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/1948.html"
+      },
+      {
+        "label": "Livius.org",
+        "url": "https://www.livius.org/articles/place/burungum-haus-burgel/"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/Haus_B%C3%83%C2%BCrgel"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q1360812"
+      }
+    ]
+  },
+  {
+    "key": "calo",
+    "name": "Calo?",
+    "modern": "Halen",
+    "coord": [
+      6.6785,
+      51.4749
+    ],
+    "secure": true,
+    "type": "fort",
+    "dareId": "18974",
+    "startYear": -30,
+    "endYear": 640,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/18974.html"
+      },
+      {
+        "label": "Livius.org",
+        "url": "https://www.livius.org/articles/place/calo/"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/Calo_(Kastell)"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q1027384"
+      }
+    ]
+  },
+  {
+    "key": "calo",
+    "name": "Calo?",
+    "modern": "Strommoers",
+    "coord": [
+      6.58254,
+      51.56911
+    ],
+    "secure": false,
+    "type": "fort",
+    "dareId": "19144",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19144.html"
+      },
+      {
+        "label": "Livius.org",
+        "url": "https://www.livius.org/articles/place/calo/"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q1027384"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/Calo_(Kastell)"
+      }
+    ]
+  },
+  {
+    "key": "carvium",
+    "name": "Carvium",
+    "modern": "Rijnwaarden-Herwen",
+    "coord": [
+      6.0875,
+      51.86861
+    ],
+    "secure": true,
+    "type": "fort",
+    "dareId": "2077",
+    "startYear": -30,
+    "endYear": 300,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/2077.html"
+      },
+      {
+        "label": "Livius.org",
+        "url": "https://www.livius.org/articles/place/carvium-herwen/"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/Carvium"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q1046167"
+      }
+    ]
+  },
+  {
+    "key": "carvo",
+    "name": "Carvo?",
+    "modern": "Kesteren",
+    "coord": [
+      5.56247,
+      51.93877
+    ],
+    "secure": true,
+    "type": "fort",
+    "dareId": "2114",
+    "startYear": -30,
+    "endYear": 300,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/2114.html"
+      },
+      {
+        "label": "Livius.org",
+        "url": "https://www.livius.org/articles/place/kesteren/"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/65"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/Carvo"
+      },
+      {
+        "label": "Wikipedia (nl)",
+        "url": "https://nl.wikipedia.org/wiki/Carvo"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q1046175"
+      }
+    ]
+  },
+  {
+    "key": "caspingio",
+    "name": "Caspingio",
+    "modern": "Asperen",
+    "coord": [
+      5.10667,
+      51.88139
+    ],
+    "secure": false,
+    "type": "kustversterking",
+    "dareId": "19962",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19962.html"
+      },
+      {
+        "label": "Wikipedia (nl)",
+        "url": "https://nl.wikipedia.org/wiki/Caspingium"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q2571170"
+      }
+    ]
+  },
+  {
+    "key": "castellum-divitia",
+    "name": "Castellum Divitia",
+    "modern": "Deutz",
+    "coord": [
+      6.96948,
+      50.93774
+    ],
+    "secure": true,
+    "type": "fort",
+    "dareId": "533",
+    "startYear": -30,
+    "endYear": 640,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/533.html"
+      },
+      {
+        "label": "Livius.org",
+        "url": "https://www.livius.org/articles/place/colonia-claudia-ara-agrippinensium-koln%2Fdeutz-divitia/"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/Kastell_Deutz"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q1735350"
+      }
+    ]
+  },
+  {
+    "key": "castra-herculis",
+    "name": "Castra Herculis?",
+    "modern": "Meinerswijk",
+    "coord": [
+      5.87394,
+      51.97219
+    ],
+    "secure": true,
+    "type": "fort",
+    "dareId": "14441",
+    "startYear": -30,
+    "endYear": 640,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/14441.html"
+      },
+      {
+        "label": "Livius.org",
+        "url": "https://www.livius.org/articles/place/levefanum-arnhem-meinerswijk/"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/66"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/Castra_Herculis"
+      },
+      {
+        "label": "Wikipedia (nl)",
+        "url": "https://nl.wikipedia.org/wiki/Castra_Herculis"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q515850"
+      }
+    ]
+  },
+  {
+    "key": "castra-vetera",
+    "name": "Castra Vetera",
+    "modern": "Birten",
+    "coord": [
+      6.46999,
+      51.64639
+    ],
+    "secure": true,
+    "type": "legioensvesting",
+    "dareId": "898",
+    "startYear": -30,
+    "endYear": 300,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/898.html"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q532466"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/Vetera"
+      },
+      {
+        "label": "Livius.org",
+        "url": "https://www.livius.org/articles/place/xanten/"
+      }
+    ]
+  },
+  {
+    "key": "ceuclum",
+    "name": "Ceuclum",
+    "modern": "Cuijk",
+    "coord": [
+      5.88267,
+      51.7296
+    ],
+    "secure": true,
+    "type": "fort",
+    "dareId": "2081",
+    "startYear": -30,
+    "endYear": 640,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/2081.html"
+      },
+      {
+        "label": "Livius.org",
+        "url": "https://www.livius.org/articles/place/ceuclum-cuijk/"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/347"
+      },
+      {
+        "label": "Wikipedia (nl)",
+        "url": "https://nl.wikipedia.org/wiki/Ceuclum"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q3414036"
+      }
+    ]
+  },
+  {
+    "key": "dorlar",
+    "name": "Dorlar",
+    "modern": "Dorlar",
+    "coord": [
+      8.56833,
+      50.585
+    ],
+    "secure": true,
+    "type": "fort",
+    "dareId": "3897",
+    "startYear": -30,
+    "endYear": 300,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/3897.html"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/R%C3%83%C2%B6merlager_Lahnau-Dorlar"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q2179593"
+      }
+    ]
+  },
+  {
+    "key": "duiven-loowaard",
+    "name": "Duiven-Loowaard",
+    "modern": "Duiven-Loowaard",
+    "coord": [
+      5.9875,
+      51.92083
+    ],
+    "secure": true,
+    "type": "fort",
+    "dareId": "18971",
+    "startYear": -30,
+    "endYear": 300,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/18971.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/67"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/Kastell_Duiven-Loowaard"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q1289967"
+      }
+    ]
+  },
+  {
+    "key": "durnomagus",
+    "name": "Durnomagus",
+    "modern": "Dormagen",
+    "coord": [
+      6.84056,
+      51.0925
+    ],
+    "secure": true,
+    "type": "fort",
+    "dareId": "2072",
+    "startYear": -30,
+    "endYear": 640,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/2072.html"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q1267419"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/Durnomagus"
+      },
+      {
+        "label": "Livius.org",
+        "url": "https://www.livius.org/articles/place/durnomagus-dormagen/"
+      }
+    ]
+  },
+  {
+    "key": "elst-t-spijk",
+    "name": "Elst-'t Spijk",
+    "modern": "Elst-'t Spijk",
+    "coord": [
+      5.46802,
+      51.9864
+    ],
+    "secure": true,
+    "type": "klein fort / wachttoren",
+    "dareId": "39120",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/39120.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/98"
+      }
+    ]
+  },
+  {
+    "key": "ermelosche-heide",
+    "name": "Ermelosche Heide",
+    "modern": "Ermelosche Heide",
+    "coord": [
+      5.69153,
+      52.28394
+    ],
+    "secure": true,
+    "type": "marskamp",
+    "dareId": "17811",
+    "startYear": -30,
+    "endYear": 300,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/17811.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/55"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/Marschlager_Ermelo"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q1902641"
+      }
+    ]
+  },
+  {
+    "key": "fectio",
+    "name": "Fectio",
+    "modern": "Vechten",
+    "coord": [
+      5.16186,
+      52.05774
+    ],
+    "secure": true,
+    "type": "fort",
+    "dareId": "1536",
+    "startYear": -30,
+    "endYear": 300,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/1536.html"
+      },
+      {
+        "label": "Livius.org",
+        "url": "https://www.livius.org/articles/place/fectio-vechten/"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/49"
+      },
+      {
+        "label": "Wikipedia (nl)",
+        "url": "https://nl.wikipedia.org/wiki/Fectio"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q2311719"
+      }
+    ]
+  },
+  {
+    "key": "feresne",
+    "name": "Feresne?",
+    "modern": "Dilsen-Stokkem",
+    "coord": [
+      5.7262,
+      51.0188
+    ],
+    "secure": true,
+    "type": "fort",
+    "dareId": "2085",
+    "startYear": 300,
+    "endYear": 640,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/2085.html"
+      },
+      {
+        "label": "Wikipedia (nl)",
+        "url": "https://nl.wikipedia.org/wiki/Feresne"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q1954014"
+      }
+    ]
+  },
+  {
+    "key": "flenio",
+    "name": "Flenio",
+    "modern": "Vlaardingen",
+    "coord": [
+      4.34265,
+      51.90797
+    ],
+    "secure": false,
+    "type": "kustversterking",
+    "dareId": "19964",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19964.html"
+      },
+      {
+        "label": "Wikipedia (nl)",
+        "url": "https://nl.wikipedia.org/wiki/Flenium"
+      }
+    ]
+  },
+  {
+    "key": "flevum",
+    "name": "Flevum",
+    "modern": "Velsen",
+    "coord": [
+      4.66829,
+      52.45207
+    ],
+    "secure": true,
+    "type": "fort",
+    "dareId": "2975",
+    "startYear": 14,
+    "endYear": 47,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/2975.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/57"
+      },
+      {
+        "label": "Wikipedia (nl)",
+        "url": "https://nl.wikipedia.org/wiki/Velsen"
+      },
+      {
+        "label": "Wikipedia (nl)",
+        "url": "https://nl.wikipedia.org/wiki/Flevum"
+      },
+      {
+        "label": "Livius.org",
+        "url": "https://www.livius.org/articles/place/flevum-velsen/"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q615397"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q9970"
+      }
+    ]
+  },
+  {
+    "key": "forsterei-villenhaus",
+    "name": "Försterei Villenhaus",
+    "modern": "Försterei Villenhaus",
+    "coord": [
+      6.8411,
+      50.8348
+    ],
+    "secure": true,
+    "type": "kustversterking",
+    "dareId": "13014",
+    "startYear": -30,
+    "endYear": 300,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/13014.html"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q21037319"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/Burgus_Villenhaus"
+      }
+    ]
+  },
+  {
+    "key": "gelduba",
+    "name": "Gelduba",
+    "modern": "Gellep-Stratum",
+    "coord": [
+      6.6825,
+      51.33319
+    ],
+    "secure": true,
+    "type": "fort",
+    "dareId": "2074",
+    "startYear": -30,
+    "endYear": 640,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/2074.html"
+      },
+      {
+        "label": "Livius.org",
+        "url": "https://www.livius.org/articles/place/gelduba-krefeld-gellep/"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/Gelduba"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q835315"
+      }
+    ]
+  },
+  {
+    "key": "goudsberg",
+    "name": "Goudsberg",
+    "modern": "Goudsberg",
+    "coord": [
+      5.85691,
+      50.86841
+    ],
+    "secure": true,
+    "type": "klein fort / wachttoren",
+    "dareId": "38882",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/38882.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/99"
+      },
+      {
+        "label": "Wikipedia (nl)",
+        "url": "https://nl.wikipedia.org/wiki/Wachtpost_Goudsberg"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q19921047"
+      }
+    ]
+  },
+  {
+    "key": "grimlinghausen",
+    "name": "Grimlinghausen",
+    "modern": "Grimlinghausen",
+    "coord": [
+      6.76654,
+      51.17509
+    ],
+    "secure": true,
+    "type": "klein fort / wachttoren",
+    "dareId": "17794",
+    "startYear": -30,
+    "endYear": 300,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/17794.html"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/Kleinkastell_am_Reckberg"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q1746901"
+      }
+    ]
+  },
+  {
+    "key": "grinnes",
+    "name": "Grinnes?",
+    "modern": "Rossum",
+    "coord": [
+      5.3497,
+      51.80162
+    ],
+    "secure": true,
+    "type": "fort",
+    "dareId": "2111",
+    "startYear": -30,
+    "endYear": 640,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/2111.html"
+      },
+      {
+        "label": "Livius.org",
+        "url": "https://www.livius.org/articles/place/grinnes-rossum/"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/320"
+      },
+      {
+        "label": "Wikipedia (nl)",
+        "url": "https://nl.wikipedia.org/wiki/Grinnes"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q2533914"
+      }
+    ]
+  },
+  {
+    "key": "haltern-am-see",
+    "name": "Haltern am See",
+    "modern": "Haltern am See",
+    "coord": [
+      7.17052,
+      51.73947
+    ],
+    "secure": true,
+    "type": "fort",
+    "dareId": "18019",
+    "startYear": -30,
+    "endYear": 300,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/18019.html"
+      },
+      {
+        "label": "Livius.org",
+        "url": "https://www.livius.org/articles/place/haltern/"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/R%C3%83%C2%B6merlager_Haltern"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q2179592"
+      }
+    ]
+  },
+  {
+    "key": "harenatium",
+    "name": "Harenatium",
+    "modern": "Rindern",
+    "coord": [
+      6.12833,
+      51.81333
+    ],
+    "secure": true,
+    "type": "fort",
+    "dareId": "2078",
+    "startYear": -30,
+    "endYear": 640,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/2078.html"
+      },
+      {
+        "label": "Livius.org",
+        "url": "https://www.livius.org/articles/place/arenacum-rindern/"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/Harenatium"
+      },
+      {
+        "label": "Wikipedia (fr)",
+        "url": "https://fr.wikipedia.org/wiki/Arenacum"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q1585258"
+      }
+    ]
+  },
+  {
+    "key": "haus-burgel",
+    "name": "Haus Bürgel",
+    "modern": "Haus Bürgel",
+    "coord": [
+      6.87272,
+      51.1294
+    ],
+    "secure": true,
+    "type": "fort",
+    "dareId": "17793",
+    "startYear": 300,
+    "endYear": 640,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/17793.html"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/Haus_B%C3%83%C2%BCrgel"
+      },
+      {
+        "label": "Livius.org",
+        "url": "https://www.livius.org/articles/place/burungum-haus-burgel/"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q1360812"
+      }
+    ]
+  },
+  {
+    "key": "heers",
+    "name": "Heers",
+    "modern": "Heers",
+    "coord": [
+      5.39249,
+      51.39476
+    ],
+    "secure": true,
+    "type": "klein fort / wachttoren",
+    "dareId": "38886",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/38886.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/92"
+      }
+    ]
+  },
+  {
+    "key": "heidenburg",
+    "name": "Heidenburg",
+    "modern": "Heidenburg",
+    "coord": [
+      6.72554,
+      50.94054
+    ],
+    "secure": true,
+    "type": "kustversterking",
+    "dareId": "18021",
+    "startYear": -30,
+    "endYear": 300,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/18021.html"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q21057251"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/Heidenburg_(R%C3%83%C2%B6mischer_Burgus)"
+      }
+    ]
+  },
+  {
+    "key": "helinio",
+    "name": "Helinio?",
+    "modern": "Oostvoorne",
+    "coord": [
+      4.10406,
+      51.91648
+    ],
+    "secure": true,
+    "type": "fort",
+    "dareId": "2103",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/2103.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/19216"
+      },
+      {
+        "label": "Livius.org",
+        "url": "https://www.livius.org/articles/place/oostvoorne/"
+      }
+    ]
+  },
+  {
+    "key": "heumensoord",
+    "name": "Heumensoord",
+    "modern": "Heumensoord",
+    "coord": [
+      5.8699,
+      51.79232
+    ],
+    "secure": true,
+    "type": "klein fort / wachttoren",
+    "dareId": "2086",
+    "startYear": 300,
+    "endYear": 640,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/2086.html"
+      },
+      {
+        "label": "Wikipedia (nl)",
+        "url": "https://nl.wikipedia.org/wiki/Wachtpost_Heumensoord"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/96"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q2217385"
+      }
+    ]
+  },
+  {
+    "key": "hochthurmenberg",
+    "name": "Hochthürmenberg",
+    "modern": "Hochthürmenberg",
+    "coord": [
+      6.9078,
+      50.5278
+    ],
+    "secure": true,
+    "type": "klein fort / wachttoren",
+    "dareId": "17788",
+    "startYear": -30,
+    "endYear": 640,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/17788.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/9914"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/Lanzerath"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q921485"
+      }
+    ]
+  },
+  {
+    "key": "holsterhausen",
+    "name": "Holsterhausen",
+    "modern": "Holsterhausen",
+    "coord": [
+      6.93528,
+      51.67389
+    ],
+    "secure": true,
+    "type": "fort",
+    "dareId": "18018",
+    "startYear": -11,
+    "endYear": 9,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/18018.html"
+      },
+      {
+        "label": "Livius.org",
+        "url": "https://www.livius.org/articles/place/holsterhausen/"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/R%C3%83%C2%B6merlager_Holsterhausen"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q2179589"
+      }
+    ]
+  },
+  {
+    "key": "huissen-hazebergh",
+    "name": "Huissen-Hazebergh",
+    "modern": "Huissen-Hazebergh",
+    "coord": [
+      5.94138,
+      51.93739
+    ],
+    "secure": false,
+    "type": "fort",
+    "dareId": "2110",
+    "startYear": -30,
+    "endYear": 640,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/2110.html"
+      }
+    ]
+  },
+  {
+    "key": "hunnerberg",
+    "name": "Hunnerberg",
+    "modern": "Hunnerberg",
+    "coord": [
+      5.88678,
+      51.84084
+    ],
+    "secure": true,
+    "type": "fort",
+    "dareId": "26452",
+    "startYear": -12,
+    "endYear": 70,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/26452.html"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q1309708"
+      },
+      {
+        "label": "Wikipedia (nl)",
+        "url": "https://nl.wikipedia.org/wiki/Ulpia_Noviomagus_Batavorum"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/69"
+      }
+    ]
+  },
+  {
+    "key": "kalkriese",
+    "name": "Kalkriese",
+    "modern": "Kalkriese",
+    "coord": [
+      8.12956,
+      52.40682
+    ],
+    "secure": true,
+    "type": "marskamp",
+    "dareId": "18181",
+    "startYear": -30,
+    "endYear": 300,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/18181.html"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/Varusschlacht"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/Fundregion_Kalkriese"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q474089"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q87779"
+      }
+    ]
+  },
+  {
+    "key": "kneblinghausen",
+    "name": "Kneblinghausen",
+    "modern": "Kneblinghausen",
+    "coord": [
+      8.50623,
+      51.49089
+    ],
+    "secure": true,
+    "type": "fort",
+    "dareId": "18179",
+    "startYear": -30,
+    "endYear": 300,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/18179.html"
+      },
+      {
+        "label": "Livius.org",
+        "url": "https://www.livius.org/articles/place/kneblinghausen/"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/R%C3%83%C2%B6merlager_Kneblinghausen"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q1335614"
+      }
+    ]
+  },
+  {
+    "key": "kooigembos",
+    "name": "Kooigembos",
+    "modern": "Kooigembos",
+    "coord": [
+      3.34713,
+      50.7451
+    ],
+    "secure": true,
+    "type": "marskamp",
+    "dareId": "39130",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/39130.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/10077"
+      }
+    ]
+  },
+  {
+    "key": "kops-plateau",
+    "name": "Kops Plateau",
+    "modern": "Kops Plateau",
+    "coord": [
+      5.89382,
+      51.83766
+    ],
+    "secure": true,
+    "type": "fort",
+    "dareId": "26453",
+    "startYear": 71,
+    "endYear": 125,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/26453.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/70"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q1309708"
+      },
+      {
+        "label": "Wikipedia (nl)",
+        "url": "https://nl.wikipedia.org/wiki/Ulpia_Noviomagus_Batavorum"
+      }
+    ]
+  },
+  {
+    "key": "kottenforst",
+    "name": "Kottenforst",
+    "modern": "Kottenforst",
+    "coord": [
+      7.09026,
+      50.66581
+    ],
+    "secure": true,
+    "type": "marskamp",
+    "dareId": "40722",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/40722.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/14210"
+      }
+    ]
+  },
+  {
+    "key": "laurum",
+    "name": "Laurum",
+    "modern": "Woerden",
+    "coord": [
+      4.88267,
+      52.08566
+    ],
+    "secure": true,
+    "type": "fort",
+    "dareId": "2105",
+    "startYear": -30,
+    "endYear": 300,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/2105.html"
+      },
+      {
+        "label": "Livius.org",
+        "url": "https://www.livius.org/articles/place/laurum-woerden/"
+      },
+      {
+        "label": "Wikipedia (nl)",
+        "url": "https://nl.wikipedia.org/wiki/Laurium_(castellum)"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q2089258"
+      }
+    ]
+  },
+  {
+    "key": "levefanum",
+    "name": "Levefanum?",
+    "modern": "Rijswijk",
+    "coord": [
+      5.36141,
+      51.96759
+    ],
+    "secure": true,
+    "type": "fort",
+    "dareId": "4456",
+    "startYear": -30,
+    "endYear": 300,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/4456.html"
+      },
+      {
+        "label": "Livius.org",
+        "url": "https://www.livius.org/articles/place/rijswijk-gld/"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/63"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/Levefanum"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q1309559"
+      }
+    ]
+  },
+  {
+    "key": "lottum",
+    "name": "Lottum",
+    "modern": "Lottum",
+    "coord": [
+      6.17159,
+      51.45964
+    ],
+    "secure": true,
+    "type": "fort",
+    "dareId": "2096",
+    "startYear": 300,
+    "endYear": 640,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/2096.html"
+      }
+    ]
+  },
+  {
+    "key": "lugdunum",
+    "name": "Lugdunum",
+    "modern": "Brittenburg",
+    "coord": [
+      4.3948,
+      52.22565
+    ],
+    "secure": true,
+    "type": "fort",
+    "dareId": "4460",
+    "startYear": -30,
+    "endYear": 300,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/4460.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/58"
+      },
+      {
+        "label": "Wikipedia (nl)",
+        "url": "https://nl.wikipedia.org/wiki/Lugdunum_Batavorum"
+      },
+      {
+        "label": "Wikipedia (nl)",
+        "url": "https://nl.wikipedia.org/wiki/Brittenburg"
+      },
+      {
+        "label": "Livius.org",
+        "url": "https://www.livius.org/articles/place/lugdunum-katwijk/"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q921048"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q3266338"
+      }
+    ]
+  },
+  {
+    "key": "maldegem-vake",
+    "name": "Maldegem-Vake",
+    "modern": "Maldegem-Vake",
+    "coord": [
+      3.42522,
+      51.22234
+    ],
+    "secure": true,
+    "type": "klein fort / wachttoren",
+    "dareId": "18980",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/18980.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/10076"
+      },
+      {
+        "label": "Livius.org",
+        "url": "https://www.livius.org/articles/place/maldegem/"
+      }
+    ]
+  },
+  {
+    "key": "mannaricium",
+    "name": "Mannaricium",
+    "modern": "Maurik",
+    "coord": [
+      5.42278,
+      51.97028
+    ],
+    "secure": true,
+    "type": "fort",
+    "dareId": "2107",
+    "startYear": -30,
+    "endYear": 300,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/2107.html"
+      },
+      {
+        "label": "Livius.org",
+        "url": "https://www.livius.org/articles/place/mannaricum-maurik/"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/64"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/Mannaricium"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q1309550"
+      }
+    ]
+  },
+  {
+    "key": "marienburg",
+    "name": "Marienburg",
+    "modern": "Marienburg",
+    "coord": [
+      6.97944,
+      50.90417
+    ],
+    "secure": true,
+    "type": "fort",
+    "dareId": "2197",
+    "startYear": -30,
+    "endYear": 640,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/2197.html"
+      },
+      {
+        "label": "Livius.org",
+        "url": "https://www.livius.org/articles/place/colonia-claudia-ara-agrippinensium-koln%2Fkoln-alteburg/"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/Flottenkastell_Alteburg"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q1430260"
+      }
+    ]
+  },
+  {
+    "key": "matilo",
+    "name": "Matilo",
+    "modern": "Roomburg",
+    "coord": [
+      4.51872,
+      52.15017
+    ],
+    "secure": true,
+    "type": "fort",
+    "dareId": "14362",
+    "startYear": -30,
+    "endYear": 300,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/14362.html"
+      },
+      {
+        "label": "Livius.org",
+        "url": "https://www.livius.org/articles/place/matilo-leiden-roomburg/"
+      },
+      {
+        "label": "Wikipedia (nl)",
+        "url": "https://nl.wikipedia.org/wiki/Matilo"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q1863008"
+      }
+    ]
+  },
+  {
+    "key": "minerica",
+    "name": "Minerica",
+    "modern": "Gemünd",
+    "coord": [
+      6.5001,
+      50.57172
+    ],
+    "secure": false,
+    "type": "kustversterking",
+    "dareId": "14458",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/14458.html"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q19295513"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/M()nerica"
+      }
+    ]
+  },
+  {
+    "key": "naaldwijk",
+    "name": "Naaldwijk",
+    "modern": "Naaldwijk",
+    "coord": [
+      4.20518,
+      51.98581
+    ],
+    "secure": true,
+    "type": "fort",
+    "dareId": "13019",
+    "startYear": -30,
+    "endYear": 300,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/13019.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/75"
+      }
+    ]
+  },
+  {
+    "key": "nigrum-pullum",
+    "name": "Nigrum Pullum",
+    "modern": "Zwammerdam",
+    "coord": [
+      4.71598,
+      52.10508
+    ],
+    "secure": true,
+    "type": "fort",
+    "dareId": "4457",
+    "startYear": -30,
+    "endYear": 300,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/4457.html"
+      },
+      {
+        "label": "Livius.org",
+        "url": "https://www.livius.org/articles/place/nigrum-pullum-zwammerdam/"
+      },
+      {
+        "label": "Wikipedia (nl)",
+        "url": "https://nl.wikipedia.org/wiki/Nigrum_Pullum"
+      },
+      {
+        "label": "Wikipedia (fr)",
+        "url": "https://fr.wikipedia.org/wiki/Nigrum_Pullum"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q3341443"
+      }
+    ]
+  },
+  {
+    "key": "novaesium",
+    "name": "Novaesium",
+    "modern": "Neuss",
+    "coord": [
+      6.72194,
+      51.18389
+    ],
+    "secure": true,
+    "type": "legioensvesting",
+    "dareId": "532",
+    "startYear": -30,
+    "endYear": 640,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/532.html"
+      },
+      {
+        "label": "Livius.org",
+        "url": "https://www.livius.org/articles/place/novaesium-neuss/"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/Novaesium"
+      },
+      {
+        "label": "Wikipedia (fr)",
+        "url": "https://fr.wikipedia.org/wiki/Novaesium"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q318196"
+      }
+    ]
+  },
+  {
+    "key": "oberaden",
+    "name": "Oberaden",
+    "modern": "Oberaden",
+    "coord": [
+      7.58444,
+      51.6125
+    ],
+    "secure": true,
+    "type": "fort",
+    "dareId": "17003",
+    "startYear": -30,
+    "endYear": 300,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/17003.html"
+      },
+      {
+        "label": "Livius.org",
+        "url": "https://www.livius.org/articles/place/oberaden/"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/R%C3%83%C2%B6merlager_Oberaden"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q577724"
+      }
+    ]
+  },
+  {
+    "key": "ockenburgh",
+    "name": "Ockenburgh",
+    "modern": "Ockenburgh",
+    "coord": [
+      4.20999,
+      52.05648
+    ],
+    "secure": true,
+    "type": "klein fort / wachttoren",
+    "dareId": "39126",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/39126.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/73"
+      },
+      {
+        "label": "Wikipedia (nl)",
+        "url": "https://nl.wikipedia.org/wiki/Vicus_van_Ockenburgh"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q2184439"
+      }
+    ]
+  },
+  {
+    "key": "olfen",
+    "name": "Olfen",
+    "modern": "Olfen",
+    "coord": [
+      7.35667,
+      51.68694
+    ],
+    "secure": true,
+    "type": "fort",
+    "dareId": "18683",
+    "startYear": -30,
+    "endYear": 300,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/18683.html"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/R%C3%83%C2%B6merlager_Olfen"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q1418415"
+      }
+    ]
+  },
+  {
+    "key": "oude-wereld",
+    "name": "Oude Wereld",
+    "modern": "Oude Wereld",
+    "coord": [
+      3.94135,
+      51.84935
+    ],
+    "secure": false,
+    "type": "fort",
+    "dareId": "44624",
+    "startYear": -30,
+    "endYear": 640,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/44624.html"
+      },
+      {
+        "label": "Livius.org",
+        "url": "https://www.livius.org/articles/place/goedereede/"
+      }
+    ]
+  },
+  {
+    "key": "oudenburg",
+    "name": "Oudenburg",
+    "modern": "Oudenburg",
+    "coord": [
+      3.00687,
+      51.18548
+    ],
+    "secure": true,
+    "type": "fort",
+    "dareId": "2100",
+    "startYear": 300,
+    "endYear": 640,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/2100.html"
+      }
+    ]
+  },
+  {
+    "key": "outrelouxhe",
+    "name": "Outrelouxhe",
+    "modern": "Outrelouxhe",
+    "coord": [
+      5.32624,
+      50.50169
+    ],
+    "secure": true,
+    "type": "kustversterking",
+    "dareId": "44627",
+    "startYear": -30,
+    "endYear": 300,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/44627.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/13439"
+      }
+    ]
+  },
+  {
+    "key": "praetorium-agrippinae",
+    "name": "Praetorium Agrippinae",
+    "modern": "Valkenburg",
+    "coord": [
+      4.4336,
+      52.17999
+    ],
+    "secure": true,
+    "type": "legioensvesting",
+    "dareId": "2104",
+    "startYear": 39,
+    "endYear": 640,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/2104.html"
+      },
+      {
+        "label": "Livius.org",
+        "url": "https://www.livius.org/articles/place/praetorium-agrippinae-valkenburg-zh/"
+      },
+      {
+        "label": "Wikipedia (nl)",
+        "url": "https://nl.wikipedia.org/wiki/Praetorium_Agrippinae"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q584285"
+      }
+    ]
+  },
+  {
+    "key": "quadriburgium",
+    "name": "Quadriburgium",
+    "modern": "Qualburg",
+    "coord": [
+      6.17889,
+      51.77778
+    ],
+    "secure": true,
+    "type": "fort",
+    "dareId": "2075",
+    "startYear": -30,
+    "endYear": 640,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/2075.html"
+      },
+      {
+        "label": "Livius.org",
+        "url": "https://www.livius.org/articles/place/quadriburgium-qualburg/"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/Quadriburgium"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q2121883"
+      }
+    ]
+  },
+  {
+    "key": "randwijk",
+    "name": "Randwijk",
+    "modern": "Randwijk",
+    "coord": [
+      5.71044,
+      51.95442
+    ],
+    "secure": true,
+    "type": "fort",
+    "dareId": "17797",
+    "startYear": -30,
+    "endYear": 300,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/17797.html"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q1564424"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/Kastell_Overbetuwe-Randwijk"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/71"
+      },
+      {
+        "label": "Livius.org",
+        "url": "https://www.livius.org/articles/place/randwijk/"
+      }
+    ]
+  },
+  {
+    "key": "rheinberg",
+    "name": "Rheinberg",
+    "modern": "Rheinberg",
+    "coord": [
+      6.60462,
+      51.54359
+    ],
+    "secure": false,
+    "type": "kustversterking",
+    "dareId": "2079",
+    "startYear": -30,
+    "endYear": 640,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/2079.html"
+      }
+    ]
+  },
+  {
+    "key": "roompot",
+    "name": "Roompot",
+    "modern": "Roompot",
+    "coord": [
+      3.59888,
+      51.59328
+    ],
+    "secure": true,
+    "type": "fort",
+    "dareId": "18981",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/18981.html"
+      },
+      {
+        "label": "Livius.org",
+        "url": "https://www.livius.org/articles/place/roompot/"
+      }
+    ]
+  },
+  {
+    "key": "sauveniere",
+    "name": "Sauvenière",
+    "modern": "Sauvenière",
+    "coord": [
+      4.7241,
+      50.5812
+    ],
+    "secure": false,
+    "type": "kustversterking",
+    "dareId": "11323",
+    "startYear": -30,
+    "endYear": 300,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/11323.html"
+      }
+    ]
+  },
+  {
+    "key": "scheveningseweg",
+    "name": "Scheveningseweg",
+    "modern": "Scheveningseweg",
+    "coord": [
+      4.2796,
+      52.09607
+    ],
+    "secure": true,
+    "type": "klein fort / wachttoren",
+    "dareId": "39125",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/39125.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/74"
+      },
+      {
+        "label": "Wikipedia (nl)",
+        "url": "https://nl.wikipedia.org/wiki/Scheveningseweg"
+      }
+    ]
+  },
+  {
+    "key": "schneeberg",
+    "name": "Schneeberg",
+    "modern": "Schneeberg",
+    "coord": [
+      6.02188,
+      50.78483
+    ],
+    "secure": true,
+    "type": "klein fort / wachttoren",
+    "dareId": "44111",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/44111.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/17411"
+      }
+    ]
+  },
+  {
+    "key": "sonsbeck",
+    "name": "Sonsbeck",
+    "modern": "Sonsbeck",
+    "coord": [
+      6.37766,
+      51.61619
+    ],
+    "secure": true,
+    "type": "klein fort / wachttoren",
+    "dareId": "44113",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/44113.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/16340"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/Sonsbeck"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q163100"
+      }
+    ]
+  },
+  {
+    "key": "sparrenberger-egge",
+    "name": "Sparrenberger Egge",
+    "modern": "Sparrenberger Egge",
+    "coord": [
+      8.54523,
+      52.00348
+    ],
+    "secure": true,
+    "type": "klein fort / wachttoren",
+    "dareId": "26353",
+    "startYear": -30,
+    "endYear": 300,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/26353.html"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/R%C3%83%C2%B6mische_Kreisgrabenanlage_auf_der_Sparrenberger_Egge"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q2202457"
+      }
+    ]
+  },
+  {
+    "key": "steincheshof",
+    "name": "Steincheshof",
+    "modern": "Steincheshof",
+    "coord": [
+      6.23444,
+      51.75917
+    ],
+    "secure": true,
+    "type": "fort",
+    "dareId": "18972",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/18972.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/8534"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/Kastell_Steincheshof"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q1644621"
+      }
+    ]
+  },
+  {
+    "key": "tablis",
+    "name": "Tablis",
+    "modern": "Oud-Alblas",
+    "coord": [
+      4.70431,
+      51.85851
+    ],
+    "secure": false,
+    "type": "kustversterking",
+    "dareId": "19963",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19963.html"
+      },
+      {
+        "label": "Wikipedia (nl)",
+        "url": "https://nl.wikipedia.org/wiki/Tablis"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q2619532"
+      }
+    ]
+  },
+  {
+    "key": "taviers",
+    "name": "Taviers",
+    "modern": "Taviers",
+    "coord": [
+      4.91405,
+      50.62429
+    ],
+    "secure": true,
+    "type": "klein fort / wachttoren",
+    "dareId": "44112",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/44112.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/18040"
+      },
+      {
+        "label": "Wikipedia (fr)",
+        "url": "https://fr.wikipedia.org/wiki/Taviers"
+      }
+    ]
+  },
+  {
+    "key": "traiectum",
+    "name": "Traiectum",
+    "modern": "Utrecht",
+    "coord": [
+      5.1216,
+      52.0907
+    ],
+    "secure": true,
+    "type": "fort",
+    "dareId": "38",
+    "startYear": -30,
+    "endYear": 640,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/38.html"
+      },
+      {
+        "label": "Livius.org",
+        "url": "https://www.livius.org/articles/place/traiectum-utrecht/"
+      },
+      {
+        "label": "Wikipedia (nl)",
+        "url": "https://nl.wikipedia.org/wiki/Traiectum_(Utrecht)"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q2199749"
+      }
+    ]
+  },
+  {
+    "key": "vleuten-de-meern",
+    "name": "Vleuten-De Meern",
+    "modern": "Vleuten-De Meern",
+    "coord": [
+      5.04129,
+      52.0867
+    ],
+    "secure": true,
+    "type": "fort",
+    "dareId": "2106",
+    "startYear": -30,
+    "endYear": 300,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/2106.html"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q984079"
+      },
+      {
+        "label": "Livius.org",
+        "url": "https://www.livius.org/articles/place/utrecht-leidsche-rijn/"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/54"
+      },
+      {
+        "label": "Wikipedia (nl)",
+        "url": "https://nl.wikipedia.org/wiki/Fletio"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q2072212"
+      }
+    ]
+  },
+  {
+    "key": "werthausen",
+    "name": "Werthausen",
+    "modern": "Werthausen",
+    "coord": [
+      6.71111,
+      51.42222
+    ],
+    "secure": true,
+    "type": "klein fort / wachttoren",
+    "dareId": "18975",
+    "startYear": -30,
+    "endYear": 300,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/18975.html"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/Kleinkastell_Werthausen"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q1746897"
+      }
+    ]
+  },
+  {
+    "key": "wesseling",
+    "name": "Wesseling",
+    "modern": "Wesseling",
+    "coord": [
+      6.99924,
+      50.82021
+    ],
+    "secure": true,
+    "type": "fort",
+    "dareId": "2196",
+    "startYear": -30,
+    "endYear": 300,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/2196.html"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/R%C3%83%C2%B6merlager_Wesseling"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q1798803"
+      }
+    ]
+  }
+]

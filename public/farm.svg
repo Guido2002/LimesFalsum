@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 288 288">
+  <!-- Hand-drawn farmstead: gabled farmhouse with a smaller barn, in the
+       same brush style and colours as fort.png. -->
+  <g fill="none" stroke="#6B4E24" stroke-linecap="round" stroke-linejoin="round">
+    <!-- main house -->
+    <path d="M40 200 L40 128 L104 74 L168 128 L168 200 Z" stroke-width="13"/>
+    <!-- door -->
+    <path d="M92 200 L92 150 L116 150 L116 200" stroke-width="10"/>
+    <!-- barn -->
+    <path d="M178 200 L178 152 L226 116 L266 152 L266 200" stroke-width="12"/>
+    <path d="M178 200 L266 200" stroke-width="12"/>
+    <!-- ground line -->
+    <path d="M22 204 L276 204" stroke-width="10" opacity="0.55"/>
+    <!-- smoke wisp -->
+    <path d="M138 60 q10 -14 0 -26 q-10 -12 2 -24" stroke-width="8" opacity="0.5"/>
+  </g>
+</svg>

@@ -73,7 +73,8 @@ export default function AboutPage({ onClose }: AboutPageProps) {
               Romeinse wegen-overlay
             </h3>
             <p>
-              Wegen en forten komen uit de{" "}
+              Wegen, forten en civiele vindplaatsen (villa&apos;s, tempels, mijlpalen) komen
+              uit de{" "}
               <a
                 href="https://imperium.ahlfeldt.se"
                 target="_blank"
@@ -82,8 +83,9 @@ export default function AboutPage({ onClose }: AboutPageProps) {
               >
                 Digital Atlas of the Roman Empire
               </a>{" "}
-              (DARE). Alleen nauwkeurig ingemeten tracés worden getoond; benaderde routes en
-              twijfelachtige plekken zijn lichter weergegeven.
+              (DARE). De posities en dateringen van de Nederlandse limesforten en de vici /
+              boerderijen komen uit eigen onderzoek en gaan vóór op DARE. Benaderde routes
+              en twijfelachtige plekken zijn lichter weergegeven.
             </p>
           </section>
           <section>

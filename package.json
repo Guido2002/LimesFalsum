@@ -10,6 +10,7 @@
     "preview": "vite preview",
     "data:build": "tsx scripts/import-numis.ts",
     "data:dare": "tsx scripts/import-dare.ts",
+    "data:overrides": "tsx scripts/import-overrides.ts",
     "test": "vitest run",
     "test:watch": "vitest"
   },

@@ -1,14 +1,22 @@
 import { useEffect, useRef } from "react";
 import maplibregl from "maplibre-gl";
 import type { CoinRecord, LocationGroup } from "../../domain/coin";
+import type { FilterState } from "../../domain/filters";
 import { addCoinLayers, COIN_SOURCE_ID, onMapClick, SELECTED_LAYER_ID } from "./CoinLayers";
-import { addRomanRoadLayers, onSiteClick, setRomanRoadsVisible } from "./RomanRoadLayers";
+import {
+  addRomanRoadLayers,
+  onSiteClick,
+  setRomanRoadsVisible,
+  setRomanSitesFilter,
+} from "./RomanRoadLayers";
 
 interface CoinsMapProps {
   /** One GeoJSON feature per exact location (already grouped) */
   groups: LocationGroup[];
   selectedCoinId?: number;
   selectedLocationKey?: string;
+  /** Active filter state — forts follow date/search/place/character filters. */
+  filters: FilterState;
   onSelectLocation: (locationKey: string) => void;
   onSelectCoin: (numisId: number) => void;
 }
@@ -24,6 +32,7 @@ export function CoinsMap({
   groups,
   selectedCoinId,
   selectedLocationKey,
+  filters,
   onSelectLocation,
   onSelectCoin,
 }: CoinsMapProps) {
@@ -147,6 +156,21 @@ export function CoinsMap({
     window.addEventListener("limes:toggle-roads", handler);
     return () => window.removeEventListener("limes:toggle-roads", handler);
   }, []);
+
+  // Forts follow the coin filters: date window, free-text search, proximity
+  // to remaining findspots (when a place filter is active) and find character.
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map || !loadedRef.current) return;
+    setRomanSitesFilter(map, {
+      dateFrom: filters.dateFrom,
+      dateTo: filters.dateTo,
+      search: filters.search,
+      groups,
+      geoFilterActive: filters.provinces.length > 0 || filters.municipalities.length > 0,
+      findCharacters: filters.findCharacters,
+    });
+  }, [filters, groups]);
 
   // Gentle ripple on the selected-location halo. Driven by rAF against paint
   // properties (no DOM markers); skipped entirely under reduced motion.

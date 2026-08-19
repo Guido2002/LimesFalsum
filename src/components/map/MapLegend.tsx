@@ -63,6 +63,28 @@ export function MapLegend() {
             />
             Romeins fort of nederzetting (klik voor info)
           </li>
+          <li
+            className="flex items-center gap-2 motion-safe:animate-[limes-item-in_180ms_ease-out_both]"
+            style={{ animationDelay: "210ms" }}
+          >
+            <img
+              src={`${import.meta.env.BASE_URL}farm-icon.png`}
+              alt=""
+              className="h-4 w-auto"
+              aria-hidden
+            />
+            vicus / boerderij (klik voor info)
+          </li>
+          <li
+            className="flex items-center gap-2 motion-safe:animate-[limes-item-in_180ms_ease-out_both]"
+            style={{ animationDelay: "240ms" }}
+          >
+            <span
+              className="inline-block h-2 w-2 rotate-45 rounded-[2px] border border-roman-paper bg-[#8C7A5B]"
+              aria-hidden
+            />
+            villa, tempel of ander gebouw (zoom in)
+          </li>
         </ul>
       )}
     </div>

@@ -1,0 +1,170 @@
+[
+  {
+    "key": "lugdunum-batavorum",
+    "name": "Lugdunum Batavorum",
+    "coord": [
+      4.40067,
+      52.21263
+    ],
+    "secure": true,
+    "note": "",
+    "startYear": 71,
+    "endYear": 270
+  },
+  {
+    "key": "praetorium-agrippinae",
+    "name": "Praetorium Agrippinae",
+    "coord": [
+      4.43588,
+      52.1807
+    ],
+    "secure": true,
+    "note": "",
+    "startYear": 71,
+    "endYear": 400
+  },
+  {
+    "key": "matilo",
+    "name": "Matilo",
+    "coord": [
+      4.52068,
+      52.15032
+    ],
+    "secure": true,
+    "note": "",
+    "startYear": 71,
+    "endYear": 275
+  },
+  {
+    "key": "albanianae",
+    "name": "Albanianae",
+    "coord": [
+      4.66367,
+      52.12977
+    ],
+    "secure": true,
+    "note": "",
+    "startYear": 71,
+    "endYear": 270
+  },
+  {
+    "key": "nigrum-pullum",
+    "name": "Nigrum Pullum",
+    "coord": [
+      4.71811,
+      52.1056
+    ],
+    "secure": true,
+    "note": "",
+    "startYear": 80,
+    "endYear": 275
+  },
+  {
+    "key": "bodegraven",
+    "name": "Bodegraven",
+    "coord": [
+      4.7489,
+      52.08402
+    ],
+    "secure": false,
+    "note": "?",
+    "startYear": 71,
+    "endYear": 275
+  },
+  {
+    "key": "laurium",
+    "name": "Laurium",
+    "coord": [
+      4.88623,
+      52.08667
+    ],
+    "secure": true,
+    "note": "",
+    "startYear": 71,
+    "endYear": 275
+  },
+  {
+    "key": "traiectum",
+    "name": "Traiectum",
+    "coord": [
+      5.12396,
+      52.09138
+    ],
+    "secure": true,
+    "note": "",
+    "startYear": 71,
+    "endYear": 270
+  },
+  {
+    "key": "fectio",
+    "name": "Fectio",
+    "coord": [
+      5.16418,
+      52.05842
+    ],
+    "secure": true,
+    "note": "",
+    "startYear": 71,
+    "endYear": 275
+  },
+  {
+    "key": "levefanum",
+    "name": "Levefanum",
+    "coord": [
+      5.35507,
+      51.96311
+    ],
+    "secure": false,
+    "note": "locatie niet geheel duidelijk",
+    "startYear": 70,
+    "endYear": 260
+  },
+  {
+    "key": "carvo",
+    "name": "Carvo",
+    "coord": [
+      5.56483,
+      51.93056
+    ],
+    "secure": false,
+    "note": "locatie niet geheel duidelijk",
+    "startYear": 70,
+    "endYear": 275
+  },
+  {
+    "key": "flavische-legioensplaats",
+    "name": "Flavische legioensplaats",
+    "coord": [
+      5.88744,
+      51.84112
+    ],
+    "secure": true,
+    "note": "",
+    "startYear": 70,
+    "endYear": 175
+  },
+  {
+    "key": "castellum-meinerwijk",
+    "name": "Castellum Meinerwijk",
+    "coord": [
+      5.8763,
+      51.97281
+    ],
+    "secure": true,
+    "note": "",
+    "startYear": 70,
+    "endYear": 260
+  },
+  {
+    "key": "klein-castellum-valkenburg",
+    "name": "Klein Castellum Valkenburg",
+    "coord": [
+      4.43923,
+      52.17505
+    ],
+    "secure": true,
+    "note": "",
+    "startYear": 70,
+    "endYear": 110
+  }
+]

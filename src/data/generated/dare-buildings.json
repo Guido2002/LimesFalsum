@@ -1,0 +1,8794 @@
+[
+  {
+    "key": "t-goy-tuurdijk",
+    "name": "'t Goy-Tuurdijk",
+    "modern": "'t Goy-Tuurdijk",
+    "coord": [
+      5.23707,
+      52.00088
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24907",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24907.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/10"
+      }
+    ]
+  },
+  {
+    "key": "ganuenta",
+    "name": "*Ganuenta?",
+    "modern": "Colijnsplaat",
+    "coord": [
+      3.82376,
+      51.61749
+    ],
+    "secure": true,
+    "type": "tempel",
+    "dareId": "17809",
+    "startYear": -30,
+    "endYear": 300,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/17809.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/106"
+      },
+      {
+        "label": "Livius.org",
+        "url": "https://www.livius.org/articles/place/colijnsplaat/"
+      },
+      {
+        "label": "Wikipedia (nl)",
+        "url": "https://nl.wikipedia.org/wiki/Ganuenta"
+      },
+      {
+        "label": "Wikipedia (fr)",
+        "url": "https://fr.wikipedia.org/wiki/Ganuenta"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q2067723"
+      },
+      {
+        "label": "Wikipedia (nl)",
+        "url": "https://nl.wikipedia.org/wiki/Tempel_van_Nehalennia_op_Colijnsplaat"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q14907241"
+      }
+    ]
+  },
+  {
+    "key": "acosse",
+    "name": "Acosse",
+    "modern": "Acosse",
+    "coord": [
+      5.04822,
+      50.59544
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20347",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20347.html"
+      }
+    ]
+  },
+  {
+    "key": "adendorf",
+    "name": "Adendorf",
+    "modern": "Adendorf",
+    "coord": [
+      7.05944,
+      50.61384
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19708",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19708.html"
+      }
+    ]
+  },
+  {
+    "key": "adendorfer-strasse",
+    "name": "Adendorfer Strasse",
+    "modern": "Adendorfer Strasse",
+    "coord": [
+      7.03149,
+      50.61895
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19661",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19661.html"
+      }
+    ]
+  },
+  {
+    "key": "aldenhoven",
+    "name": "Aldenhoven",
+    "modern": "Aldenhoven",
+    "coord": [
+      6.2821,
+      50.89586
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "13354",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/13354.html"
+      }
+    ]
+  },
+  {
+    "key": "altdorf",
+    "name": "Altdorf",
+    "modern": "Altdorf",
+    "coord": [
+      6.36517,
+      50.87644
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19623",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19623.html"
+      }
+    ]
+  },
+  {
+    "key": "ameln",
+    "name": "Ameln",
+    "modern": "Ameln",
+    "coord": [
+      6.43333,
+      50.98333
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19704",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19704.html"
+      }
+    ]
+  },
+  {
+    "key": "anderlecht",
+    "name": "Anderlecht",
+    "modern": "Anderlecht",
+    "coord": [
+      4.30918,
+      50.83329
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20392",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20392.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/8113"
+      }
+    ]
+  },
+  {
+    "key": "aqueduct",
+    "name": "Aqueduct",
+    "modern": "Aqueduct",
+    "coord": [
+      5.90253,
+      51.81736
+    ],
+    "secure": true,
+    "type": "mijlpaal",
+    "dareId": "44619",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/44619.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/100"
+      }
+    ]
+  },
+  {
+    "key": "arduenna-silva",
+    "name": "Arduenna silva",
+    "modern": "Ardennes",
+    "coord": [
+      6.09264,
+      50.50173
+    ],
+    "secure": true,
+    "type": "aquaduct",
+    "dareId": "43801",
+    "startYear": -330,
+    "endYear": 640,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/43801.html"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q151985"
+      }
+    ]
+  },
+  {
+    "key": "arnoldsweiler",
+    "name": "Arnoldsweiler",
+    "modern": "Arnoldsweiler",
+    "coord": [
+      6.49329,
+      50.83828
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "2545",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/2545.html"
+      }
+    ]
+  },
+  {
+    "key": "asbeek",
+    "name": "Asbeek",
+    "modern": "Asbeek",
+    "coord": [
+      4.16064,
+      50.9047
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20393",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20393.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/8097"
+      }
+    ]
+  },
+  {
+    "key": "ath",
+    "name": "Ath",
+    "modern": "Ath",
+    "coord": [
+      3.77699,
+      50.63043
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19404",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19404.html"
+      }
+    ]
+  },
+  {
+    "key": "attenhoven",
+    "name": "Attenhoven",
+    "modern": "Attenhoven",
+    "coord": [
+      4.72138,
+      50.90996
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20384",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20384.html"
+      }
+    ]
+  },
+  {
+    "key": "atuatuca",
+    "name": "Atuatuca",
+    "modern": "Tongeren",
+    "coord": [
+      5.46486,
+      50.78096
+    ],
+    "secure": false,
+    "type": "civitas-hoofdplaats",
+    "dareId": "332",
+    "startYear": -330,
+    "endYear": 640,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/332.html"
+      },
+      {
+        "label": "Livius.org",
+        "url": "https://www.livius.org/articles/place/atuatuca-tongeren/"
+      },
+      {
+        "label": "Wikipedia (fr)",
+        "url": "https://fr.wikipedia.org/wiki/Civitas_Tungrorum"
+      },
+      {
+        "label": "Wikipedia (fr)",
+        "url": "https://fr.wikipedia.org/wiki/Atuatuca_Tungrorum"
+      },
+      {
+        "label": "Wikipedia (nl)",
+        "url": "https://nl.wikipedia.org/wiki/Atuatuca_Tungrorum"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q1863929"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q2974908"
+      }
+    ]
+  },
+  {
+    "key": "aubechies",
+    "name": "Aubechies",
+    "modern": "Aubechies",
+    "coord": [
+      3.67656,
+      50.57448
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20407",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20407.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/8134"
+      }
+    ]
+  },
+  {
+    "key": "autuaxhe",
+    "name": "Autuaxhe",
+    "modern": "Autuaxhe",
+    "coord": [
+      5.25284,
+      50.69602
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20366",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20366.html"
+      }
+    ]
+  },
+  {
+    "key": "awans",
+    "name": "Awans",
+    "modern": "Awans",
+    "coord": [
+      5.46158,
+      50.66513
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "1373",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/1373.html"
+      }
+    ]
+  },
+  {
+    "key": "baal",
+    "name": "Baal",
+    "modern": "Baal",
+    "coord": [
+      6.11437,
+      51.61219
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19711",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19711.html"
+      }
+    ]
+  },
+  {
+    "key": "backerbosch",
+    "name": "Backerbosch",
+    "modern": "Backerbosch",
+    "coord": [
+      5.75411,
+      50.8392
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24933",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24933.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/15"
+      },
+      {
+        "label": "Wikipedia (nl)",
+        "url": "https://nl.wikipedia.org/wiki/Romeinse_villa_Backerbosch"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q19887934"
+      }
+    ]
+  },
+  {
+    "key": "bahnhof-gereon",
+    "name": "Bahnhof Gereon",
+    "modern": "Bahnhof Gereon",
+    "coord": [
+      6.92045,
+      50.95809
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19643",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19643.html"
+      }
+    ]
+  },
+  {
+    "key": "barbarossaplatz",
+    "name": "Barbarossaplatz",
+    "modern": "Barbarossaplatz",
+    "coord": [
+      6.94177,
+      50.92875
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19642",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19642.html"
+      }
+    ]
+  },
+  {
+    "key": "basecles",
+    "name": "Basècles",
+    "modern": "Basècles",
+    "coord": [
+      3.65888,
+      50.52813
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20409",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20409.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/8315"
+      }
+    ]
+  },
+  {
+    "key": "basse-wavre",
+    "name": "Basse-Wavre",
+    "modern": "Basse-Wavre",
+    "coord": [
+      4.61985,
+      50.72773
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "15764",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/15764.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/8050"
+      }
+    ]
+  },
+  {
+    "key": "bauhof-breitenbenden",
+    "name": "Bauhof Breitenbenden",
+    "modern": "Bauhof Breitenbenden",
+    "coord": [
+      6.68052,
+      50.58114
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "19657",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19657.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/4902"
+      }
+    ]
+  },
+  {
+    "key": "beckrath",
+    "name": "Beckrath",
+    "modern": "Beckrath",
+    "coord": [
+      6.41072,
+      51.12849
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19662",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19662.html"
+      }
+    ]
+  },
+  {
+    "key": "beelaertsstraat",
+    "name": "Beelaertsstraat",
+    "modern": "Beelaertsstraat",
+    "coord": [
+      5.78406,
+      51.03231
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24928",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24928.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/9619"
+      }
+    ]
+  },
+  {
+    "key": "belsele",
+    "name": "Belsele",
+    "modern": "Belsele",
+    "coord": [
+      4.08691,
+      51.14662
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20388",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20388.html"
+      }
+    ]
+  },
+  {
+    "key": "berkum",
+    "name": "Berkum",
+    "modern": "Berkum",
+    "coord": [
+      7.13187,
+      50.62835
+    ],
+    "secure": true,
+    "type": "mijn",
+    "dareId": "18252",
+    "startYear": -30,
+    "endYear": 300,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/18252.html"
+      }
+    ]
+  },
+  {
+    "key": "berlacominne",
+    "name": "Berlacominne",
+    "modern": "Berlacominne",
+    "coord": [
+      4.87106,
+      50.50382
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20344",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20344.html"
+      }
+    ]
+  },
+  {
+    "key": "bertree",
+    "name": "Bertrée",
+    "modern": "Bertrée",
+    "coord": [
+      5.0901,
+      50.69515
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20369",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20369.html"
+      }
+    ]
+  },
+  {
+    "key": "beuningen",
+    "name": "Beuningen",
+    "modern": "Beuningen",
+    "coord": [
+      5.75642,
+      51.86346
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24916",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24916.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/5"
+      }
+    ]
+  },
+  {
+    "key": "bever-st-amandskerk",
+    "name": "Bever-St-Amandskerk",
+    "modern": "Bever-St-Amandskerk",
+    "coord": [
+      4.35564,
+      50.91003
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "39073",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/39073.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/8096"
+      }
+    ]
+  },
+  {
+    "key": "bierbeek",
+    "name": "Bierbeek",
+    "modern": "Bierbeek",
+    "coord": [
+      4.74469,
+      50.8541
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20375",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20375.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/8098"
+      }
+    ]
+  },
+  {
+    "key": "bierset",
+    "name": "Bierset",
+    "modern": "Bierset",
+    "coord": [
+      5.46604,
+      50.64914
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24998",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24998.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/8090"
+      }
+    ]
+  },
+  {
+    "key": "billekensweg",
+    "name": "Billekensweg",
+    "modern": "Billekensweg",
+    "coord": [
+      4.90537,
+      50.81537
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "39079",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/39079.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/9834"
+      }
+    ]
+  },
+  {
+    "key": "bilzen",
+    "name": "Bilzen",
+    "modern": "Bilzen",
+    "coord": [
+      5.51651,
+      50.87141
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20358",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20358.html"
+      }
+    ]
+  },
+  {
+    "key": "blandijnberg",
+    "name": "Blandijnberg",
+    "modern": "Blandijnberg",
+    "coord": [
+      3.72437,
+      51.04485
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20389",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20389.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/8061"
+      }
+    ]
+  },
+  {
+    "key": "blaton",
+    "name": "Blaton",
+    "modern": "Blaton",
+    "coord": [
+      3.66119,
+      50.5012
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20410",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20410.html"
+      }
+    ]
+  },
+  {
+    "key": "blatzheim",
+    "name": "Blatzheim",
+    "modern": "Blatzheim",
+    "coord": [
+      6.63411,
+      50.85375
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19638",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19638.html"
+      }
+    ]
+  },
+  {
+    "key": "blessem",
+    "name": "Blessem",
+    "modern": "Blessem",
+    "coord": [
+      6.79666,
+      50.81327
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19603",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19603.html"
+      }
+    ]
+  },
+  {
+    "key": "blumenbergsweg",
+    "name": "Blumenbergsweg",
+    "modern": "Blumenbergsweg",
+    "coord": [
+      6.88346,
+      51.04198
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19651",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19651.html"
+      }
+    ]
+  },
+  {
+    "key": "bocholtz",
+    "name": "Bocholtz",
+    "modern": "Bocholtz",
+    "coord": [
+      6.01054,
+      50.83795
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24939",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24939.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/9605"
+      }
+    ]
+  },
+  {
+    "key": "borgharen-pasestraat",
+    "name": "Borgharen-Pasestraat",
+    "modern": "Borgharen-Pasestraat",
+    "coord": [
+      5.68918,
+      50.88393
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24932",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24932.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/35"
+      },
+      {
+        "label": "Wikipedia (nl)",
+        "url": "https://nl.wikipedia.org/wiki/Romeinse_villa_Borgharen-Pasestraat"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q18813772"
+      }
+    ]
+  },
+  {
+    "key": "bosstraat",
+    "name": "Bosstraat",
+    "modern": "Bosstraat",
+    "coord": [
+      5.82484,
+      50.87921
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "45424",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/45424.html"
+      },
+      {
+        "label": "Wikipedia (nl)",
+        "url": "https://nl.wikipedia.org/wiki/Romeinse_villa_Valkenburg-Bosstraat"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q19929072"
+      }
+    ]
+  },
+  {
+    "key": "botzdorf",
+    "name": "Botzdorf",
+    "modern": "Botzdorf",
+    "coord": [
+      6.99412,
+      50.75912
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "3136",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/3136.html"
+      }
+    ]
+  },
+  {
+    "key": "bourheim",
+    "name": "Bourheim",
+    "modern": "Bourheim",
+    "coord": [
+      6.33009,
+      50.90371
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19631",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19631.html"
+      }
+    ]
+  },
+  {
+    "key": "bovenste-caumer",
+    "name": "Bovenste Caumer",
+    "modern": "Bovenste Caumer",
+    "coord": [
+      6.00393,
+      50.87055
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24943",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24943.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/16"
+      },
+      {
+        "label": "Wikipedia (nl)",
+        "url": "https://nl.wikipedia.org/wiki/Romeinse_villa_Bovenste_Caumer"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q14286076"
+      }
+    ]
+  },
+  {
+    "key": "braunsfeld",
+    "name": "Braunsfeld",
+    "modern": "Braunsfeld",
+    "coord": [
+      6.89295,
+      50.9318
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19645",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19645.html"
+      }
+    ]
+  },
+  {
+    "key": "brauweiler",
+    "name": "Brauweiler",
+    "modern": "Brauweiler",
+    "coord": [
+      6.7829,
+      50.96158
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "19693",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19693.html"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/Abtei_Brauweiler"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q333840"
+      }
+    ]
+  },
+  {
+    "key": "breinig",
+    "name": "Breinig",
+    "modern": "Breinig",
+    "coord": [
+      6.21997,
+      50.72903
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19703",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19703.html"
+      }
+    ]
+  },
+  {
+    "key": "brenig",
+    "name": "Brenig",
+    "modern": "Brenig",
+    "coord": [
+      6.96957,
+      50.754
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19588",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19588.html"
+      }
+    ]
+  },
+  {
+    "key": "broekom",
+    "name": "Broekom",
+    "modern": "Broekom",
+    "coord": [
+      5.34073,
+      50.78378
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20361",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20361.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/17736"
+      }
+    ]
+  },
+  {
+    "key": "broichweiden",
+    "name": "Broichweiden",
+    "modern": "Broichweiden",
+    "coord": [
+      6.16863,
+      50.82825
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19714",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19714.html"
+      }
+    ]
+  },
+  {
+    "key": "bruhl",
+    "name": "Brühl",
+    "modern": "Brühl",
+    "coord": [
+      6.90017,
+      50.82687
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19591",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19591.html"
+      }
+    ]
+  },
+  {
+    "key": "bruyelle",
+    "name": "Bruyelle",
+    "modern": "Bruyelle",
+    "coord": [
+      3.4238,
+      50.55953
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20404",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20404.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/8549"
+      }
+    ]
+  },
+  {
+    "key": "bunte-kuh",
+    "name": "Bunte Kuh",
+    "modern": "Bunte Kuh",
+    "coord": [
+      7.07208,
+      50.53161
+    ],
+    "secure": true,
+    "type": "laat-Romeinse versterkte nederzetting",
+    "dareId": "44620",
+    "startYear": 350,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/44620.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/19461"
+      }
+    ]
+  },
+  {
+    "key": "burcana-ins",
+    "name": "Burcana Ins.",
+    "modern": "Borkum",
+    "coord": [
+      6.66972,
+      53.58806
+    ],
+    "secure": false,
+    "type": "dam / sluis",
+    "dareId": "40994",
+    "startYear": -30,
+    "endYear": 640,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/40994.html"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q25082"
+      }
+    ]
+  },
+  {
+    "key": "butzheim",
+    "name": "Butzheim",
+    "modern": "Butzheim",
+    "coord": [
+      6.71083,
+      51.04639
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19700",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19700.html"
+      }
+    ]
+  },
+  {
+    "key": "caesia-silva",
+    "name": "Caesia Silva",
+    "modern": "Heissiwald",
+    "coord": [
+      6.98744,
+      51.40258
+    ],
+    "secure": true,
+    "type": "aquaduct",
+    "dareId": "43804",
+    "startYear": -30,
+    "endYear": 300,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/43804.html"
+      }
+    ]
+  },
+  {
+    "key": "cambron",
+    "name": "Cambron",
+    "modern": "Cambron",
+    "coord": [
+      3.8974,
+      50.58585
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20414",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20414.html"
+      }
+    ]
+  },
+  {
+    "key": "carbonaria-silva",
+    "name": "Carbonaria Silva",
+    "modern": "Forêt Charbonnière",
+    "coord": [
+      4.53164,
+      50.59283
+    ],
+    "secure": false,
+    "type": "aquaduct",
+    "dareId": "43805",
+    "startYear": 300,
+    "endYear": 640,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/43805.html"
+      },
+      {
+        "label": "Wikipedia (fr)",
+        "url": "https://fr.wikipedia.org/wiki/For%C3%83%C2%AAt_Charbonni%C3%83%C2%A8re"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q728919"
+      }
+    ]
+  },
+  {
+    "key": "ceroux-mousty",
+    "name": "Céroux-Mousty",
+    "modern": "Céroux-Mousty",
+    "coord": [
+      4.51332,
+      50.66034
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20379",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20379.html"
+      }
+    ]
+  },
+  {
+    "key": "chastre",
+    "name": "Chastre",
+    "modern": "Chastre",
+    "coord": [
+      4.6376,
+      50.60808
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20378",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20378.html"
+      }
+    ]
+  },
+  {
+    "key": "chievres",
+    "name": "Chièvres",
+    "modern": "Chièvres",
+    "coord": [
+      3.80539,
+      50.5876
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "11844",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/11844.html"
+      }
+    ]
+  },
+  {
+    "key": "chokier",
+    "name": "Chokier",
+    "modern": "Chokier",
+    "coord": [
+      5.44235,
+      50.59021
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20351",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20351.html"
+      }
+    ]
+  },
+  {
+    "key": "colmont",
+    "name": "Colmont",
+    "modern": "Colmont",
+    "coord": [
+      5.91917,
+      50.85389
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24941",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24941.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/417"
+      },
+      {
+        "label": "Wikipedia (nl)",
+        "url": "https://nl.wikipedia.org/wiki/Romeinse_villa_Ubachsberg"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q5579446"
+      }
+    ]
+  },
+  {
+    "key": "commerden",
+    "name": "Commerden",
+    "modern": "Commerden",
+    "coord": [
+      6.30225,
+      51.06276
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19606",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19606.html"
+      }
+    ]
+  },
+  {
+    "key": "corswarem",
+    "name": "Corswarem",
+    "modern": "Corswarem",
+    "coord": [
+      5.21233,
+      50.70994
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20367",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20367.html"
+      }
+    ]
+  },
+  {
+    "key": "cortil-noirmont",
+    "name": "Cortil-Noirmont",
+    "modern": "Cortil-Noirmont",
+    "coord": [
+      4.66555,
+      50.56661
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "2066",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/2066.html"
+      },
+      {
+        "label": "Wikipedia (fr)",
+        "url": "https://fr.wikipedia.org/wiki/Cortil"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/8081"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q2998102"
+      }
+    ]
+  },
+  {
+    "key": "cothen-de-zemelen",
+    "name": "Cothen-De Zemelen",
+    "modern": "Cothen-De Zemelen",
+    "coord": [
+      5.26473,
+      51.98953
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24906",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24906.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/11"
+      }
+    ]
+  },
+  {
+    "key": "crisnee",
+    "name": "Crisnée",
+    "modern": "Crisnée",
+    "coord": [
+      5.39772,
+      50.71733
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20363",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20363.html"
+      }
+    ]
+  },
+  {
+    "key": "daubhaus",
+    "name": "Daubhaus",
+    "modern": "Daubhaus",
+    "coord": [
+      7.11972,
+      50.54182
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19581",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19581.html"
+      }
+    ]
+  },
+  {
+    "key": "de-molt",
+    "name": "De Molt",
+    "modern": "De Molt",
+    "coord": [
+      5.97712,
+      50.83543
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24940",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24940.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/9647"
+      },
+      {
+        "label": "Wikipedia (nl)",
+        "url": "https://nl.wikipedia.org/wiki/Romeinse_villa_Simpelveld-De_Molt"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q19925814"
+      }
+    ]
+  },
+  {
+    "key": "dellender",
+    "name": "Dellender",
+    "modern": "Dellender",
+    "coord": [
+      6.02029,
+      50.81187
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24938",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24938.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/6334"
+      },
+      {
+        "label": "Wikipedia (nl)",
+        "url": "https://nl.wikipedia.org/wiki/Romeinse_villa_Bocholtz-Dellender"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q14286048"
+      }
+    ]
+  },
+  {
+    "key": "denderwindeke",
+    "name": "Denderwindeke",
+    "modern": "Denderwindeke",
+    "coord": [
+      4.02549,
+      50.79921
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "7621",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/7621.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/8118"
+      }
+    ]
+  },
+  {
+    "key": "dernau",
+    "name": "Dernau",
+    "modern": "Dernau",
+    "coord": [
+      7.04221,
+      50.53522
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "19592",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19592.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/19462"
+      }
+    ]
+  },
+  {
+    "key": "diestsesteenweg",
+    "name": "Diestsesteenweg",
+    "modern": "Diestsesteenweg",
+    "coord": [
+      4.93653,
+      50.81953
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "39084",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/39084.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/9839"
+      }
+    ]
+  },
+  {
+    "key": "dirmerzheim",
+    "name": "Dirmerzheim",
+    "modern": "Dirmerzheim",
+    "coord": [
+      6.76292,
+      50.82361
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19604",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19604.html"
+      }
+    ]
+  },
+  {
+    "key": "domburg",
+    "name": "Domburg",
+    "modern": "Domburg",
+    "coord": [
+      3.49681,
+      51.56309
+    ],
+    "secure": true,
+    "type": "tempel",
+    "dareId": "2101",
+    "startYear": -30,
+    "endYear": 300,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/2101.html"
+      },
+      {
+        "label": "Wikipedia (nl)",
+        "url": "https://nl.wikipedia.org/wiki/Tempel_van_Nehalennia_in_Domburg"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q14468682"
+      },
+      {
+        "label": "Wikipedia (nl)",
+        "url": "https://nl.wikipedia.org/wiki/Domburg_(Nederland)"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q980728"
+      }
+    ]
+  },
+  {
+    "key": "drachenfels",
+    "name": "Drachenfels",
+    "modern": "Drachenfels",
+    "coord": [
+      7.20972,
+      50.66528
+    ],
+    "secure": false,
+    "type": "mijn",
+    "dareId": "17267",
+    "startYear": -30,
+    "endYear": 300,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/17267.html"
+      }
+    ]
+  },
+  {
+    "key": "druten-klepperheide",
+    "name": "Druten-Klepperheide",
+    "modern": "Druten-Klepperheide",
+    "coord": [
+      5.6106,
+      51.88532
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24911",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24911.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/2"
+      }
+    ]
+  },
+  {
+    "key": "duisdorf",
+    "name": "Duisdorf",
+    "modern": "Duisdorf",
+    "coord": [
+      7.051,
+      50.7165
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "3147",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/3147.html"
+      }
+    ]
+  },
+  {
+    "key": "eberich",
+    "name": "Eberich",
+    "modern": "Eberich",
+    "coord": [
+      6.28428,
+      50.87562
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19610",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19610.html"
+      }
+    ]
+  },
+  {
+    "key": "eicks",
+    "name": "Eicks",
+    "modern": "Eicks",
+    "coord": [
+      6.61715,
+      50.6248
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19658",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19658.html"
+      }
+    ]
+  },
+  {
+    "key": "elene",
+    "name": "Elene",
+    "modern": "Elene",
+    "coord": [
+      3.80335,
+      50.88846
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "39068",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/39068.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/10075"
+      }
+    ]
+  },
+  {
+    "key": "eliksem-konijneberg",
+    "name": "Eliksem-Konijneberg",
+    "modern": "Eliksem-Konijneberg",
+    "coord": [
+      5.01401,
+      50.78791
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "39086",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/39086.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/8102"
+      }
+    ]
+  },
+  {
+    "key": "elsdorf-1",
+    "name": "Elsdorf (1)",
+    "modern": "Elsdorf (1)",
+    "coord": [
+      6.56828,
+      50.93739
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19596",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19596.html"
+      }
+    ]
+  },
+  {
+    "key": "elsdorf-2",
+    "name": "Elsdorf (2)",
+    "modern": "Elsdorf (2)",
+    "coord": [
+      6.56828,
+      50.93739
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19597",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19597.html"
+      }
+    ]
+  },
+  {
+    "key": "elsdorf-3",
+    "name": "Elsdorf (3)",
+    "modern": "Elsdorf (3)",
+    "coord": [
+      6.56828,
+      50.93739
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19598",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19598.html"
+      }
+    ]
+  },
+  {
+    "key": "elst",
+    "name": "Elst",
+    "modern": "Elst",
+    "coord": [
+      5.84954,
+      51.91985
+    ],
+    "secure": true,
+    "type": "tempel",
+    "dareId": "1537",
+    "startYear": -30,
+    "endYear": 300,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/1537.html"
+      },
+      {
+        "label": "Livius.org",
+        "url": "https://www.livius.org/articles/place/elst/"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/76"
+      }
+    ]
+  },
+  {
+    "key": "elst-aamsepad",
+    "name": "Elst-Aamsepad",
+    "modern": "Elst-Aamsepad",
+    "coord": [
+      5.86019,
+      51.9199
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24914",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24914.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/4392"
+      }
+    ]
+  },
+  {
+    "key": "empel",
+    "name": "Empel",
+    "modern": "Empel",
+    "coord": [
+      5.3107,
+      51.73455
+    ],
+    "secure": true,
+    "type": "tempel",
+    "dareId": "39111",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/39111.html"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/Tempelbezirk_von_Empel"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/110"
+      },
+      {
+        "label": "Livius.org",
+        "url": "https://www.livius.org/articles/place/empel/"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q2663269"
+      }
+    ]
+  },
+  {
+    "key": "erberich",
+    "name": "Erberich",
+    "modern": "Erberich",
+    "coord": [
+      6.28428,
+      50.87562
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19609",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19609.html"
+      }
+    ]
+  },
+  {
+    "key": "erps-kwerps",
+    "name": "Erps-Kwerps",
+    "modern": "Erps-Kwerps",
+    "coord": [
+      4.57036,
+      50.91166
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "39075",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/39075.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/10079"
+      }
+    ]
+  },
+  {
+    "key": "eschweiler",
+    "name": "Eschweiler",
+    "modern": "Eschweiler",
+    "coord": [
+      6.27167,
+      50.81743
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "2546",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/2546.html"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/Aduatuca"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/Propsteier_Villa"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q323911"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q1507884"
+      }
+    ]
+  },
+  {
+    "key": "espesse",
+    "name": "Espesse",
+    "modern": "Espesse",
+    "coord": [
+      4.07181,
+      50.58934
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20423",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20423.html"
+      }
+    ]
+  },
+  {
+    "key": "etikhove",
+    "name": "Etikhove",
+    "modern": "Etikhove",
+    "coord": [
+      3.63265,
+      50.80495
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20397",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20397.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/8119"
+      }
+    ]
+  },
+  {
+    "key": "etzweiler",
+    "name": "Etzweiler",
+    "modern": "Etzweiler",
+    "coord": [
+      6.55274,
+      50.90286
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19599",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19599.html"
+      }
+    ]
+  },
+  {
+    "key": "euenheim",
+    "name": "Euenheim",
+    "modern": "Euenheim",
+    "coord": [
+      6.75,
+      50.65
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "13661",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/13661.html"
+      }
+    ]
+  },
+  {
+    "key": "euskirchen",
+    "name": "Euskirchen",
+    "modern": "Euskirchen",
+    "coord": [
+      6.78999,
+      50.65744
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19614",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19614.html"
+      }
+    ]
+  },
+  {
+    "key": "ewijk-de-groote-aalst",
+    "name": "Ewijk-De Groote Aalst",
+    "modern": "Ewijk-De Groote Aalst",
+    "coord": [
+      5.75086,
+      51.86958
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24915",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24915.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/4"
+      }
+    ]
+  },
+  {
+    "key": "fabiolapark",
+    "name": "Fabiolapark",
+    "modern": "Fabiolapark",
+    "coord": [
+      4.94406,
+      50.78962
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "39085",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/39085.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/9832"
+      }
+    ]
+  },
+  {
+    "key": "flerzheim",
+    "name": "Flerzheim",
+    "modern": "Flerzheim",
+    "coord": [
+      6.98791,
+      50.64804
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "4147",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/4147.html"
+      }
+    ]
+  },
+  {
+    "key": "franquenies",
+    "name": "Franquenies",
+    "modern": "Franquenies",
+    "coord": [
+      4.58566,
+      50.65694
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "39078",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/39078.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/8077"
+      }
+    ]
+  },
+  {
+    "key": "frechen",
+    "name": "Frechen",
+    "modern": "Frechen",
+    "coord": [
+      6.816,
+      50.91225
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "8301",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/8301.html"
+      }
+    ]
+  },
+  {
+    "key": "friesdorf",
+    "name": "Friesdorf",
+    "modern": "Friesdorf",
+    "coord": [
+      7.13098,
+      50.69093
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "3138",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/3138.html"
+      }
+    ]
+  },
+  {
+    "key": "frimmersdorf",
+    "name": "Frimmersdorf",
+    "modern": "Frimmersdorf",
+    "coord": [
+      6.58333,
+      51.05
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19912",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19912.html"
+      }
+    ]
+  },
+  {
+    "key": "froitzheim",
+    "name": "Froitzheim",
+    "modern": "Froitzheim",
+    "coord": [
+      6.60829,
+      50.72522
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "17264",
+    "startYear": -30,
+    "endYear": 640,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/17264.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/16354"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q7923840"
+      }
+    ]
+  },
+  {
+    "key": "fronhoven",
+    "name": "Fronhoven",
+    "modern": "Fronhoven",
+    "coord": [
+      6.29323,
+      50.85788
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19611",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19611.html"
+      }
+    ]
+  },
+  {
+    "key": "froyennes",
+    "name": "Froyennes",
+    "modern": "Froyennes",
+    "coord": [
+      3.35358,
+      50.62159
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20402",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20402.html"
+      }
+    ]
+  },
+  {
+    "key": "galgestraat",
+    "name": "Galgestraat",
+    "modern": "Galgestraat",
+    "coord": [
+      4.9179,
+      50.81631
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "39081",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/39081.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/9836"
+      }
+    ]
+  },
+  {
+    "key": "garsdorf",
+    "name": "Garsdorf",
+    "modern": "Garsdorf",
+    "coord": [
+      6.63501,
+      51.00539
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19583",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19583.html"
+      }
+    ]
+  },
+  {
+    "key": "garzweiler-1",
+    "name": "Garzweiler (1)",
+    "modern": "Garzweiler (1)",
+    "coord": [
+      6.5,
+      51.06667
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19627",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19627.html"
+      }
+    ]
+  },
+  {
+    "key": "garzweiler-2",
+    "name": "Garzweiler (2)",
+    "modern": "Garzweiler (2)",
+    "coord": [
+      6.49704,
+      51.06472
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19628",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19628.html"
+      }
+    ]
+  },
+  {
+    "key": "geisbachtal",
+    "name": "Geisbachtal",
+    "modern": "Geisbachtal",
+    "coord": [
+      7.07107,
+      50.51386
+    ],
+    "secure": true,
+    "type": "mijlpaal",
+    "dareId": "44623",
+    "startYear": -30,
+    "endYear": 300,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/44623.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/15540"
+      }
+    ]
+  },
+  {
+    "key": "gewerbegebiet",
+    "name": "Gewerbegebiet",
+    "modern": "Gewerbegebiet",
+    "coord": [
+      6.78784,
+      50.9589
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19694",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19694.html"
+      }
+    ]
+  },
+  {
+    "key": "geyen",
+    "name": "Geyen",
+    "modern": "Geyen",
+    "coord": [
+      6.78508,
+      50.98132
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19695",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19695.html"
+      }
+    ]
+  },
+  {
+    "key": "ghislengien",
+    "name": "Ghislengien",
+    "modern": "Ghislengien",
+    "coord": [
+      3.87817,
+      50.65556
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20415",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20415.html"
+      }
+    ]
+  },
+  {
+    "key": "giesendorf",
+    "name": "Giesendorf",
+    "modern": "Giesendorf",
+    "coord": [
+      6.57626,
+      50.9272
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19600",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19600.html"
+      }
+    ]
+  },
+  {
+    "key": "gie-en",
+    "name": "Gießen",
+    "modern": "Gießen",
+    "coord": [
+      8.67825,
+      50.58401
+    ],
+    "secure": false,
+    "type": "begraafplaats",
+    "dareId": "3706",
+    "startYear": -30,
+    "endYear": 300,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/3706.html"
+      }
+    ]
+  },
+  {
+    "key": "gingelom",
+    "name": "Gingelom",
+    "modern": "Gingelom",
+    "coord": [
+      5.13268,
+      50.75079
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "5972",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/5972.html"
+      }
+    ]
+  },
+  {
+    "key": "glimbach",
+    "name": "Glimbach",
+    "modern": "Glimbach",
+    "coord": [
+      6.29395,
+      50.99486
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19656",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19656.html"
+      }
+    ]
+  },
+  {
+    "key": "gnadenthal",
+    "name": "Gnadenthal",
+    "modern": "Gnadenthal",
+    "coord": [
+      6.68795,
+      51.2042
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19667",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19667.html"
+      }
+    ]
+  },
+  {
+    "key": "gnadenthal-2",
+    "name": "Gnadenthal (2)",
+    "modern": "Gnadenthal (2)",
+    "coord": [
+      6.68795,
+      51.2042
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19668",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19668.html"
+      }
+    ]
+  },
+  {
+    "key": "gotzenkirchen",
+    "name": "Götzenkirchen",
+    "modern": "Götzenkirchen",
+    "coord": [
+      6.71722,
+      50.90086
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19639",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19639.html"
+      }
+    ]
+  },
+  {
+    "key": "grez-doiceau",
+    "name": "Grez-Doiceau",
+    "modern": "Grez-Doiceau",
+    "coord": [
+      4.69205,
+      50.7252
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20376",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20376.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/8105"
+      }
+    ]
+  },
+  {
+    "key": "grijpenwegstraat",
+    "name": "Grijpenwegstraat",
+    "modern": "Grijpenwegstraat",
+    "coord": [
+      4.90764,
+      50.80996
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "39080",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/39080.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/9833"
+      }
+    ]
+  },
+  {
+    "key": "grijzegrubben",
+    "name": "Grijzegrubben",
+    "modern": "Grijzegrubben",
+    "coord": [
+      5.86273,
+      50.92287
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24956",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24956.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/6330"
+      }
+    ]
+  },
+  {
+    "key": "grimde",
+    "name": "Grimde",
+    "modern": "Grimde",
+    "coord": [
+      4.95842,
+      50.79964
+    ],
+    "secure": true,
+    "type": "grafheuvel (tumulus)",
+    "dareId": "42588",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/42588.html"
+      },
+      {
+        "label": "Wikipedia (fr)",
+        "url": "https://fr.wikipedia.org/wiki/Tumuli_de_Grimde"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q517712"
+      }
+    ]
+  },
+  {
+    "key": "groeneweg",
+    "name": "Groeneweg",
+    "modern": "Groeneweg",
+    "coord": [
+      5.90555,
+      50.89233
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24951",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24951.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/9648"
+      }
+    ]
+  },
+  {
+    "key": "groesbeek-plasmolen",
+    "name": "Groesbeek-Plasmolen",
+    "modern": "Groesbeek-Plasmolen",
+    "coord": [
+      5.92415,
+      51.73921
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24919",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24919.html"
+      },
+      {
+        "label": "Wikipedia (nl)",
+        "url": "https://nl.wikipedia.org/wiki/Romeinse_villa_Plasmolen"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q2466478"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/14"
+      }
+    ]
+  },
+  {
+    "key": "gruner-putz",
+    "name": "Grüner Pütz",
+    "modern": "Grüner Pütz",
+    "coord": [
+      6.62932,
+      50.55261
+    ],
+    "secure": true,
+    "type": "mijlpaal",
+    "dareId": "20611",
+    "startYear": -30,
+    "endYear": 300,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20611.html"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/R%C3%83%C2%B6merkanal-Wanderweg"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/Eifelwasserleitung"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q751092"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q2179575"
+      }
+    ]
+  },
+  {
+    "key": "gulpen",
+    "name": "Gulpen",
+    "modern": "Gulpen",
+    "coord": [
+      5.88779,
+      50.80903
+    ],
+    "secure": true,
+    "type": "tempel",
+    "dareId": "20874",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20874.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/6335"
+      }
+    ]
+  },
+  {
+    "key": "gurzenich",
+    "name": "Gürzenich",
+    "modern": "Gürzenich",
+    "coord": [
+      6.45292,
+      50.79535
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19593",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19593.html"
+      }
+    ]
+  },
+  {
+    "key": "haal-oppen",
+    "name": "Haal-Oppen",
+    "modern": "Haal-Oppen",
+    "coord": [
+      6.1405,
+      50.81231
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "19715",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19715.html"
+      }
+    ]
+  },
+  {
+    "key": "haccourt",
+    "name": "Haccourt",
+    "modern": "Haccourt",
+    "coord": [
+      5.66583,
+      50.73028
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "17819",
+    "startYear": -30,
+    "endYear": 300,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/17819.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/6301"
+      }
+    ]
+  },
+  {
+    "key": "hackhausen",
+    "name": "Hackhausen",
+    "modern": "Hackhausen",
+    "coord": [
+      6.46667,
+      51.1
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19629",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19629.html"
+      }
+    ]
+  },
+  {
+    "key": "hamich",
+    "name": "Hamich",
+    "modern": "Hamich",
+    "coord": [
+      6.31667,
+      50.78333
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19653",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19653.html"
+      }
+    ]
+  },
+  {
+    "key": "harff",
+    "name": "Harff",
+    "modern": "Harff",
+    "coord": [
+      6.53333,
+      51.01667
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19584",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19584.html"
+      }
+    ]
+  },
+  {
+    "key": "haselingen",
+    "name": "Häselingen",
+    "modern": "Häselingen",
+    "coord": [
+      6.92014,
+      50.529
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "41629",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/41629.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/15611"
+      }
+    ]
+  },
+  {
+    "key": "hastenrath",
+    "name": "Hastenrath",
+    "modern": "Hastenrath",
+    "coord": [
+      6.27431,
+      50.78981
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19607",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19607.html"
+      }
+    ]
+  },
+  {
+    "key": "heestert",
+    "name": "Heestert",
+    "modern": "Heestert",
+    "coord": [
+      3.4154,
+      50.7963
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20399",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20399.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/10057"
+      }
+    ]
+  },
+  {
+    "key": "heihof",
+    "name": "Heihof",
+    "modern": "Heihof",
+    "coord": [
+      5.84186,
+      50.88111
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24959",
+    "startYear": -30,
+    "endYear": 300,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24959.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/23"
+      },
+      {
+        "label": "Wikipedia (nl)",
+        "url": "https://nl.wikipedia.org/wiki/Romeinse_villa_Valkenburg-Heihof"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q17455837"
+      }
+    ]
+  },
+  {
+    "key": "heldergem",
+    "name": "Heldergem",
+    "modern": "Heldergem",
+    "coord": [
+      3.95233,
+      50.88224
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20394",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20394.html"
+      }
+    ]
+  },
+  {
+    "key": "helhoek",
+    "name": "Helhoek",
+    "modern": "Helhoek",
+    "coord": [
+      4.08243,
+      51.89465
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24901",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24901.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/9644"
+      }
+    ]
+  },
+  {
+    "key": "helle",
+    "name": "Helle",
+    "modern": "Helle",
+    "coord": [
+      4.29901,
+      50.7887
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "39074",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/39074.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/8088"
+      }
+    ]
+  },
+  {
+    "key": "hemptinne",
+    "name": "Hemptinne",
+    "modern": "Hemptinne",
+    "coord": [
+      4.99054,
+      50.5998
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20346",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20346.html"
+      }
+    ]
+  },
+  {
+    "key": "herbach",
+    "name": "Herbach",
+    "modern": "Herbach",
+    "coord": [
+      6.10885,
+      50.90524
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19621",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19621.html"
+      }
+    ]
+  },
+  {
+    "key": "herrath",
+    "name": "Herrath",
+    "modern": "Herrath",
+    "coord": [
+      6.36111,
+      51.10389
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19663",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19663.html"
+      }
+    ]
+  },
+  {
+    "key": "herstal",
+    "name": "Herstal",
+    "modern": "Herstal",
+    "coord": [
+      5.62637,
+      50.67732
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20352",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20352.html"
+      }
+    ]
+  },
+  {
+    "key": "herstal",
+    "name": "Herstal",
+    "modern": "Herstal",
+    "coord": [
+      5.62775,
+      50.66426
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "38752",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/38752.html"
+      }
+    ]
+  },
+  {
+    "key": "herveld-kleine-woerd",
+    "name": "Herveld - Kleine Woerd",
+    "modern": "Herveld - Kleine Woerd",
+    "coord": [
+      5.75405,
+      51.9043
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24913",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24913.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/345"
+      }
+    ]
+  },
+  {
+    "key": "heure-le-romain",
+    "name": "Heure-le-Romain",
+    "modern": "Heure-le-Romain",
+    "coord": [
+      5.62775,
+      50.73124
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20353",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20353.html"
+      }
+    ]
+  },
+  {
+    "key": "heuren",
+    "name": "Heuren",
+    "modern": "Heuren",
+    "coord": [
+      5.36407,
+      50.75945
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20362",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20362.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/10121"
+      }
+    ]
+  },
+  {
+    "key": "hochneukirch",
+    "name": "Hochneukirch",
+    "modern": "Hochneukirch",
+    "coord": [
+      6.45911,
+      51.10202
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19630",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19630.html"
+      }
+    ]
+  },
+  {
+    "key": "hoegaarden-goudberg",
+    "name": "Hoegaarden-Goudberg",
+    "modern": "Hoegaarden-Goudberg",
+    "coord": [
+      4.90762,
+      50.78798
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20372",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20372.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/8091"
+      }
+    ]
+  },
+  {
+    "key": "hoeve-overste-hof",
+    "name": "Hoeve Overste Hof",
+    "modern": "Hoeve Overste Hof",
+    "coord": [
+      6.03208,
+      50.85774
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24944",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24944.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/31"
+      },
+      {
+        "label": "Wikipedia (nl)",
+        "url": "https://nl.wikipedia.org/wiki/Romeinse_villa_Kerkrade-Hoeve_Overste_Hof"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q14286089"
+      }
+    ]
+  },
+  {
+    "key": "hogden",
+    "name": "Högden",
+    "modern": "Högden",
+    "coord": [
+      6.50399,
+      51.16611
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19664",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19664.html"
+      }
+    ]
+  },
+  {
+    "key": "hollen-ha-10",
+    "name": "Höllen (Ha 10)",
+    "modern": "Höllen (Ha 10)",
+    "coord": [
+      6.42677,
+      51.00557
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19705",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19705.html"
+      }
+    ]
+  },
+  {
+    "key": "hollen-ha-303",
+    "name": "Höllen (Ha 303)",
+    "modern": "Höllen (Ha 303)",
+    "coord": [
+      6.46322,
+      50.95735
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19706",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19706.html"
+      }
+    ]
+  },
+  {
+    "key": "holzkuil",
+    "name": "Holzkuil",
+    "modern": "Holzkuil",
+    "coord": [
+      6.06432,
+      50.88436
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24947",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24947.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/32"
+      },
+      {
+        "label": "Wikipedia (nl)",
+        "url": "https://nl.wikipedia.org/wiki/Romeinse_villa_Kerkrade-Holzkuil"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q14286103"
+      }
+    ]
+  },
+  {
+    "key": "hombeek",
+    "name": "Hombeek",
+    "modern": "Hombeek",
+    "coord": [
+      4.44122,
+      51.01548
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20386",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20386.html"
+      }
+    ]
+  },
+  {
+    "key": "hombroek",
+    "name": "Hombroek",
+    "modern": "Hombroek",
+    "coord": [
+      5.47793,
+      50.85701
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20359",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20359.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/10062"
+      }
+    ]
+  },
+  {
+    "key": "hommerschen",
+    "name": "Hommerschen",
+    "modern": "Hommerschen",
+    "coord": [
+      6.11408,
+      50.95441
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19618",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19618.html"
+      }
+    ]
+  },
+  {
+    "key": "hongen",
+    "name": "Höngen",
+    "modern": "Höngen",
+    "coord": [
+      6.16484,
+      50.87159
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19578",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19578.html"
+      }
+    ]
+  },
+  {
+    "key": "honsdorf",
+    "name": "Honsdorf",
+    "modern": "Honsdorf",
+    "coord": [
+      6.18785,
+      51.00196
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19619",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19619.html"
+      }
+    ]
+  },
+  {
+    "key": "hoogeloon",
+    "name": "Hoogeloon",
+    "modern": "Hoogeloon",
+    "coord": [
+      5.26843,
+      51.3967
+    ],
+    "secure": false,
+    "type": "tempel",
+    "dareId": "20880",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20880.html"
+      }
+    ]
+  },
+  {
+    "key": "hoogeloon",
+    "name": "Hoogeloon",
+    "modern": "Hoogeloon",
+    "coord": [
+      5.27676,
+      51.39916
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24903",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24903.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/18"
+      }
+    ]
+  },
+  {
+    "key": "hout-blerick-veldenkamp",
+    "name": "Hout-Blerick-Veldenkamp",
+    "modern": "Hout-Blerick-Veldenkamp",
+    "coord": [
+      6.11556,
+      51.36145
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24924",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24924.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/19"
+      }
+    ]
+  },
+  {
+    "key": "houten-molenzoom",
+    "name": "Houten-Molenzoom",
+    "modern": "Houten-Molenzoom",
+    "coord": [
+      5.17027,
+      52.03127
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24908",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24908.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/8"
+      }
+    ]
+  },
+  {
+    "key": "houten-oude-dorp",
+    "name": "Houten-Oude Dorp",
+    "modern": "Houten-Oude Dorp",
+    "coord": [
+      5.16096,
+      52.02759
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24909",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24909.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/7"
+      }
+    ]
+  },
+  {
+    "key": "hucheln",
+    "name": "Hücheln",
+    "modern": "Hücheln",
+    "coord": [
+      6.31873,
+      50.81994
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19613",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19613.html"
+      }
+    ]
+  },
+  {
+    "key": "hulchrath",
+    "name": "Hülchrath",
+    "modern": "Hülchrath",
+    "coord": [
+      6.66299,
+      51.12393
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19620",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19620.html"
+      }
+    ]
+  },
+  {
+    "key": "hulsbergerbeek",
+    "name": "Hulsbergerbeek",
+    "modern": "Hulsbergerbeek",
+    "coord": [
+      5.89121,
+      50.90754
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24954",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24954.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/9611"
+      }
+    ]
+  },
+  {
+    "key": "hurth",
+    "name": "Hürth",
+    "modern": "Hürth",
+    "coord": [
+      6.88814,
+      50.88059
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19622",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19622.html"
+      }
+    ]
+  },
+  {
+    "key": "hurtubize",
+    "name": "Hurtubize",
+    "modern": "Hurtubize",
+    "coord": [
+      4.64342,
+      50.69053
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "44626",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/44626.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/16430"
+      }
+    ]
+  },
+  {
+    "key": "ingen",
+    "name": "Ingen",
+    "modern": "Ingen",
+    "coord": [
+      5.48743,
+      51.95686
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24910",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24910.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/432"
+      }
+    ]
+  },
+  {
+    "key": "iversheim",
+    "name": "Iversheim",
+    "modern": "Iversheim",
+    "coord": [
+      6.77399,
+      50.58814
+    ],
+    "secure": true,
+    "type": "productieplaats",
+    "dareId": "6043",
+    "startYear": -30,
+    "endYear": 300,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/6043.html"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/R%C3%83%C2%B6mische_Kalkbrennerei_Iversheim"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q2202439"
+      }
+    ]
+  },
+  {
+    "key": "jette",
+    "name": "Jette",
+    "modern": "Jette",
+    "coord": [
+      4.30393,
+      50.88205
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20391",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20391.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/6303"
+      }
+    ]
+  },
+  {
+    "key": "juchen-1",
+    "name": "Jüchen (1)",
+    "modern": "Jüchen (1)",
+    "coord": [
+      6.50878,
+      51.10262
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19625",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19625.html"
+      }
+    ]
+  },
+  {
+    "key": "juchen-2",
+    "name": "Jüchen (2)",
+    "modern": "Jüchen (2)",
+    "coord": [
+      6.50878,
+      51.10262
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19626",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19626.html"
+      }
+    ]
+  },
+  {
+    "key": "jungersdorf",
+    "name": "Jüngersdorf",
+    "modern": "Jüngersdorf",
+    "coord": [
+      6.36411,
+      50.81895
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19654",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19654.html"
+      }
+    ]
+  },
+  {
+    "key": "jupille-sur-meuse",
+    "name": "Jupille-sur-Meuse",
+    "modern": "Jupille-sur-Meuse",
+    "coord": [
+      5.63265,
+      50.64699
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "503",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/503.html"
+      }
+    ]
+  },
+  {
+    "key": "kaalheide",
+    "name": "Kaalheide",
+    "modern": "Kaalheide",
+    "coord": [
+      6.04186,
+      50.86315
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20018",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20018.html"
+      },
+      {
+        "label": "Wikipedia (nl)",
+        "url": "https://nl.wikipedia.org/wiki/Romeinse_villa_Kaalheide"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q2512281"
+      }
+    ]
+  },
+  {
+    "key": "kaalheide-krichelberg",
+    "name": "Kaalheide-Krichelberg",
+    "modern": "Kaalheide-Krichelberg",
+    "coord": [
+      6.04185,
+      50.86316
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24945",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24945.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/24"
+      }
+    ]
+  },
+  {
+    "key": "kalkar",
+    "name": "Kalkar",
+    "modern": "Kalkar",
+    "coord": [
+      6.29083,
+      51.73732
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19637",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19637.html"
+      }
+    ]
+  },
+  {
+    "key": "kall",
+    "name": "Kall",
+    "modern": "Kall",
+    "coord": [
+      6.5516,
+      50.53978
+    ],
+    "secure": false,
+    "type": "mijn",
+    "dareId": "17792",
+    "startYear": -30,
+    "endYear": 300,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/17792.html"
+      }
+    ]
+  },
+  {
+    "key": "kasteelstraat",
+    "name": "Kasteelstraat",
+    "modern": "Kasteelstraat",
+    "coord": [
+      4.92883,
+      50.81978
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "39083",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/39083.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/9838"
+      }
+    ]
+  },
+  {
+    "key": "kasteren",
+    "name": "Kasteren",
+    "modern": "Kasteren",
+    "coord": [
+      5.34712,
+      51.51438
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24904",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24904.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/9642"
+      }
+    ]
+  },
+  {
+    "key": "katzvey",
+    "name": "Katzvey",
+    "modern": "Katzvey",
+    "coord": [
+      6.68719,
+      50.60313
+    ],
+    "secure": true,
+    "type": "tempel",
+    "dareId": "20871",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20871.html"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/Katzensteine"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q1736922"
+      }
+    ]
+  },
+  {
+    "key": "katzvey",
+    "name": "Katzvey",
+    "modern": "Katzvey",
+    "coord": [
+      6.68983,
+      50.60349
+    ],
+    "secure": true,
+    "type": "mijn",
+    "dareId": "17265",
+    "startYear": -30,
+    "endYear": 300,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/17265.html"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/Katzensteine"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q1736922"
+      }
+    ]
+  },
+  {
+    "key": "keldenich",
+    "name": "Keldenich",
+    "modern": "Keldenich",
+    "coord": [
+      6.58649,
+      50.53553
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "12037",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/12037.html"
+      }
+    ]
+  },
+  {
+    "key": "kemexhe",
+    "name": "Kemexhe",
+    "modern": "Kemexhe",
+    "coord": [
+      5.40596,
+      50.69689
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20365",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20365.html"
+      }
+    ]
+  },
+  {
+    "key": "kennelee",
+    "name": "Kennelée",
+    "modern": "Kennelée",
+    "coord": [
+      3.44696,
+      50.56928
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20403",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20403.html"
+      }
+    ]
+  },
+  {
+    "key": "kirchberg",
+    "name": "Kirchberg",
+    "modern": "Kirchberg",
+    "coord": [
+      6.35528,
+      50.89806
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19632",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19632.html"
+      }
+    ]
+  },
+  {
+    "key": "kirchdaun-i",
+    "name": "Kirchdaun I",
+    "modern": "Kirchdaun I",
+    "coord": [
+      7.1723,
+      50.57232
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24966",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24966.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/9917"
+      }
+    ]
+  },
+  {
+    "key": "kirchdaun-ii",
+    "name": "Kirchdaun II",
+    "modern": "Kirchdaun II",
+    "coord": [
+      7.17577,
+      50.57186
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24965",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24965.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/9918"
+      }
+    ]
+  },
+  {
+    "key": "klein-vernich",
+    "name": "Klein-Vernich",
+    "modern": "Klein-Vernich",
+    "coord": [
+      6.82547,
+      50.74046
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19712",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19712.html"
+      }
+    ]
+  },
+  {
+    "key": "kleine-spouwen",
+    "name": "Kleine Spouwen",
+    "modern": "Kleine Spouwen",
+    "coord": [
+      5.54672,
+      50.83847
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20357",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20357.html"
+      }
+    ]
+  },
+  {
+    "key": "koelweg",
+    "name": "Koelweg",
+    "modern": "Koelweg",
+    "coord": [
+      6.03338,
+      50.9015
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24955",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24955.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/16278"
+      }
+    ]
+  },
+  {
+    "key": "konigsdorf",
+    "name": "Königsdorf",
+    "modern": "Königsdorf",
+    "coord": [
+      6.7715,
+      50.93683
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19617",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19617.html"
+      }
+    ]
+  },
+  {
+    "key": "konigshoven-1",
+    "name": "Königshoven (1)",
+    "modern": "Königshoven (1)",
+    "coord": [
+      6.54056,
+      51.00611
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19585",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19585.html"
+      }
+    ]
+  },
+  {
+    "key": "konigshoven-2",
+    "name": "Königshoven (2)",
+    "modern": "Königshoven (2)",
+    "coord": [
+      6.54056,
+      51.00611
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19586",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19586.html"
+      }
+    ]
+  },
+  {
+    "key": "kontich-alfsberg",
+    "name": "Kontich-Alfsberg",
+    "modern": "Kontich-Alfsberg",
+    "coord": [
+      4.46613,
+      51.1265
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "39076",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/39076.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/9816"
+      }
+    ]
+  },
+  {
+    "key": "kooigem",
+    "name": "Kooigem",
+    "modern": "Kooigem",
+    "coord": [
+      3.3316,
+      50.73993
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20400",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20400.html"
+      }
+    ]
+  },
+  {
+    "key": "kraaibonveld",
+    "name": "Kraaibonveld",
+    "modern": "Kraaibonveld",
+    "coord": [
+      4.9298,
+      50.82556
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "39082",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/39082.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/9837"
+      }
+    ]
+  },
+  {
+    "key": "kreuzberg",
+    "name": "Kreuzberg",
+    "modern": "Kreuzberg",
+    "coord": [
+      6.97388,
+      50.51029
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19579",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19579.html"
+      }
+    ]
+  },
+  {
+    "key": "kreuzweingarten",
+    "name": "Kreuzweingarten",
+    "modern": "Kreuzweingarten",
+    "coord": [
+      6.79215,
+      50.61113
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "17789",
+    "startYear": -30,
+    "endYear": 640,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/17789.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/8286"
+      }
+    ]
+  },
+  {
+    "key": "kruisstraat",
+    "name": "Kruisstraat",
+    "modern": "Kruisstraat",
+    "coord": [
+      3.75524,
+      50.87635
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "39071",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/39071.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/8124"
+      }
+    ]
+  },
+  {
+    "key": "la-coulbrie",
+    "name": "La Coulbrie",
+    "modern": "La Coulbrie",
+    "coord": [
+      4.06494,
+      50.56579
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20422",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20422.html"
+      }
+    ]
+  },
+  {
+    "key": "lafelt",
+    "name": "Lafelt",
+    "modern": "Lafelt",
+    "coord": [
+      5.61882,
+      50.82893
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20354",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20354.html"
+      }
+    ]
+  },
+  {
+    "key": "landskrone",
+    "name": "Landskrone",
+    "modern": "Landskrone",
+    "coord": [
+      7.17231,
+      50.55123
+    ],
+    "secure": true,
+    "type": "laat-Romeinse versterkte nederzetting",
+    "dareId": "43135",
+    "startYear": 300,
+    "endYear": 640,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/43135.html"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/Landskrone_(Ahr)"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q1803877"
+      }
+    ]
+  },
+  {
+    "key": "landsraderweg",
+    "name": "Landsraderweg",
+    "modern": "Landsraderweg",
+    "coord": [
+      5.88848,
+      50.80855
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24934",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24934.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/9646"
+      }
+    ]
+  },
+  {
+    "key": "lange-bosweg",
+    "name": "Lange Bosweg",
+    "modern": "Lange Bosweg",
+    "coord": [
+      5.9894,
+      50.7679
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24935",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24935.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/9610"
+      }
+    ]
+  },
+  {
+    "key": "langendorf",
+    "name": "Langendorf",
+    "modern": "Langendorf",
+    "coord": [
+      6.23193,
+      50.84522
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19612",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19612.html"
+      }
+    ]
+  },
+  {
+    "key": "langweiler",
+    "name": "Langweiler",
+    "modern": "Langweiler",
+    "coord": [
+      6.24023,
+      50.87455
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19573",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19573.html"
+      }
+    ]
+  },
+  {
+    "key": "langweiler",
+    "name": "Langweiler",
+    "modern": "Langweiler",
+    "coord": [
+      6.26667,
+      50.88333
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19575",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19575.html"
+      }
+    ]
+  },
+  {
+    "key": "laurensberg",
+    "name": "Laurensberg",
+    "modern": "Laurensberg",
+    "coord": [
+      6.06282,
+      50.7978
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19571",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19571.html"
+      }
+    ]
+  },
+  {
+    "key": "leest",
+    "name": "Leest",
+    "modern": "Leest",
+    "coord": [
+      4.4165,
+      51.03449
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20387",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20387.html"
+      }
+    ]
+  },
+  {
+    "key": "lemiers",
+    "name": "Lemiers",
+    "modern": "Lemiers",
+    "coord": [
+      6.00116,
+      50.7831
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24936",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24936.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/30"
+      },
+      {
+        "label": "Wikipedia (nl)",
+        "url": "https://nl.wikipedia.org/wiki/Romeinse_villa_Lemiers"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q7478065"
+      }
+    ]
+  },
+  {
+    "key": "lendersdorf",
+    "name": "Lendersdorf",
+    "modern": "Lendersdorf",
+    "coord": [
+      6.47656,
+      50.76887
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19594",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19594.html"
+      }
+    ]
+  },
+  {
+    "key": "lessenich",
+    "name": "Lessenich",
+    "modern": "Lessenich",
+    "coord": [
+      6.72167,
+      50.60833
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19659",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19659.html"
+      }
+    ]
+  },
+  {
+    "key": "liblar",
+    "name": "Liblar",
+    "modern": "Liblar",
+    "coord": [
+      6.81645,
+      50.81516
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19605",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19605.html"
+      }
+    ]
+  },
+  {
+    "key": "lich",
+    "name": "Lich",
+    "modern": "Lich",
+    "coord": [
+      6.46757,
+      50.87691
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19690",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19690.html"
+      }
+    ]
+  },
+  {
+    "key": "liedberg",
+    "name": "Liedberg",
+    "modern": "Liedberg",
+    "coord": [
+      6.5418,
+      51.16624
+    ],
+    "secure": false,
+    "type": "mijn",
+    "dareId": "17261",
+    "startYear": -30,
+    "endYear": 300,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/17261.html"
+      }
+    ]
+  },
+  {
+    "key": "lincent",
+    "name": "Lincent",
+    "modern": "Lincent",
+    "coord": [
+      5.03037,
+      50.71255
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20371",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20371.html"
+      }
+    ]
+  },
+  {
+    "key": "linnich",
+    "name": "Linnich",
+    "modern": "Linnich",
+    "coord": [
+      6.26667,
+      50.98333
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19655",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19655.html"
+      }
+    ]
+  },
+  {
+    "key": "lith",
+    "name": "Lith",
+    "modern": "Lith",
+    "coord": [
+      5.40751,
+      51.82029
+    ],
+    "secure": true,
+    "type": "tempel",
+    "dareId": "20877",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20877.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/111"
+      }
+    ]
+  },
+  {
+    "key": "lorberg",
+    "name": "Lorberg",
+    "modern": "Lorberg",
+    "coord": [
+      6.00695,
+      51.15203
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24926",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24926.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/6326"
+      }
+    ]
+  },
+  {
+    "key": "lovegnee",
+    "name": "Lovegnée",
+    "modern": "Lovegnée",
+    "coord": [
+      5.19398,
+      50.5179
+    ],
+    "secure": true,
+    "type": "laat-Romeinse versterkte nederzetting",
+    "dareId": "38656",
+    "startYear": 300,
+    "endYear": 640,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/38656.html"
+      }
+    ]
+  },
+  {
+    "key": "lucherberg",
+    "name": "Lucherberg",
+    "modern": "Lucherberg",
+    "coord": [
+      6.37306,
+      50.84361
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19624",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19624.html"
+      }
+    ]
+  },
+  {
+    "key": "lurken",
+    "name": "Lürken",
+    "modern": "Lürken",
+    "coord": [
+      6.23333,
+      50.85
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19608",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19608.html"
+      }
+    ]
+  },
+  {
+    "key": "maasbracht",
+    "name": "Maasbracht",
+    "modern": "Maasbracht",
+    "coord": [
+      5.91298,
+      51.15102
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "2540",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/2540.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/33"
+      }
+    ]
+  },
+  {
+    "key": "maasplein",
+    "name": "Maasplein",
+    "modern": "Maasplein",
+    "coord": [
+      5.8442,
+      51.85012
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "42793",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/42793.html"
+      }
+    ]
+  },
+  {
+    "key": "maastricht-louwberg",
+    "name": "Maastricht-Louwberg",
+    "modern": "Maastricht-Louwberg",
+    "coord": [
+      5.66431,
+      50.82863
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24930",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24930.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/34"
+      },
+      {
+        "label": "Wikipedia (nl)",
+        "url": "https://nl.wikipedia.org/wiki/Romeinse_villa_Maastricht-Louwberg"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q19906280"
+      }
+    ]
+  },
+  {
+    "key": "maffle",
+    "name": "Maffle",
+    "modern": "Maffle",
+    "coord": [
+      3.80402,
+      50.61549
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20413",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20413.html"
+      }
+    ]
+  },
+  {
+    "key": "manheim",
+    "name": "Manheim",
+    "modern": "Manheim",
+    "coord": [
+      6.59878,
+      50.8821
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "6069",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/6069.html"
+      }
+    ]
+  },
+  {
+    "key": "mariaweiler",
+    "name": "Mariaweiler",
+    "modern": "Mariaweiler",
+    "coord": [
+      6.44025,
+      50.81753
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19595",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19595.html"
+      }
+    ]
+  },
+  {
+    "key": "mars",
+    "name": "Mars",
+    "modern": "Mars",
+    "coord": [
+      4.2272,
+      51.99321
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24900",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24900.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/41"
+      }
+    ]
+  },
+  {
+    "key": "meckenheim",
+    "name": "Meckenheim",
+    "modern": "Meckenheim",
+    "coord": [
+      7.02118,
+      50.62721
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "3139",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/3139.html"
+      }
+    ]
+  },
+  {
+    "key": "meerberg",
+    "name": "Meerberg",
+    "modern": "Meerberg",
+    "coord": [
+      5.57832,
+      50.79646
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20355",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20355.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/10060"
+      }
+    ]
+  },
+  {
+    "key": "meezenbroek",
+    "name": "Meezenbroek",
+    "modern": "Meezenbroek",
+    "coord": [
+      5.98724,
+      50.90075
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24949",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24949.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/9604"
+      }
+    ]
+  },
+  {
+    "key": "meldert",
+    "name": "Meldert",
+    "modern": "Meldert",
+    "coord": [
+      4.82072,
+      50.78626
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20373",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20373.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/8099"
+      }
+    ]
+  },
+  {
+    "key": "merchtem",
+    "name": "Merchtem",
+    "modern": "Merchtem",
+    "coord": [
+      4.24276,
+      50.95514
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "7204",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/7204.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/6302"
+      }
+    ]
+  },
+  {
+    "key": "mere",
+    "name": "Mere",
+    "modern": "Mere",
+    "coord": [
+      3.97357,
+      50.91357
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "39072",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/39072.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/8120"
+      },
+      {
+        "label": "Wikipedia (nl)",
+        "url": "https://nl.wikipedia.org/wiki/Mere_(Belgi%C3%83%C2%AB)"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q985789"
+      }
+    ]
+  },
+  {
+    "key": "merten",
+    "name": "Merten",
+    "modern": "Merten",
+    "coord": [
+      6.92196,
+      50.77717
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19589",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19589.html"
+      }
+    ]
+  },
+  {
+    "key": "meslin-l-eveque",
+    "name": "Meslin-l'Évêque",
+    "modern": "Meslin-l'Évêque",
+    "coord": [
+      3.83698,
+      50.64946
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20416",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20416.html"
+      }
+    ]
+  },
+  {
+    "key": "michelbeke",
+    "name": "Michelbeke",
+    "modern": "Michelbeke",
+    "coord": [
+      3.76507,
+      50.83631
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20396",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20396.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/8122"
+      }
+    ]
+  },
+  {
+    "key": "millingen",
+    "name": "Millingen",
+    "modern": "Millingen",
+    "coord": [
+      6.02772,
+      51.85507
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "7641",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/7641.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/10418"
+      }
+    ]
+  },
+  {
+    "key": "montenaken",
+    "name": "Montenaken",
+    "modern": "Montenaken",
+    "coord": [
+      5.13474,
+      50.72168
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20368",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20368.html"
+      }
+    ]
+  },
+  {
+    "key": "morken",
+    "name": "Morken",
+    "modern": "Morken",
+    "coord": [
+      6.53333,
+      51.03333
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19587",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19587.html"
+      }
+    ]
+  },
+  {
+    "key": "moustier",
+    "name": "Moustier",
+    "modern": "Moustier",
+    "coord": [
+      3.62,
+      50.65469
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20406",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20406.html"
+      }
+    ]
+  },
+  {
+    "key": "mousty",
+    "name": "Mousty",
+    "modern": "Mousty",
+    "coord": [
+      4.56433,
+      50.66077
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "39077",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/39077.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/8079"
+      }
+    ]
+  },
+  {
+    "key": "muizen",
+    "name": "Muizen",
+    "modern": "Muizen",
+    "coord": [
+      4.51937,
+      51.00417
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20385",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20385.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/8093"
+      }
+    ]
+  },
+  {
+    "key": "mulheim",
+    "name": "Mulheim",
+    "modern": "Mulheim",
+    "coord": [
+      5.71349,
+      51.00506
+    ],
+    "secure": true,
+    "type": "tempel",
+    "dareId": "39107",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/39107.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/8068"
+      }
+    ]
+  },
+  {
+    "key": "mungersdorf",
+    "name": "Müngersdorf",
+    "modern": "Müngersdorf",
+    "coord": [
+      6.8741,
+      50.94276
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19646",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19646.html"
+      }
+    ]
+  },
+  {
+    "key": "neerharen",
+    "name": "Neerharen",
+    "modern": "Neerharen",
+    "coord": [
+      5.68817,
+      50.91602
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "17818",
+    "startYear": -30,
+    "endYear": 640,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/17818.html"
+      }
+    ]
+  },
+  {
+    "key": "neerijnen",
+    "name": "Neerijnen",
+    "modern": "Neerijnen",
+    "coord": [
+      5.29841,
+      51.84588
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24905",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24905.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/6332"
+      }
+    ]
+  },
+  {
+    "key": "neu-etzweiler",
+    "name": "Neu-Etzweiler",
+    "modern": "Neu-Etzweiler",
+    "coord": [
+      6.55274,
+      50.90286
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19601",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19601.html"
+      }
+    ]
+  },
+  {
+    "key": "nideggen",
+    "name": "Nideggen",
+    "modern": "Nideggen",
+    "coord": [
+      6.483,
+      50.69273
+    ],
+    "secure": false,
+    "type": "tempel",
+    "dareId": "20872",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20872.html"
+      }
+    ]
+  },
+  {
+    "key": "niederkastenholz",
+    "name": "Niederkastenholz",
+    "modern": "Niederkastenholz",
+    "coord": [
+      6.83472,
+      50.6225
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19616",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19616.html"
+      }
+    ]
+  },
+  {
+    "key": "niedermerz",
+    "name": "Niedermerz",
+    "modern": "Niedermerz",
+    "coord": [
+      6.26667,
+      50.88333
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19574",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19574.html"
+      }
+    ]
+  },
+  {
+    "key": "niehl",
+    "name": "Niehl",
+    "modern": "Niehl",
+    "coord": [
+      6.97864,
+      50.98004
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19647",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19647.html"
+      }
+    ]
+  },
+  {
+    "key": "nieuw-ehrenstein",
+    "name": "Nieuw Ehrenstein",
+    "modern": "Nieuw Ehrenstein",
+    "coord": [
+      6.05079,
+      50.8746
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24946",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24946.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/9607"
+      },
+      {
+        "label": "Wikipedia (nl)",
+        "url": "https://nl.wikipedia.org/wiki/Romeinse_villa_Nieuw_Ehrenstein"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q7478216"
+      }
+    ]
+  },
+  {
+    "key": "nievenheim",
+    "name": "Nievenheim",
+    "modern": "Nievenheim",
+    "coord": [
+      6.77201,
+      51.11495
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "12556",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/12556.html"
+      }
+    ]
+  },
+  {
+    "key": "nothen",
+    "name": "Nöthen",
+    "modern": "Nöthen",
+    "coord": [
+      6.70301,
+      50.53362
+    ],
+    "secure": true,
+    "type": "tempel",
+    "dareId": "19321",
+    "startYear": -30,
+    "endYear": 640,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19321.html"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/Tempelbezirk_Pesch"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q1408110"
+      }
+    ]
+  },
+  {
+    "key": "oberembt",
+    "name": "Oberembt",
+    "modern": "Oberembt",
+    "coord": [
+      6.50005,
+      50.95764
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19602",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19602.html"
+      }
+    ]
+  },
+  {
+    "key": "obergartzem",
+    "name": "Obergartzem",
+    "modern": "Obergartzem",
+    "coord": [
+      6.69675,
+      50.63689
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19660",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19660.html"
+      }
+    ]
+  },
+  {
+    "key": "oberrahser",
+    "name": "Oberrahser",
+    "modern": "Oberrahser",
+    "coord": [
+      6.38735,
+      51.26851
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19707",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19707.html"
+      }
+    ]
+  },
+  {
+    "key": "oberzier",
+    "name": "Oberzier",
+    "modern": "Oberzier",
+    "coord": [
+      6.47383,
+      50.86737
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19685",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19685.html"
+      }
+    ]
+  },
+  {
+    "key": "oberzier-ha-252",
+    "name": "Oberzier (Ha 252",
+    "modern": "Oberzier (Ha 252",
+    "coord": [
+      6.47383,
+      50.86737
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19684",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19684.html"
+      }
+    ]
+  },
+  {
+    "key": "odeur",
+    "name": "Odeur",
+    "modern": "Odeur",
+    "coord": [
+      5.41626,
+      50.70646
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20364",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20364.html"
+      }
+    ]
+  },
+  {
+    "key": "onderste-herkenberg",
+    "name": "Onderste Herkenberg",
+    "modern": "Onderste Herkenberg",
+    "coord": [
+      5.76164,
+      50.88237
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24962",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24962.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/20"
+      },
+      {
+        "label": "Wikipedia (nl)",
+        "url": "https://nl.wikipedia.org/wiki/Romeinse_villa_Meerssen-Onderste_Herkenberg"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q17454165"
+      }
+    ]
+  },
+  {
+    "key": "op-den-billich",
+    "name": "Op den Billich",
+    "modern": "Op den Billich",
+    "coord": [
+      5.82783,
+      50.89044
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24958",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24958.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/38"
+      },
+      {
+        "label": "Wikipedia (nl)",
+        "url": "https://nl.wikipedia.org/wiki/Romeinse_villa_Groot_Haasdal-Billich"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q7478129"
+      }
+    ]
+  },
+  {
+    "key": "op-den-welder",
+    "name": "Op den Welder",
+    "modern": "Op den Welder",
+    "coord": [
+      5.80108,
+      51.03708
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24927",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24927.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/13"
+      }
+    ]
+  },
+  {
+    "key": "overasselt-scheiwal",
+    "name": "Overasselt-Scheiwal",
+    "modern": "Overasselt-Scheiwal",
+    "coord": [
+      5.78692,
+      51.78674
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24918",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24918.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/36"
+      }
+    ]
+  },
+  {
+    "key": "pantaleonsberg",
+    "name": "Pantaleonsberg",
+    "modern": "Pantaleonsberg",
+    "coord": [
+      6.94744,
+      50.92839
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19644",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19644.html"
+      }
+    ]
+  },
+  {
+    "key": "pattern",
+    "name": "Pattern",
+    "modern": "Pattern",
+    "coord": [
+      6.31667,
+      50.88333
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19576",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19576.html"
+      }
+    ]
+  },
+  {
+    "key": "peruwelz",
+    "name": "Péruwelz",
+    "modern": "Péruwelz",
+    "coord": [
+      3.59253,
+      50.50644
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20408",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20408.html"
+      }
+    ]
+  },
+  {
+    "key": "pier",
+    "name": "Pier",
+    "modern": "Pier",
+    "coord": [
+      6.37879,
+      50.80854
+    ],
+    "secure": false,
+    "type": "tempel",
+    "dareId": "20873",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20873.html"
+      }
+    ]
+  },
+  {
+    "key": "piringen",
+    "name": "Piringen",
+    "modern": "Piringen",
+    "coord": [
+      5.42038,
+      50.7864
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20360",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20360.html"
+      }
+    ]
+  },
+  {
+    "key": "place-saint-lambert",
+    "name": "Place Saint-Lambert",
+    "modern": "Place Saint-Lambert",
+    "coord": [
+      5.57313,
+      50.64537
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24997",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24997.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/8089"
+      }
+    ]
+  },
+  {
+    "key": "pont-de-amay",
+    "name": "Pont de Amay",
+    "modern": "Pont de Amay",
+    "coord": [
+      5.33318,
+      50.54402
+    ],
+    "secure": true,
+    "type": "brug",
+    "dareId": "43818",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/43818.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/13022"
+      }
+    ]
+  },
+  {
+    "key": "popuelles",
+    "name": "Popuelles",
+    "modern": "Popuelles",
+    "coord": [
+      3.51563,
+      50.66165
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20405",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20405.html"
+      }
+    ]
+  },
+  {
+    "key": "porcetum",
+    "name": "Porcetum",
+    "modern": "Burtscheid",
+    "coord": [
+      6.091,
+      50.7634
+    ],
+    "secure": true,
+    "type": "tempel",
+    "dareId": "19320",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19320.html"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/Porcetum"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/Burtscheid"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q328649"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q2104364"
+      }
+    ]
+  },
+  {
+    "key": "propsteier-villa",
+    "name": "Propsteier Villa",
+    "modern": "Propsteier Villa",
+    "coord": [
+      6.2187,
+      50.79642
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24963",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24963.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/8284"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/Propsteier_Villa"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q1507884"
+      }
+    ]
+  },
+  {
+    "key": "pulheim",
+    "name": "Pulheim",
+    "modern": "Pulheim",
+    "coord": [
+      6.80769,
+      50.99958
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19692",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19692.html"
+      }
+    ]
+  },
+  {
+    "key": "rheinbach-i",
+    "name": "Rheinbach I",
+    "modern": "Rheinbach I",
+    "coord": [
+      6.9477,
+      50.62531
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19697",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19697.html"
+      }
+    ]
+  },
+  {
+    "key": "rheinbach-ii",
+    "name": "Rheinbach II",
+    "modern": "Rheinbach II",
+    "coord": [
+      6.9477,
+      50.62531
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19698",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19698.html"
+      }
+    ]
+  },
+  {
+    "key": "rheydt",
+    "name": "Rheydt",
+    "modern": "Rheydt",
+    "coord": [
+      6.45,
+      51.16667
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19665",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19665.html"
+      }
+    ]
+  },
+  {
+    "key": "rijsbergen",
+    "name": "Rijsbergen",
+    "modern": "Rijsbergen",
+    "coord": [
+      4.68374,
+      51.49739
+    ],
+    "secure": true,
+    "type": "tempel",
+    "dareId": "17800",
+    "startYear": -30,
+    "endYear": 300,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/17800.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/112"
+      }
+    ]
+  },
+  {
+    "key": "rijswijk",
+    "name": "Rijswijk",
+    "modern": "Rijswijk",
+    "coord": [
+      4.32165,
+      52.04205
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "13017",
+    "startYear": -30,
+    "endYear": 300,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/13017.html"
+      }
+    ]
+  },
+  {
+    "key": "rijswijk-de-bult",
+    "name": "Rijswijk-De Bult",
+    "modern": "Rijswijk-De Bult",
+    "coord": [
+      4.32674,
+      52.0309
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24899",
+    "startYear": -30,
+    "endYear": 300,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24899.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/37"
+      },
+      {
+        "label": "Livius.org",
+        "url": "https://www.livius.org/articles/place/rijswijk-de-bult/"
+      }
+    ]
+  },
+  {
+    "key": "roderath",
+    "name": "Roderath",
+    "modern": "Roderath",
+    "coord": [
+      6.7022,
+      50.50629
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "19316",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19316.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/8181"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/Villa_rustica_(Nettersheim-Roderath)"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q2525966"
+      }
+    ]
+  },
+  {
+    "key": "roermond",
+    "name": "Roermond",
+    "modern": "Roermond",
+    "coord": [
+      5.97279,
+      51.20216
+    ],
+    "secure": true,
+    "type": "tempel",
+    "dareId": "39106",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/39106.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/113"
+      }
+    ]
+  },
+  {
+    "key": "roitzheimer-auel",
+    "name": "Roitzheimer Auel",
+    "modern": "Roitzheimer Auel",
+    "coord": [
+      6.78999,
+      50.65744
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19615",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19615.html"
+      }
+    ]
+  },
+  {
+    "key": "rolduc",
+    "name": "Rolduc",
+    "modern": "Rolduc",
+    "coord": [
+      6.0791,
+      50.87101
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "38881",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/38881.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/9608"
+      },
+      {
+        "label": "Wikipedia (nl)",
+        "url": "https://nl.wikipedia.org/wiki/Romeinse_villa_Rolduc"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q14286128"
+      }
+    ]
+  },
+  {
+    "key": "rondenbos",
+    "name": "Rondenbos",
+    "modern": "Rondenbos",
+    "coord": [
+      5.79625,
+      50.88004
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24961",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24961.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/21"
+      },
+      {
+        "label": "Wikipedia (nl)",
+        "url": "https://nl.wikipedia.org/wiki/Romeinse_villa_Houthem-Rondenbos"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q7478148"
+      }
+    ]
+  },
+  {
+    "key": "rondorf",
+    "name": "Rondorf",
+    "modern": "Rondorf",
+    "coord": [
+      6.93461,
+      50.87439
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19648",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19648.html"
+      }
+    ]
+  },
+  {
+    "key": "rosmeer-diepestraat",
+    "name": "Rosmeer-Diepestraat",
+    "modern": "Rosmeer-Diepestraat",
+    "coord": [
+      5.58003,
+      50.84737
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20356",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20356.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/10064"
+      }
+    ]
+  },
+  {
+    "key": "rurbenden",
+    "name": "Rurbenden",
+    "modern": "Rurbenden",
+    "coord": [
+      6.45115,
+      50.84599
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19683",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19683.html"
+      }
+    ]
+  },
+  {
+    "key": "schaesberg",
+    "name": "Schaesberg",
+    "modern": "Schaesberg",
+    "coord": [
+      5.99938,
+      50.89865
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24948",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24948.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/26"
+      },
+      {
+        "label": "Wikipedia (nl)",
+        "url": "https://nl.wikipedia.org/wiki/Romeinse_villa_Landgraaf-Schaesberg"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q14286115"
+      }
+    ]
+  },
+  {
+    "key": "schalkhoven",
+    "name": "Schalkhoven",
+    "modern": "Schalkhoven",
+    "coord": [
+      5.45314,
+      50.83541
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24931",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24931.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/8065"
+      }
+    ]
+  },
+  {
+    "key": "schandelo",
+    "name": "Schandelo",
+    "modern": "Schandelo",
+    "coord": [
+      6.19532,
+      51.42263
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24923",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24923.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/418"
+      }
+    ]
+  },
+  {
+    "key": "scheldewindeke",
+    "name": "Scheldewindeke",
+    "modern": "Scheldewindeke",
+    "coord": [
+      3.78479,
+      50.93766
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20395",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20395.html"
+      }
+    ]
+  },
+  {
+    "key": "schleiden",
+    "name": "Schleiden",
+    "modern": "Schleiden",
+    "coord": [
+      6.24306,
+      50.88472
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19577",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19577.html"
+      }
+    ]
+  },
+  {
+    "key": "sclimpre",
+    "name": "Sclimpré",
+    "modern": "Sclimpré",
+    "coord": [
+      4.80746,
+      50.75791
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20374",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20374.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/8106"
+      }
+    ]
+  },
+  {
+    "key": "sechtem-i",
+    "name": "Sechtem I",
+    "modern": "Sechtem I",
+    "coord": [
+      6.95333,
+      50.78829
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "13015",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/13015.html"
+      }
+    ]
+  },
+  {
+    "key": "sechtem-ii",
+    "name": "Sechtem II",
+    "modern": "Sechtem II",
+    "coord": [
+      6.95171,
+      50.78925
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19590",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19590.html"
+      }
+    ]
+  },
+  {
+    "key": "selgersdorf",
+    "name": "Selgersdorf",
+    "modern": "Selgersdorf",
+    "coord": [
+      6.40737,
+      50.88824
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19633",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19633.html"
+      }
+    ]
+  },
+  {
+    "key": "silberberg",
+    "name": "Silberberg",
+    "modern": "Silberberg",
+    "coord": [
+      7.08513,
+      50.53888
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "17821",
+    "startYear": -30,
+    "endYear": 640,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/17821.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/4399"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/R%C3%83%C2%B6mervilla_von_Bad_Neuenahr-Ahrweiler"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q2179672"
+      }
+    ]
+  },
+  {
+    "key": "sindorf",
+    "name": "Sindorf",
+    "modern": "Sindorf",
+    "coord": [
+      6.67949,
+      50.90229
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19640",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19640.html"
+      }
+    ]
+  },
+  {
+    "key": "sinnersdorf",
+    "name": "Sinnersdorf",
+    "modern": "Sinnersdorf",
+    "coord": [
+      6.8169,
+      51.0246
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19696",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19696.html"
+      }
+    ]
+  },
+  {
+    "key": "sint-truiden",
+    "name": "Sint-Truiden",
+    "modern": "Sint-Truiden",
+    "coord": [
+      5.18706,
+      50.8156
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "36",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/36.html"
+      },
+      {
+        "label": "Wikipedia (fr)",
+        "url": "https://fr.wikipedia.org/wiki/Saint-Trond"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q37792"
+      }
+    ]
+  },
+  {
+    "key": "sinzenich",
+    "name": "Sinzenich",
+    "modern": "Sinzenich",
+    "coord": [
+      6.6485,
+      50.65878
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24964",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24964.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/8285"
+      }
+    ]
+  },
+  {
+    "key": "smeermaas",
+    "name": "Smeermaas",
+    "modern": "Smeermaas",
+    "coord": [
+      5.66559,
+      50.88334
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24929",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24929.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/8582"
+      }
+    ]
+  },
+  {
+    "key": "steenbeke",
+    "name": "Steenbeke",
+    "modern": "Steenbeke",
+    "coord": [
+      3.7888,
+      50.89693
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "39069",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/39069.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/8125"
+      }
+    ]
+  },
+  {
+    "key": "steenenis",
+    "name": "Steenenis",
+    "modern": "Steenenis",
+    "coord": [
+      5.93233,
+      50.89353
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24950",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24950.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/9609"
+      }
+    ]
+  },
+  {
+    "key": "steeningse-weg",
+    "name": "Steeningse Weg",
+    "modern": "Steeningse Weg",
+    "coord": [
+      6.17202,
+      51.49123
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24922",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24922.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/9612"
+      }
+    ]
+  },
+  {
+    "key": "steenland",
+    "name": "Steenland",
+    "modern": "Steenland",
+    "coord": [
+      5.83402,
+      50.89573
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24957",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24957.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/27"
+      },
+      {
+        "label": "Wikipedia (nl)",
+        "url": "https://nl.wikipedia.org/wiki/Romeinse_villa_Steenland"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q7478143"
+      }
+    ]
+  },
+  {
+    "key": "stein",
+    "name": "Stein",
+    "modern": "Stein",
+    "coord": [
+      5.76031,
+      50.97451
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "17817",
+    "startYear": -30,
+    "endYear": 640,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/17817.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/40"
+      }
+    ]
+  },
+  {
+    "key": "steinstra-ha-264",
+    "name": "Steinstraß (Ha 264)",
+    "modern": "Steinstraß (Ha 264)",
+    "coord": [
+      6.50188,
+      50.93277
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19688",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19688.html"
+      }
+    ]
+  },
+  {
+    "key": "steinstra-ha-34-u-419",
+    "name": "Steinstraß (Ha 34 u. 419)",
+    "modern": "Steinstraß (Ha 34 u. 419)",
+    "coord": [
+      6.48333,
+      50.93333
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19686",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19686.html"
+      }
+    ]
+  },
+  {
+    "key": "steinstra-ha-412",
+    "name": "Steinstraß (Ha 412)",
+    "modern": "Steinstraß (Ha 412)",
+    "coord": [
+      6.50188,
+      50.93277
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19689",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19689.html"
+      }
+    ]
+  },
+  {
+    "key": "steinstra-ha-59",
+    "name": "Steinstraß (Ha 59)",
+    "modern": "Steinstraß (Ha 59)",
+    "coord": [
+      6.50188,
+      50.93277
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19687",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19687.html"
+      }
+    ]
+  },
+  {
+    "key": "stetternich-1",
+    "name": "Stetternich (1)",
+    "modern": "Stetternich (1)",
+    "coord": [
+      6.4054,
+      50.92504
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19634",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19634.html"
+      }
+    ]
+  },
+  {
+    "key": "stetternich-2",
+    "name": "Stetternich (2)",
+    "modern": "Stetternich (2)",
+    "coord": [
+      6.4054,
+      50.92504
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19635",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19635.html"
+      }
+    ]
+  },
+  {
+    "key": "stetternich-3",
+    "name": "Stetternich (3)",
+    "modern": "Stetternich (3)",
+    "coord": [
+      6.4054,
+      50.92504
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19636",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19636.html"
+      }
+    ]
+  },
+  {
+    "key": "stolberg",
+    "name": "Stolberg",
+    "modern": "Stolberg",
+    "coord": [
+      6.22519,
+      50.77309
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19702",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19702.html"
+      }
+    ]
+  },
+  {
+    "key": "stommelerbusch",
+    "name": "Stommelerbusch",
+    "modern": "Stommelerbusch",
+    "coord": [
+      6.7812,
+      51.04729
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "39103",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/39103.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/10349"
+      }
+    ]
+  },
+  {
+    "key": "stra-entrasse",
+    "name": "Straßentrasse",
+    "modern": "Straßentrasse",
+    "coord": [
+      6.80769,
+      50.99958
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19691",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19691.html"
+      }
+    ]
+  },
+  {
+    "key": "swalmen",
+    "name": "Swalmen",
+    "modern": "Swalmen",
+    "coord": [
+      6.05884,
+      51.2333
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24925",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24925.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/419"
+      }
+    ]
+  },
+  {
+    "key": "swier",
+    "name": "Swier",
+    "modern": "Swier",
+    "coord": [
+      5.90018,
+      50.89703
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24953",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24953.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/422"
+      }
+    ]
+  },
+  {
+    "key": "ten-hove",
+    "name": "Ten Hove",
+    "modern": "Ten Hove",
+    "coord": [
+      5.90678,
+      50.88311
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "18175",
+    "startYear": -30,
+    "endYear": 640,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/18175.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/39"
+      },
+      {
+        "label": "Wikipedia (nl)",
+        "url": "https://nl.wikipedia.org/wiki/Romeinse_villa_Voerendaal-Ten_Hove"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q5502693"
+      }
+    ]
+  },
+  {
+    "key": "thines",
+    "name": "Thines",
+    "modern": "Thines",
+    "coord": [
+      4.36818,
+      50.5816
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20380",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20380.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/8110"
+      }
+    ]
+  },
+  {
+    "key": "tiefbachtal",
+    "name": "Tiefbachtal",
+    "modern": "Tiefbachtal",
+    "coord": [
+      7.11595,
+      50.50145
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "19223",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19223.html"
+      }
+    ]
+  },
+  {
+    "key": "tiegem",
+    "name": "Tiegem",
+    "modern": "Tiegem",
+    "coord": [
+      3.46853,
+      50.79497
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "38606",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/38606.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/10068"
+      }
+    ]
+  },
+  {
+    "key": "tiripre",
+    "name": "Tiripré",
+    "modern": "Tiripré",
+    "coord": [
+      3.76968,
+      50.56667
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20412",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20412.html"
+      }
+    ]
+  },
+  {
+    "key": "tombe",
+    "name": "Tombe",
+    "modern": "Tombe",
+    "coord": [
+      4.72069,
+      50.6364
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20377",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20377.html"
+      }
+    ]
+  },
+  {
+    "key": "tombe-de-l-empereur",
+    "name": "Tombe de l'Empereur",
+    "modern": "Tombe de l'Empereur",
+    "coord": [
+      5.08516,
+      50.63816
+    ],
+    "secure": true,
+    "type": "grafheuvel (tumulus)",
+    "dareId": "42586",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/42586.html"
+      },
+      {
+        "label": "Wikipedia (nl)",
+        "url": "https://nl.wikipedia.org/wiki/Tombe_de_l'Empereur"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q1899395"
+      }
+    ]
+  },
+  {
+    "key": "tomburg",
+    "name": "Tomburg",
+    "modern": "Tomburg",
+    "coord": [
+      6.97375,
+      50.59581
+    ],
+    "secure": true,
+    "type": "laat-Romeinse versterkte nederzetting",
+    "dareId": "42776",
+    "startYear": 300,
+    "endYear": 640,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/42776.html"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/Tomburg"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q151238"
+      }
+    ]
+  },
+  {
+    "key": "turmrott",
+    "name": "Turmrott",
+    "modern": "Turmrott",
+    "coord": [
+      7.10427,
+      50.54665
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "19580",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19580.html"
+      }
+    ]
+  },
+  {
+    "key": "turnacum",
+    "name": "Turnacum",
+    "modern": "Tournai",
+    "coord": [
+      3.38892,
+      50.60649
+    ],
+    "secure": true,
+    "type": "civitas-hoofdplaats",
+    "dareId": "40",
+    "startYear": -30,
+    "endYear": 640,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/40.html"
+      },
+      {
+        "label": "Wikipedia (nl)",
+        "url": "https://nl.wikipedia.org/wiki/Turnacum"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q2148285"
+      }
+    ]
+  },
+  {
+    "key": "ubach-palenberg",
+    "name": "Übach-Palenberg",
+    "modern": "Übach-Palenberg",
+    "coord": [
+      6.09639,
+      50.92867
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "6008",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/6008.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/415"
+      }
+    ]
+  },
+  {
+    "key": "udingen",
+    "name": "Üdingen",
+    "modern": "Üdingen",
+    "coord": [
+      6.48047,
+      50.72627
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19652",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19652.html"
+      }
+    ]
+  },
+  {
+    "key": "uedesheim",
+    "name": "Uedesheim",
+    "modern": "Uedesheim",
+    "coord": [
+      6.78978,
+      51.16263
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19669",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19669.html"
+      }
+    ]
+  },
+  {
+    "key": "varnenum",
+    "name": "Varnenum",
+    "modern": "Kornelimünster",
+    "coord": [
+      6.19362,
+      50.72976
+    ],
+    "secure": true,
+    "type": "tempel",
+    "dareId": "20821",
+    "startYear": -30,
+    "endYear": 300,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20821.html"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/Varnenum"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q151336"
+      }
+    ]
+  },
+  {
+    "key": "vaux",
+    "name": "Vaux",
+    "modern": "Vaux",
+    "coord": [
+      5.22125,
+      50.61026
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20349",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20349.html"
+      }
+    ]
+  },
+  {
+    "key": "velzeke",
+    "name": "Velzeke",
+    "modern": "Velzeke",
+    "coord": [
+      3.54034,
+      50.90477
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20398",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20398.html"
+      }
+    ]
+  },
+  {
+    "key": "vetschau",
+    "name": "Vetschau",
+    "modern": "Vetschau",
+    "coord": [
+      6.04222,
+      50.81483
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19572",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19572.html"
+      }
+    ]
+  },
+  {
+    "key": "villeroux",
+    "name": "Villeroux",
+    "modern": "Villeroux",
+    "coord": [
+      4.60627,
+      50.60228
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "11324",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/11324.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/8082"
+      }
+    ]
+  },
+  {
+    "key": "villers-en-hesbaye",
+    "name": "Villers-en-Hesbaye",
+    "modern": "Villers-en-Hesbaye",
+    "coord": [
+      5.11551,
+      50.61636
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20348",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20348.html"
+      }
+    ]
+  },
+  {
+    "key": "villers-le-bouillet",
+    "name": "Villers-le-Bouillet",
+    "modern": "Villers-le-Bouillet",
+    "coord": [
+      5.27206,
+      50.56754
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20350",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20350.html"
+      }
+    ]
+  },
+  {
+    "key": "villers-le-temple",
+    "name": "Villers-le-Temple",
+    "modern": "Villers-le-Temple",
+    "coord": [
+      5.36957,
+      50.50906
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20332",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20332.html"
+      }
+    ]
+  },
+  {
+    "key": "vissoul",
+    "name": "Vissoul",
+    "modern": "Vissoul",
+    "coord": [
+      5.13077,
+      50.59766
+    ],
+    "secure": true,
+    "type": "grafheuvel (tumulus)",
+    "dareId": "42585",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/42585.html"
+      },
+      {
+        "label": "Wikipedia (nl)",
+        "url": "https://nl.wikipedia.org/wiki/Tumulus_van_Vissoul"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q2595945"
+      }
+    ]
+  },
+  {
+    "key": "vlengendaal",
+    "name": "Vlengendaal",
+    "modern": "Vlengendaal",
+    "coord": [
+      6.00808,
+      50.80619
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24937",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24937.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/12"
+      },
+      {
+        "label": "Wikipedia (nl)",
+        "url": "https://nl.wikipedia.org/wiki/Romeinse_villa_Bocholtz-Vlengendaal"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q14286062"
+      }
+    ]
+  },
+  {
+    "key": "vlijtingen-onze-lieve-vrouw-van-zeven-weeen",
+    "name": "Vlijtingen-Onze-Lieve-Vrouw-van-Zeven-Weeën",
+    "modern": "Vlijtingen-Onze-Lieve-Vrouw-van-Zeven-Weeën",
+    "coord": [
+      5.58205,
+      50.82161
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "39088",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/39088.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/10059"
+      }
+    ]
+  },
+  {
+    "key": "voeren-s-gravenvoeren",
+    "name": "Voeren-'s Gravenvoeren",
+    "modern": "Voeren-'s Gravenvoeren",
+    "coord": [
+      5.77864,
+      50.75294
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "7490",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/7490.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/10118"
+      }
+    ]
+  },
+  {
+    "key": "vogelenzang",
+    "name": "Vogelenzang",
+    "modern": "Vogelenzang",
+    "coord": [
+      5.8173,
+      50.87858
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24960",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24960.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/22"
+      },
+      {
+        "label": "Wikipedia (nl)",
+        "url": "https://nl.wikipedia.org/wiki/Romeinse_villa_Valkenburg-Vogelenzang"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q7478139"
+      }
+    ]
+  },
+  {
+    "key": "vogelsang",
+    "name": "Vogelsang",
+    "modern": "Vogelsang",
+    "coord": [
+      6.87986,
+      50.95874
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19649",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19649.html"
+      }
+    ]
+  },
+  {
+    "key": "vollem",
+    "name": "Vollem",
+    "modern": "Vollem",
+    "coord": [
+      6.64219,
+      50.54712
+    ],
+    "secure": true,
+    "type": "mijlpaal",
+    "dareId": "20610",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20610.html"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/Aqu%C3%83%C2%A4duktbr%C3%83%C2%BCcke_in_Mechernich-Vollem"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q623430"
+      }
+    ]
+  },
+  {
+    "key": "vor-hirschberg",
+    "name": "Vor Hirschberg",
+    "modern": "Vor Hirschberg",
+    "coord": [
+      6.65186,
+      50.50261
+    ],
+    "secure": true,
+    "type": "tempel",
+    "dareId": "20606",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20606.html"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/Zingsheim"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q204490"
+      }
+    ]
+  },
+  {
+    "key": "vorst",
+    "name": "Vorst",
+    "modern": "Vorst",
+    "coord": [
+      5.01144,
+      51.08261
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "6086",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/6086.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/8094"
+      }
+    ]
+  },
+  {
+    "key": "vortum-mullem",
+    "name": "Vortum-Mullem",
+    "modern": "Vortum-Mullem",
+    "coord": [
+      5.99099,
+      51.63088
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24920",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24920.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/9694"
+      }
+    ]
+  },
+  {
+    "key": "vussem",
+    "name": "Vussem",
+    "modern": "Vussem",
+    "coord": [
+      6.66872,
+      50.56494
+    ],
+    "secure": true,
+    "type": "mijlpaal",
+    "dareId": "20612",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20612.html"
+      },
+      {
+        "label": "Wikipedia (de)",
+        "url": "https://de.wikipedia.org/wiki/Aqu%C3%83%C2%A4duktbr%C3%83%C2%BCcke_Vussem"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q623426"
+      }
+    ]
+  },
+  {
+    "key": "wange-damekot",
+    "name": "Wange-Damekot",
+    "modern": "Wange-Damekot",
+    "coord": [
+      5.03397,
+      50.78939
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20370",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20370.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/8100"
+      }
+    ]
+  },
+  {
+    "key": "wansum-peschweide",
+    "name": "Wansum-Peschweide",
+    "modern": "Wansum-Peschweide",
+    "coord": [
+      6.09344,
+      51.54057
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24921",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24921.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/9689"
+      }
+    ]
+  },
+  {
+    "key": "weckhoven",
+    "name": "Weckhoven",
+    "modern": "Weckhoven",
+    "coord": [
+      6.69697,
+      51.15772
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19670",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19670.html"
+      }
+    ]
+  },
+  {
+    "key": "weeze",
+    "name": "Weeze",
+    "modern": "Weeze",
+    "coord": [
+      6.19684,
+      51.62667
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19710",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19710.html"
+      }
+    ]
+  },
+  {
+    "key": "weilerfeld",
+    "name": "Weilerfeld",
+    "modern": "Weilerfeld",
+    "coord": [
+      6.9477,
+      50.62531
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19699",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19699.html"
+      }
+    ]
+  },
+  {
+    "key": "welterhof",
+    "name": "Welterhof",
+    "modern": "Welterhof",
+    "coord": [
+      5.96795,
+      50.86799
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24942",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24942.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/9606"
+      }
+    ]
+  },
+  {
+    "key": "wemmel",
+    "name": "Wemmel",
+    "modern": "Wemmel",
+    "coord": [
+      4.30041,
+      50.9104
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "20390",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20390.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/8104"
+      }
+    ]
+  },
+  {
+    "key": "wesseling",
+    "name": "Wesseling",
+    "modern": "Wesseling",
+    "coord": [
+      6.99413,
+      50.80486
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24967",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24967.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/8288"
+      }
+    ]
+  },
+  {
+    "key": "wickrath",
+    "name": "Wickrath",
+    "modern": "Wickrath",
+    "coord": [
+      6.41072,
+      51.12849
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19666",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19666.html"
+      }
+    ]
+  },
+  {
+    "key": "widdersdorf",
+    "name": "Widdersdorf",
+    "modern": "Widdersdorf",
+    "coord": [
+      6.83333,
+      50.96667
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19650",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19650.html"
+      }
+    ]
+  },
+  {
+    "key": "wijchen-tienakker",
+    "name": "Wijchen Tienakker",
+    "modern": "Wijchen Tienakker",
+    "coord": [
+      5.72174,
+      51.80583
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24917",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24917.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/25"
+      }
+    ]
+  },
+  {
+    "key": "wijnegem",
+    "name": "Wijnegem",
+    "modern": "Wijnegem",
+    "coord": [
+      4.52757,
+      51.23433
+    ],
+    "secure": true,
+    "type": "tempel",
+    "dareId": "20879",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20879.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/10111"
+      }
+    ]
+  },
+  {
+    "key": "winssen",
+    "name": "Winssen",
+    "modern": "Winssen",
+    "coord": [
+      5.69305,
+      51.88749
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "24912",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/24912.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/3"
+      }
+    ]
+  },
+  {
+    "key": "wollersheim",
+    "name": "Wollersheim",
+    "modern": "Wollersheim",
+    "coord": [
+      6.56417,
+      50.67056
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19671",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19671.html"
+      }
+    ]
+  },
+  {
+    "key": "wormenkouter",
+    "name": "Wormenkouter",
+    "modern": "Wormenkouter",
+    "coord": [
+      3.76362,
+      50.89902
+    ],
+    "secure": true,
+    "type": "villa",
+    "dareId": "39070",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/39070.html"
+      },
+      {
+        "label": "vici.org",
+        "url": "https://vici.org/vici/8126"
+      }
+    ]
+  },
+  {
+    "key": "wurselen",
+    "name": "Würselen",
+    "modern": "Würselen",
+    "coord": [
+      6.13207,
+      50.82165
+    ],
+    "secure": false,
+    "type": "villa",
+    "dareId": "19713",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/19713.html"
+      }
+    ]
+  },
+  {
+    "key": "zundert",
+    "name": "Zundert",
+    "modern": "Zundert",
+    "coord": [
+      4.65666,
+      51.46914
+    ],
+    "secure": false,
+    "type": "tempel",
+    "dareId": "20878",
+    "startYear": 0,
+    "endYear": 0,
+    "links": [
+      {
+        "label": "DARE",
+        "url": "https://imperium.ahlfeldt.se/places/20878.html"
+      }
+    ]
+  }
+]

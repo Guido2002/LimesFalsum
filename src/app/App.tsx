@@ -175,6 +175,7 @@ export function App() {
                   groups={groups}
                   selectedCoinId={state.selectedCoinId}
                   selectedLocationKey={state.selectedLocationKey}
+                  filters={state.filters}
                   onSelectLocation={openLocation}
                   onSelectCoin={openCoin}
                 />

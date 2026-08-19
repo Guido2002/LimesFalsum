@@ -1,0 +1,86 @@
+[
+  {
+    "key": "vicus-catualium",
+    "name": "Vicus Catualium",
+    "coord": [
+      5.89899,
+      51.17789
+    ],
+    "secure": true,
+    "kind": "vicus",
+    "startYear": 0,
+    "endYear": 0
+  },
+  {
+    "key": "vicus-de-woerd",
+    "name": "Vicus De Woerd",
+    "coord": [
+      4.44149,
+      52.17228
+    ],
+    "secure": true,
+    "kind": "vicus",
+    "startYear": 70,
+    "endYear": 270
+  },
+  {
+    "key": "vicus-nigrum-pullum",
+    "name": "Vicus Nigrum Pullum",
+    "coord": [
+      4.71644,
+      52.10568
+    ],
+    "secure": true,
+    "kind": "vicus",
+    "startYear": 0,
+    "endYear": 0
+  },
+  {
+    "key": "vicus-coriovallum",
+    "name": "Vicus Coriovallum",
+    "coord": [
+      5.97784,
+      50.8856
+    ],
+    "secure": true,
+    "kind": "vicus",
+    "startYear": 0,
+    "endYear": 0
+  },
+  {
+    "key": "vicus-matilo",
+    "name": "Vicus Matilo",
+    "coord": [
+      4.5178,
+      52.14968
+    ],
+    "secure": true,
+    "kind": "vicus",
+    "startYear": 150,
+    "endYear": 400
+  },
+  {
+    "key": "vicus-castellum-bodegraven",
+    "name": "Vicus Castellum Bodegraven",
+    "coord": [
+      4.74672,
+      52.08386
+    ],
+    "secure": true,
+    "kind": "vicus",
+    "startYear": 0,
+    "endYear": 0
+  },
+  {
+    "key": "ulpia-noviomagus-batavorum",
+    "name": "Ulpia Noviomagus Batavorum",
+    "coord": [
+      5.84848,
+      51.85341
+    ],
+    "secure": true,
+    "kind": "stad",
+    "startYear": 70,
+    "endYear": 270
+  }
+]

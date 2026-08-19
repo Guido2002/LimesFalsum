@@ -1,16 +1,40 @@
 import maplibregl from "maplibre-gl";
-import { ROMAN_ROADS_GEOJSON, ROMAN_SITES_GEOJSON } from "../../data/roman-roads";
+import {
+  ROMAN_BUILDINGS_GEOJSON,
+  ROMAN_FARMS_GEOJSON,
+  ROMAN_ROADS_GEOJSON,
+  ROMAN_SITES_GEOJSON,
+  BUILDING_POINTS,
+  FARM_POINTS,
+  SITE_POINTS,
+} from "../../data/roman-roads";
 
 export const ROMAN_ROADS_SOURCE_ID = "roman-roads";
 export const ROMAN_SITES_SOURCE_ID = "roman-sites";
+export const ROMAN_BUILDINGS_SOURCE_ID = "roman-buildings";
+export const ROMAN_FARMS_SOURCE_ID = "roman-farms";
 export const ROMAN_ROAD_LAYER_ID = "roman-road-lines";
 export const ROMAN_SITE_LAYER_ID = "roman-site-points";
 export const ROMAN_SITE_LABEL_LAYER_ID = "roman-site-labels";
+export const ROMAN_BUILDING_LAYER_ID = "roman-building-points";
+export const ROMAN_BUILDING_LABEL_LAYER_ID = "roman-building-labels";
+export const ROMAN_FARM_LAYER_ID = "roman-farm-points";
+export const ROMAN_FARM_LABEL_LAYER_ID = "roman-farm-labels";
 
-const ROMAN_LAYER_IDS = [ROMAN_ROAD_LAYER_ID, ROMAN_SITE_LAYER_ID, ROMAN_SITE_LABEL_LAYER_ID];
+const ROMAN_LAYER_IDS = [
+  ROMAN_ROAD_LAYER_ID,
+  ROMAN_SITE_LAYER_ID,
+  ROMAN_SITE_LABEL_LAYER_ID,
+  ROMAN_BUILDING_LAYER_ID,
+  ROMAN_BUILDING_LABEL_LAYER_ID,
+  ROMAN_FARM_LAYER_ID,
+  ROMAN_FARM_LABEL_LAYER_ID,
+];
 
 /** Sprite id for the hand-drawn fort PNG (served from /public). */
 const FORT_ICON_ID = "fort-icon";
+/** Sprite id for the hand-drawn farmstead PNG. */
+const FARM_ICON_ID = "farm-icon";
 
 /**
  * Roman roads and forts overlay (DARE data, see src/data/roman-roads.ts).
@@ -24,6 +48,8 @@ const FORT_ICON_ID = "fort-icon";
 export async function addRomanRoadLayers(map: maplibregl.Map): Promise<void> {
   map.addSource(ROMAN_ROADS_SOURCE_ID, { type: "geojson", data: ROMAN_ROADS_GEOJSON });
   map.addSource(ROMAN_SITES_SOURCE_ID, { type: "geojson", data: ROMAN_SITES_GEOJSON });
+  map.addSource(ROMAN_BUILDINGS_SOURCE_ID, { type: "geojson", data: ROMAN_BUILDINGS_GEOJSON });
+  map.addSource(ROMAN_FARMS_SOURCE_ID, { type: "geojson", data: ROMAN_FARMS_GEOJSON });
 
   // Hairline casing first (light), then the dashed road itself on top —
   // this makes the road read as a drawn path, not a floating dashed stroke.
@@ -57,6 +83,107 @@ export async function addRomanRoadLayers(map: maplibregl.Map): Promise<void> {
         ["case", ["==", ["get", "major"], 1], 2.2, 1.5],
       ],
       "line-dasharray": [1.6, 1.8],
+    },
+  });
+
+  // Farmsteads (user's own vici/stad list) get the hand-drawn farm icon.
+  // Few points, so they may be visible from overview zoom — like the forts.
+  const farmIconReady = await loadSprite(map, FARM_ICON_ID, "farm-icon.png");
+  if (farmIconReady) {
+    map.addLayer({
+      id: ROMAN_FARM_LAYER_ID,
+      type: "symbol",
+      source: ROMAN_FARMS_SOURCE_ID,
+      layout: {
+        "icon-image": FARM_ICON_ID,
+        "icon-size": ["interpolate", ["linear"], ["zoom"], 6, 0.06, 12, 0.13, 16, 0.2],
+        "icon-allow-overlap": true,
+      },
+      paint: {
+        "icon-opacity": ["interpolate", ["linear"], ["zoom"], 7, 0.4, 9, 0.9],
+      },
+    });
+  } else {
+    map.addLayer({
+      id: ROMAN_FARM_LAYER_ID,
+      type: "circle",
+      source: ROMAN_FARMS_SOURCE_ID,
+      paint: {
+        "circle-color": "#6B4E24",
+        "circle-radius": ["interpolate", ["linear"], ["zoom"], 6, 1.6, 12, 3],
+        "circle-opacity": 0.75,
+        "circle-stroke-color": "#FAF7F0",
+        "circle-stroke-width": 1.2,
+      },
+    });
+  }
+
+  map.addLayer({
+    id: ROMAN_FARM_LABEL_LAYER_ID,
+    type: "symbol",
+    source: ROMAN_FARMS_SOURCE_ID,
+    minzoom: 10,
+    layout: {
+      "text-field": ["get", "name"],
+      "text-size": 10.5,
+      "text-font": ["Noto Sans Italic"],
+      "text-offset": [0, 1.0],
+      "text-anchor": "top",
+      "text-optional": true,
+      "text-padding": 5,
+    },
+    paint: {
+      "text-color": "#6B4E24",
+      "text-halo-color": "#FAF7F0",
+      "text-halo-width": 2,
+      "text-halo-blur": 0.5,
+    },
+  });
+
+  // Civilian buildings (villa's, tempels, bruggen, mijlpalen, …): smaller,
+  // lighter diamond markers that only appear when zoomed in — there are ~380
+  // of them, so at overview zoom they would drown out the forts and coins.
+  map.addLayer({
+    id: ROMAN_BUILDING_LAYER_ID,
+    type: "circle",
+    source: ROMAN_BUILDINGS_SOURCE_ID,
+    minzoom: 8.5,
+    paint: {
+      "circle-color": "#8C7A5B",
+      "circle-radius": ["interpolate", ["linear"], ["zoom"], 8.5, 1.6, 13, 3.4],
+      "circle-opacity": [
+        "interpolate",
+        ["linear"],
+        ["zoom"],
+        8.5,
+        ["case", ["==", ["get", "secure"], 1], 0.45, 0.25],
+        11,
+        ["case", ["==", ["get", "secure"], 1], 0.8, 0.45],
+      ],
+      "circle-stroke-color": "#FAF7F0",
+      "circle-stroke-width": 1,
+    },
+  });
+
+  map.addLayer({
+    id: ROMAN_BUILDING_LABEL_LAYER_ID,
+    type: "symbol",
+    source: ROMAN_BUILDINGS_SOURCE_ID,
+    minzoom: 11,
+    layout: {
+      "text-field": ["get", "name"],
+      "text-size": 10.5,
+      "text-font": ["Noto Sans Italic"],
+      "text-offset": [0, 0.9],
+      "text-anchor": "top",
+      "text-optional": true,
+      "text-padding": 5,
+    },
+    paint: {
+      "text-color": "#8C7A5B",
+      "text-halo-color": "#FAF7F0",
+      "text-halo-width": 1.8,
+      "text-halo-blur": 0.5,
     },
   });
 
@@ -154,6 +281,95 @@ export function setRomanRoadsVisible(map: maplibregl.Map, visible: boolean): voi
   }
 }
 
+export interface FortFilterOptions {
+  /** Date window from the coin filter. */
+  dateFrom?: number;
+  dateTo?: number;
+  /** Free-text query — matched against fort name and modern name. */
+  search?: string;
+  /** Locations of the currently filtered coins — forts near one stay visible. */
+  groups?: { longitude: number; latitude: number }[];
+  /** True when a province/municipality filter is active (drives proximity). */
+  geoFilterActive?: boolean;
+  /** Hoards happen near fortifications; loose-only filters hide forts. */
+  findCharacters?: string[];
+}
+
+/** Forts further than this from every filtered findspot are hidden. */
+const NEAR_COIN_KM = 15;
+
+function distanceKm(lon1: number, lat1: number, lon2: number, lat2: number): number {
+  const dx = (lon1 - lon2) * Math.cos(((lat1 + lat2) / 2) * (Math.PI / 180)) * 111.32;
+  const dy = (lat1 - lat2) * 110.95;
+  return Math.hypot(dx, dy);
+}
+
+/**
+ * Align the fort layer with the active coin filters. A fort stays visible
+ * when every applicable rule passes; unknown data never hides a fort.
+ */
+export function setRomanSitesFilter(map: maplibregl.Map, opts: FortFilterOptions): void {
+  const conditions: unknown[] = [true]; // no filter → match everything
+
+  // 1. Date overlap; forts with unknown dates (0/0) always pass.
+  if (opts.dateFrom !== undefined || opts.dateTo !== undefined) {
+    const lo = opts.dateFrom ?? -9999;
+    const hi = opts.dateTo ?? 9999;
+    conditions.push([
+      "any",
+      ["all", ["==", ["get", "startYear"], 0], ["==", ["get", "endYear"], 0]],
+      ["all", ["<=", ["get", "startYear"], hi], [">=", ["get", "endYear"], lo]],
+    ]);
+  }
+
+  // 2. Free-text search: fort name or modern name contains the query.
+  const q = opts.search?.trim().toLowerCase();
+  if (q) {
+    conditions.push([
+      "any",
+      [">=", ["index-of", q, ["downcase", ["get", "name"]]], 0],
+      [">=", ["index-of", q, ["downcase", ["get", "modern"]]], 0],
+    ]);
+  }
+
+  // 3. Province/municipality filter active → keep only sites near a
+  //    remaining findspot (client-side: MapLibre has no point-distance expr).
+  if (opts.geoFilterActive) {
+    const near = new Set<string>();
+    for (const s of [...SITE_POINTS, ...BUILDING_POINTS, ...FARM_POINTS]) {
+      for (const g of opts.groups ?? []) {
+        if (distanceKm(s.lon, s.lat, g.longitude, g.latitude) <= NEAR_COIN_KM) {
+          near.add(s.key);
+          break;
+        }
+      }
+    }
+    conditions.push(["in", ["get", "key"], ["literal", [...near]]]);
+  }
+
+  // 4. Hoards are found around fortifications; a loose-only filter implies
+  //    no fort context — hide the forts. Mixed/empty selections keep them.
+  const fc = opts.findCharacters ?? [];
+  if (fc.length > 0 && !fc.includes("schatvondst") && fc.includes("losse vondst")) {
+    conditions.push(false);
+  }
+
+  const filter = conditions.length === 1
+    ? null
+    : (["all", ...conditions] as maplibregl.FilterSpecification);
+
+  for (const id of [
+    ROMAN_SITE_LAYER_ID,
+    ROMAN_SITE_LABEL_LAYER_ID,
+    ROMAN_BUILDING_LAYER_ID,
+    ROMAN_BUILDING_LABEL_LAYER_ID,
+    ROMAN_FARM_LAYER_ID,
+    ROMAN_FARM_LABEL_LAYER_ID,
+  ]) {
+    if (map.getLayer(id)) map.setFilter(id, filter);
+  }
+}
+
 /** Fallback line for sites without a securely identified location. */
 const UNCERTAIN_NOTE =
   "De exacte ligging van deze plek is onzeker of alleen vermoed; de markering is een benadering.";
@@ -183,7 +399,7 @@ export function onSiteClick(map: maplibregl.Map): void {
     offset: 20,
   });
 
-  map.on("click", ROMAN_SITE_LAYER_ID, (e) => {
+  const handleSiteClick = (e: maplibregl.MapMouseEvent & { features?: maplibregl.MapGeoJSONFeature[] }) => {
     const feature = e.features?.[0];
     if (!feature) return;
     const props = feature.properties as {
@@ -222,24 +438,40 @@ export function onSiteClick(map: maplibregl.Map): void {
           linksLine,
       )
       .addTo(map);
-  });
+  };
 
-  map.on("mouseenter", ROMAN_SITE_LAYER_ID, () => {
+  const setPointer = () => {
     map.getCanvas().style.cursor = "pointer";
-  });
-  map.on("mouseleave", ROMAN_SITE_LAYER_ID, () => {
+  };
+  const clearPointer = () => {
     map.getCanvas().style.cursor = "";
-  });
+  };
+
+  map.on("click", ROMAN_SITE_LAYER_ID, handleSiteClick);
+  map.on("click", ROMAN_BUILDING_LAYER_ID, handleSiteClick);
+  map.on("click", ROMAN_FARM_LAYER_ID, handleSiteClick);
+
+  map.on("mouseenter", ROMAN_SITE_LAYER_ID, setPointer);
+  map.on("mouseenter", ROMAN_BUILDING_LAYER_ID, setPointer);
+  map.on("mouseenter", ROMAN_FARM_LAYER_ID, setPointer);
+  map.on("mouseleave", ROMAN_SITE_LAYER_ID, clearPointer);
+  map.on("mouseleave", ROMAN_BUILDING_LAYER_ID, clearPointer);
+  map.on("mouseleave", ROMAN_FARM_LAYER_ID, clearPointer);
 }
 
-/** Fetch the fort PNG and register it as a sprite. False = use fallback dots. */
-async function loadFortIcon(map: maplibregl.Map): Promise<boolean> {
-  if (map.hasImage(FORT_ICON_ID)) return true;
+/** Fetch a PNG sprite and register it. False = caller should use fallback. */
+async function loadSprite(map: maplibregl.Map, id: string, file: string): Promise<boolean> {
+  if (map.hasImage(id)) return true;
   try {
-    const response = await map.loadImage(`${import.meta.env.BASE_URL}fort.png`);
-    map.addImage(FORT_ICON_ID, response.data);
+    const response = await map.loadImage(`${import.meta.env.BASE_URL}${file}`);
+    map.addImage(id, response.data);
     return true;
   } catch {
     return false;
   }
+}
+
+/** Fetch the fort PNG and register it as a sprite. False = use fallback dots. */
+async function loadFortIcon(map: maplibregl.Map): Promise<boolean> {
+  return loadSprite(map, FORT_ICON_ID, "fort.png");
 }

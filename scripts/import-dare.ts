@@ -6,8 +6,10 @@
  *
  * Output (clipped to the lower-Rhine region, lon 3.0–8.7 / lat 50.5–53.8,
  * i.e. the Netherlands plus the German limes down to Bonn):
- *   - src/data/generated/dare-forts.json  — fort/camp points
- *   - src/data/generated/dare-roads.json  — road lines with real geometry
+ *   - src/data/generated/dare-forts.json     — fort/camp points
+ *   - src/data/generated/dare-buildings.json — civilian buildings (villa's,
+ *     nederzettingen, tempels, bruggen, mijlpalen, …)
+ *   - src/data/generated/dare-roads.json     — road lines with real geometry
  *     (roads_high, the surveyed named routes; GeoJSON content, .json
  *     extension so resolveJsonModule covers it)
  *
@@ -40,6 +42,35 @@ const FORT_TYPE_NL: Record<string, string> = {
   "17": "legioensvesting",
   "18": "fort",
   "53": "klein fort (fortlet)",
+};
+
+/**
+ * Civilian DARE place types (numeric codes from the bulk dump):
+ * 13 civitas-hoofdplaats, 14 villa, 24 kerk, 32 tumulus, 34 kleine
+ * nederzetting, 35 laat-Romeinse versterkte nederzetting, 43 stroomversnelling
+ * (vaarweg), 46 aquaduct, 47 dam/sluis, 49 bergpas, 51 brug, 52 mijlpaal,
+ * 57 mijn, 58 productieplaats, 61 heiligdom/tempel, 63 begraafplaats,
+ * 66 badhuis, 76 vuurtoren.
+ */
+const BUILDING_TYPE_NL: Record<string, string> = {
+  "13": "civitas-hoofdplaats",
+  "14": "villa",
+  "24": "kerk (laat-antiek)",
+  "32": "grafheuvel (tumulus)",
+  "34": "nederzetting",
+  "35": "laat-Romeinse versterkte nederzetting",
+  "43": "stroomversnelling (vaarweg)",
+  "46": "aquaduct",
+  "47": "dam / sluis",
+  "49": "bergpas",
+  "51": "brug",
+  "52": "mijlpaal",
+  "57": "mijn",
+  "58": "productieplaats",
+  "61": "heiligdom / tempel",
+  "63": "begraafplaats",
+  "66": "badhuis",
+  "76": "vuurtoren",
 };
 
 // ---------------------------------------------------------------------------
@@ -169,8 +200,8 @@ export interface DareFort {
   links: DareLink[];
 }
 
-async function importForts(): Promise<DareFort[]> {
-  const forts = new Map<string, DareFort>(); // dedupe by DARE id
+async function importPlaces(typeMap: Record<string, string>): Promise<DareFort[]> {
+  const places = new Map<string, DareFort>(); // dedupe by DARE id
   for (const file of ["places_low", "places_medium", "places_high"]) {
     const data = await fetchGeoJson(file);
     for (const f of data.features) {
@@ -181,15 +212,15 @@ async function importForts(): Promise<DareFort[]> {
         type?: string;
         accuracy?: number;
       };
-      const typeNl = p.type ? FORT_TYPE_NL[p.type] : undefined;
-      if (!typeNl || !p.id || forts.has(p.id)) continue;
+      const typeNl = p.type ? typeMap[p.type] : undefined;
+      if (!typeNl || !p.id || places.has(p.id)) continue;
       const [lon, lat] = cleanCoords(f.geometry.coordinates) as [number, number];
       if (!inBbox([lon, lat])) continue;
       const latin = fixMojibake((p.latin ?? "").trim());
       const modern = fixMojibake((p.modern ?? "").trim());
       const name = latin || modern;
       if (!name) continue;
-      forts.set(p.id, {
+      places.set(p.id, {
         key: slugify(name) || `dare-${p.id}`,
         name,
         modern,
@@ -203,7 +234,15 @@ async function importForts(): Promise<DareFort[]> {
       });
     }
   }
-  return [...forts.values()].sort((a, b) => a.name.localeCompare(b.name, "nl"));
+  return [...places.values()].sort((a, b) => a.name.localeCompare(b.name, "nl"));
+}
+
+function importForts(): Promise<DareFort[]> {
+  return importPlaces(FORT_TYPE_NL);
+}
+
+function importBuildings(): Promise<DareFort[]> {
+  return importPlaces(BUILDING_TYPE_NL);
 }
 
 // ---------------------------------------------------------------------------
@@ -220,6 +259,24 @@ const PLACE_TYPE_NL: Record<string, string> = {
   camp: "marskamp",
   fortress: "legioensvesting",
   station: "kustversterking",
+  // civilian types (buildings layer)
+  villa: "villa",
+  settlement: "nederzetting",
+  "minor settlement": "kleine nederzetting",
+  "major settlement": "grote nederzetting",
+  "civitas capital": "civitas-hoofdplaats",
+  sanctuary: "heiligdom / tempel",
+  temple: "tempel",
+  bridge: "brug",
+  milestone: "mijlpaal",
+  mine: "mijn",
+  production: "productieplaats",
+  cemetery: "begraafplaats",
+  bath: "badhuis",
+  aqueduct: "aquaduct",
+  lighthouse: "vuurtoren",
+  tumulus: "grafheuvel (tumulus)",
+  church: "kerk (laat-antiek)",
 };
 
 /** Turn a DARE tags string into labelled external links. */
@@ -336,12 +393,19 @@ async function main() {
   const forts = await importForts();
   console.log("Details ophalen per fort via de DARE API…");
   await enrichForts(forts);
+
+  const buildings = await importBuildings();
+  console.log("Details ophalen per gebouw via de DARE API…");
+  await enrichForts(buildings);
+
   const roads = await importRoads();
 
   writeFileSync(join(OUT_DIR, "dare-forts.json"), JSON.stringify(forts, null, 2));
+  writeFileSync(join(OUT_DIR, "dare-buildings.json"), JSON.stringify(buildings, null, 2));
   writeFileSync(join(OUT_DIR, "dare-roads.json"), JSON.stringify(roads));
 
   console.log(`dare-forts.json: ${forts.length} forten/kampen`);
+  console.log(`dare-buildings.json: ${buildings.length} civiele vindplaatsen`);
   console.log(
     `dare-roads.json: ${roads.features.length} wegsegmenten ` +
       `(${roads.features.filter((f) => f.properties?.name).length} met naam)`,

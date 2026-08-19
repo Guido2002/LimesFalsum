@@ -216,6 +216,10 @@ input[type="range"] {
   @apply font-serif text-sm text-roman-red;
 }
 
+.limes-site-popup__modern {
+  @apply mt-0.5 text-xs italic text-roman-stone;
+}
+
 .limes-site-popup__text {
   @apply mt-1 text-xs leading-snug text-roman-charcoal;
 }

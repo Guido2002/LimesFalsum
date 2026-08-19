@@ -145,12 +145,12 @@ export function setRomanRoadsVisible(map: maplibregl.Map, visible: boolean): voi
 }
 
 /** Fallback line for sites without a securely identified location. */
-const INTERPOLATED_NOTE =
-  "De exacte ligging van deze plek is niet zeker; ze is geïnterpoleerd langs de loop van de weg zoals die op de kaart is gereconstrueerd.";
+const UNCERTAIN_NOTE =
+  "De exacte ligging van deze plek is onzeker of alleen vermoed; de markering is een benadering.";
 
 /**
- * Clicking/tapping a fort icon opens a small popup with the site name and a
- * one-sentence description from the dataset. Call AFTER addRomanRoadLayers
+ * Clicking/tapping a fort icon opens a small popup with the site name, the
+ * modern location and the dataset note. Call AFTER addRomanRoadLayers
  * has resolved so the site layer exists.
  */
 export function onSiteClick(map: maplibregl.Map): void {
@@ -165,13 +165,24 @@ export function onSiteClick(map: maplibregl.Map): void {
   map.on("click", ROMAN_SITE_LAYER_ID, (e) => {
     const feature = e.features?.[0];
     if (!feature) return;
-    const props = feature.properties as { name?: string; description?: string };
+    const props = feature.properties as {
+      name?: string;
+      modern?: string;
+      secure?: number;
+      description?: string;
+    };
     if (!props.name) return;
+    const modernLine =
+      props.modern && props.modern !== props.name
+        ? `<p class="limes-site-popup__modern">${props.modern}</p>`
+        : "";
+    const body = props.description || (props.secure ? "" : UNCERTAIN_NOTE);
     popup
       .setLngLat(e.lngLat)
       .setHTML(
         `<strong class="limes-site-popup__name">${props.name}</strong>` +
-          `<p class="limes-site-popup__text">${props.description || INTERPOLATED_NOTE}</p>`,
+          modernLine +
+          (body ? `<p class="limes-site-popup__text">${body}</p>` : ""),
       )
       .addTo(map);
   });

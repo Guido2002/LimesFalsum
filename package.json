@@ -9,6 +9,7 @@
     "build": "tsc -b && vite build",
     "preview": "vite preview",
     "data:build": "tsx scripts/import-numis.ts",
+    "data:forts": "tsx scripts/import-forts.ts",
     "test": "vitest run",
     "test:watch": "vitest"
   },

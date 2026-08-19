@@ -115,6 +115,25 @@ export default function AboutPage({ onClose }: AboutPageProps) {
               deze dataset van {DATASET_SUMMARY.dateMin} tot {DATASET_SUMMARY.dateMax} n.Chr.
             </p>
           </section>
+          <section>
+            <h3 className="mb-1 text-xs font-semibold uppercase tracking-wide text-roman-stone">
+              Gemaakt door
+            </h3>
+            <p>
+              LimesFalsum is gemaakt door David van Duijvenvoorde — masterstudent en docent
+              geschiedenis aan het Visser &apos;t Hooft Lyceum in Leiden. De website is
+              ontwikkeld in samenwerking met{" "}
+              <a
+                href="https://digitaleduif.nl"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-roman-red underline decoration-roman-stone/40 underline-offset-2 hover:decoration-roman-red"
+              >
+                DigitaleDuif
+              </a>
+              .
+            </p>
+          </section>
         </div>
       </div>
     </div>

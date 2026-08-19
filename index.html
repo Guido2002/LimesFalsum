@@ -4,12 +4,88 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <meta name="theme-color" content="#5D211C" />
+
+    <!-- Icons: SVG voor moderne browsers, PNG-fallbacks voor de rest + PWA -->
     <link rel="icon" type="image/svg+xml" href="%BASE_URL%favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="%BASE_URL%favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="%BASE_URL%favicon-16.png" />
+    <link rel="apple-touch-icon" href="%BASE_URL%apple-touch-icon.png" />
+    <link rel="manifest" href="%BASE_URL%site.webmanifest" />
+
+    <!-- Primair SEO -->
+    <title>LimesFalsum — Geplateerde Romeinse denarii in Nederland</title>
     <meta
       name="description"
-      content="LimesFalsum — interactieve verkenner van geplateerde Romeinse denarii gevonden in Nederland (NUMIS-gegevens)."
+      content="Interactieve kaart met 110 geplateerde Romeinse denarii (suberati) gevonden in Nederland, uit het NUMIS-bestand. Filter op keizer, vindplaats en datering langs de Romeinse limes."
     />
-    <title>LimesFalsum — Romeinse muntvondsten in Nederland</title>
+    <meta
+      name="keywords"
+      content="Romeinse munten, denarius, geplateerde denarii, suberati, NUMIS, numismatiek, limes, Romeinse wegen, forten, archeologie, Nederland, muntvondsten, metaaldetector"
+    />
+    <meta name="author" content="LimesFalsum" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <link rel="canonical" href="https://limesfalsum.com/" />
+
+    <!-- Open Graph (Facebook, WhatsApp, LinkedIn) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="LimesFalsum" />
+    <meta property="og:locale" content="nl_NL" />
+    <meta property="og:url" content="https://limesfalsum.com/" />
+    <meta property="og:title" content="LimesFalsum — Geplateerde Romeinse denarii in Nederland" />
+    <meta
+      property="og:description"
+      content="Interactieve kaart met 110 geplateerde Romeinse denarii uit het NUMIS-bestand, gevonden in Nederlandse bodem langs de limes. Filter op keizer, vindplaats en datering."
+    />
+    <meta property="og:image" content="https://limesfalsum.com/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Kaart van Nederland met Romeinse muntvondsten, forten en wegen" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="LimesFalsum — Geplateerde Romeinse denarii in Nederland" />
+    <meta
+      name="twitter:description"
+      content="Interactieve kaart met 110 geplateerde Romeinse denarii uit het NUMIS-bestand, gevonden langs de Nederlandse limes."
+    />
+    <meta name="twitter:image" content="https://limesfalsum.com/og-image.png" />
+    <meta name="twitter:image:alt" content="Kaart van Nederland met Romeinse muntvondsten, forten en wegen" />
+
+    <!-- Gestructureerde data voor Google -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "LimesFalsum",
+        "alternateName": "Limes Falsum",
+        "url": "https://limesfalsum.com/",
+        "inLanguage": "nl-NL",
+        "description": "Interactieve verkenner van geplateerde Romeinse denarii gevonden in Nederland, op basis van het NUMIS-bestand (Nationaal Numismatisch Archief).",
+        "about": {
+          "@type": "Thing",
+          "name": "Romeinse numismatiek in Nederland"
+        }
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Dataset",
+        "name": "Geplateerde Romeinse denarii gevonden in Nederland",
+        "description": "110 geplateerde denarii (suberati) met vindplaats, datering 98–238 n.Chr. en NUMIS-referenties.",
+        "url": "https://limesfalsum.com/",
+        "inLanguage": "nl-NL",
+        "isBasedOn": {
+          "@type": "Dataset",
+          "name": "NUMIS — Nationaal Numismatisch Archief"
+        },
+        "spatialCoverage": {
+          "@type": "Place",
+          "name": "Nederland"
+        },
+        "temporalCoverage": "98/238"
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
